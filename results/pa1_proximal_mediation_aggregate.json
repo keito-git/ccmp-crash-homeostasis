@@ -1,0 +1,506 @@
+{
+  "env_log": {
+    "script": "pa1_proximal_mediation.py",
+    "date": "2026-07-11T16:28:36.056471",
+    "hostname": "redacted-host",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.17.1",
+    "git_commit": "b58fca8b71c1e0ee73c02c45dd728701256e1a29",
+    "N_per_seed": 1000000,
+    "seeds": [
+      42,
+      123,
+      456,
+      789,
+      2026
+    ],
+    "cells": [
+      "T2-a",
+      "T2-b"
+    ],
+    "sigma_proxy": 0.5,
+    "status": "exploratory",
+    "gpu_used": false,
+    "note": "PA1 exploratory analysis, frozen prereg §5.2. Elevating to confirmatory prohibited per §5.3."
+  },
+  "cells": {
+    "T2-a": {
+      "cell": "T2-a",
+      "rho": 0.5,
+      "alpha_b": 0.3,
+      "tau_ATE_pop_true": -0.066897,
+      "tau_LATE_true": -0.063038,
+      "kappa_LATE_true": 0.03368,
+      "sigma_proxy": 0.5,
+      "completeness": {
+        "proxy_cov_W1_Z1p": {
+          "mean": 1.000781070304209,
+          "std": 0.0016228954636631368,
+          "per_seed": {
+            "42": 1.0007687214255045,
+            "123": 0.9989754840796916,
+            "456": 1.0033943284072941,
+            "789": 1.0006378467972599,
+            "2026": 1.0001289708112953
+          }
+        },
+        "proxy_corr": {
+          "mean": 0.800244226342041,
+          "std": 0.00025850727693430697,
+          "per_seed": {
+            "42": 0.8003194441573865,
+            "123": 0.8001251998781879,
+            "456": 0.8006574419477409,
+            "789": 0.8001247192715668,
+            "2026": 0.7999943264553224
+          }
+        },
+        "proxy_eta_sq": {
+          "mean": 0.6403908752545814,
+          "std": 0.0004137881853693607,
+          "per_seed": {
+            "42": 0.6405112126963881,
+            "123": 0.64020033548011,
+            "456": 0.6410523393463,
+            "789": 0.6401995663894036,
+            "2026": 0.639990922360705
+          }
+        },
+        "proxy_cond_number": {
+          "mean": 9.012243059544005,
+          "std": 0.012969640247745703,
+          "per_seed": {
+            "42": 9.01599778820683,
+            "123": 9.006274916769703,
+            "456": 9.032984317511206,
+            "789": 9.006241749766318,
+            "2026": 8.99971652546597
+          }
+        },
+        "proxy_det": {
+          "mean": 0.5624232559967746,
+          "std": 0.0010526741156321054,
+          "per_seed": {
+            "42": 0.5621161442086874,
+            "123": 0.5608600641224685,
+            "456": 0.5637426876997685,
+            "789": 0.5627301141972499,
+            "2026": 0.5626672697556983
+          }
+        }
+      },
+      "completeness_holds_all_seeds": true,
+      "tau": {
+        "naive": {
+          "mean": -0.01862960532358669,
+          "std": 0.0013525432671579775,
+          "per_seed": {
+            "42": -0.01797149273680794,
+            "123": -0.017706412329694082,
+            "456": -0.01759901006027151,
+            "789": -0.019052675212576767,
+            "2026": -0.020818436278583152
+          }
+        },
+        "proxy_ctrl": {
+          "mean": -0.056782233742884526,
+          "std": 0.0005102859545153961,
+          "per_seed": {
+            "42": -0.05690254822118173,
+            "123": -0.056623152481485466,
+            "456": -0.055985404875898453,
+            "789": -0.05729420776343787,
+            "2026": -0.057105855372419155
+          }
+        },
+        "proximal_linear": {
+          "mean": -0.05678242659636319,
+          "std": 0.0005087381023400023,
+          "per_seed": {
+            "42": -0.056901362026530074,
+            "123": -0.056619978779584024,
+            "456": -0.055990237949850315,
+            "789": -0.05729504508567388,
+            "2026": -0.057105509140177695
+          }
+        },
+        "proximal_poly4": {
+          "mean": -0.05667714331504638,
+          "std": 0.0004596288229891888,
+          "per_seed": {
+            "42": -0.05667977131532734,
+            "123": -0.05658049673098327,
+            "456": -0.05596780496878624,
+            "789": -0.05714894696489656,
+            "2026": -0.05700869659523849
+          }
+        },
+        "IV_Wald_IPSW": {
+          "mean": -0.0637147553979091,
+          "std": 0.0015388293001088278,
+          "per_seed": {
+            "42": -0.06415840984674437,
+            "123": -0.06289610549528792,
+            "456": -0.06383461852910365,
+            "789": -0.06177374087365909,
+            "2026": -0.0659109022447505
+          }
+        }
+      },
+      "bias_vs_ATE_pop": {
+        "naive": {
+          "mean": 0.04826739467641331,
+          "std": 0.0013525432671579775,
+          "per_seed": {
+            "42": 0.04892550726319206,
+            "123": 0.049190587670305916,
+            "456": 0.04929798993972849,
+            "789": 0.04784432478742323,
+            "2026": 0.046078563721416846
+          }
+        },
+        "proxy_ctrl": {
+          "mean": 0.010114766257115463,
+          "std": 0.0005102859545153961,
+          "per_seed": {
+            "42": 0.009994451778818268,
+            "123": 0.010273847518514533,
+            "456": 0.010911595124101545,
+            "789": 0.00960279223656213,
+            "2026": 0.009791144627580843
+          }
+        },
+        "proximal_linear": {
+          "mean": 0.010114573403636801,
+          "std": 0.0005087381023400021,
+          "per_seed": {
+            "42": 0.009995637973469924,
+            "123": 0.010277021220415974,
+            "456": 0.010906762050149683,
+            "789": 0.009601954914326118,
+            "2026": 0.009791490859822304
+          }
+        },
+        "proximal_poly4": {
+          "mean": 0.01021985668495362,
+          "std": 0.0004596288229891888,
+          "per_seed": {
+            "42": 0.01021722868467266,
+            "123": 0.01031650326901673,
+            "456": 0.010929195031213756,
+            "789": 0.00974805303510344,
+            "2026": 0.00988830340476151
+          }
+        },
+        "IV_Wald_vs_ATE": {
+          "mean": 0.003182244602090893,
+          "std": 0.0015388293001088278,
+          "per_seed": {
+            "42": 0.0027385901532556295,
+            "123": 0.0040008945047120825,
+            "456": 0.0030623814708963526,
+            "789": 0.005123259126340908,
+            "2026": 0.0009860977552494932
+          }
+        }
+      },
+      "bias_IV_vs_LATE": {
+        "mean": -0.0006767553979091081,
+        "std": 0.0015388293001088278,
+        "per_seed": {
+          "42": -0.0011204098467443718,
+          "123": 0.0001418945047120812,
+          "456": -0.0007966185291036487,
+          "789": 0.0012642591263409067,
+          "2026": -0.002872902244750508
+        }
+      },
+      "CI_coverage_prox_poly_at_ATE": 0.0,
+      "CI_coverage_IV_at_LATE": 1.0,
+      "CI_coverage_IV_at_ATE": 1.0,
+      "assumption_table": {
+        "naive": {
+          "requires_IV": false,
+          "requires_IPSW": false,
+          "requires_completeness": false,
+          "requires_proxies": false,
+          "identifies": "biased_mean_difference",
+          "target": "none (severely biased)"
+        },
+        "proxy_control": {
+          "requires_IV": false,
+          "requires_IPSW": true,
+          "requires_completeness": false,
+          "requires_proxies": true,
+          "identifies": "ATE_pop (approximately)",
+          "target": "tau_ATE_pop"
+        },
+        "proximal_poly4": {
+          "requires_IV": false,
+          "requires_IPSW": true,
+          "requires_completeness": true,
+          "requires_proxies": true,
+          "identifies": "ATE_pop (approximation via U_hat)",
+          "target": "tau_ATE_pop",
+          "NIE_NDE_with_latent_b": "NOT identified (requires b-proxy)"
+        },
+        "IV_Wald_IPSW (our method)": {
+          "requires_IV": true,
+          "requires_IPSW": true,
+          "requires_completeness": false,
+          "requires_proxies": false,
+          "identifies": "tau_LATE + kappa_LATE_identification_region",
+          "target": "tau_LATE (complier LATE)",
+          "NIE_NDE": "D=|NDE_LATE| bounded via physics (HM trimming)"
+        }
+      },
+      "key_finding": {
+        "completeness_holds": "YES (Gaussian proxies σ=0.5, condition number≈9, η²≈0.64)",
+        "NIE_NDE_identification": "U-proxies alone CANNOT identify NIE/NDE when b is latent. Requires b-proxy.",
+        "both_need_IPSW": "Both proximal and IV methods require IPSW for crash-conditional (C=1) collider correction.",
+        "proximal_target": "Proximal targets tau_ATE_pop (population average); IV targets tau_LATE (complier subpopulation).",
+        "point_test_kappa": "Only IV approach enables H0: kappa=1 point test (via kappa_LATE = 1 + tau/D)."
+      }
+    },
+    "T2-b": {
+      "cell": "T2-b",
+      "rho": 1.0,
+      "alpha_b": 0.3,
+      "tau_ATE_pop_true": -0.066897,
+      "tau_LATE_true": -0.058665,
+      "kappa_LATE_true": 0.03467,
+      "sigma_proxy": 0.5,
+      "completeness": {
+        "proxy_cov_W1_Z1p": {
+          "mean": 1.000781070304209,
+          "std": 0.0016228954636631368,
+          "per_seed": {
+            "42": 1.0007687214255045,
+            "123": 0.9989754840796916,
+            "456": 1.0033943284072941,
+            "789": 1.0006378467972599,
+            "2026": 1.0001289708112953
+          }
+        },
+        "proxy_corr": {
+          "mean": 0.800244226342041,
+          "std": 0.00025850727693430697,
+          "per_seed": {
+            "42": 0.8003194441573865,
+            "123": 0.8001251998781879,
+            "456": 0.8006574419477409,
+            "789": 0.8001247192715668,
+            "2026": 0.7999943264553224
+          }
+        },
+        "proxy_eta_sq": {
+          "mean": 0.6403908752545814,
+          "std": 0.0004137881853693607,
+          "per_seed": {
+            "42": 0.6405112126963881,
+            "123": 0.64020033548011,
+            "456": 0.6410523393463,
+            "789": 0.6401995663894036,
+            "2026": 0.639990922360705
+          }
+        },
+        "proxy_cond_number": {
+          "mean": 9.012243059544005,
+          "std": 0.012969640247745703,
+          "per_seed": {
+            "42": 9.01599778820683,
+            "123": 9.006274916769703,
+            "456": 9.032984317511206,
+            "789": 9.006241749766318,
+            "2026": 8.99971652546597
+          }
+        },
+        "proxy_det": {
+          "mean": 0.5624232559967746,
+          "std": 0.0010526741156321054,
+          "per_seed": {
+            "42": 0.5621161442086874,
+            "123": 0.5608600641224685,
+            "456": 0.5637426876997685,
+            "789": 0.5627301141972499,
+            "2026": 0.5626672697556983
+          }
+        }
+      },
+      "completeness_holds_all_seeds": true,
+      "tau": {
+        "naive": {
+          "mean": 0.0368344203643997,
+          "std": 0.0009578837599013584,
+          "per_seed": {
+            "42": 0.037662109904521845,
+            "123": 0.03725627087901082,
+            "456": 0.03758121751537784,
+            "789": 0.03619454651050284,
+            "2026": 0.03547795701258517
+          }
+        },
+        "proxy_ctrl": {
+          "mean": -0.04601450871301083,
+          "std": 0.00022987288595245476,
+          "per_seed": {
+            "42": -0.04594419095800887,
+            "123": -0.04582280032648317,
+            "456": -0.045789420985645694,
+            "789": -0.04627157558834782,
+            "2026": -0.04624455570656859
+          }
+        },
+        "proximal_linear": {
+          "mean": -0.046014314088450595,
+          "std": 0.00023005085454314418,
+          "per_seed": {
+            "42": -0.045940742950572884,
+            "123": -0.04581984310623362,
+            "456": -0.04579369607842249,
+            "789": -0.04627270188655257,
+            "2026": -0.04624458642047145
+          }
+        },
+        "proximal_poly4": {
+          "mean": -0.045883645865782856,
+          "std": 0.00021945018069198586,
+          "per_seed": {
+            "42": -0.045819759882814136,
+            "123": -0.045667175035193346,
+            "456": -0.04569990073401387,
+            "789": -0.04612653442650712,
+            "2026": -0.046104859250385787
+          }
+        },
+        "IV_Wald_IPSW": {
+          "mean": -0.05975609401508517,
+          "std": 0.001146466223771056,
+          "per_seed": {
+            "42": -0.059740911125089946,
+            "123": -0.05902709512782133,
+            "456": -0.05967965698153504,
+            "789": -0.058685977962253826,
+            "2026": -0.06164682887872567
+          }
+        }
+      },
+      "bias_vs_ATE_pop": {
+        "naive": {
+          "mean": 0.10373142036439971,
+          "std": 0.0009578837599013584,
+          "per_seed": {
+            "42": 0.10455910990452184,
+            "123": 0.10415327087901081,
+            "456": 0.10447821751537784,
+            "789": 0.10309154651050284,
+            "2026": 0.10237495701258517
+          }
+        },
+        "proxy_ctrl": {
+          "mean": 0.020882491286989168,
+          "std": 0.00022987288595245476,
+          "per_seed": {
+            "42": 0.02095280904199113,
+            "123": 0.021074199673516827,
+            "456": 0.021107579014354304,
+            "789": 0.02062542441165218,
+            "2026": 0.02065244429343141
+          }
+        },
+        "proximal_linear": {
+          "mean": 0.020882685911549397,
+          "std": 0.00023005085454314418,
+          "per_seed": {
+            "42": 0.020956257049427114,
+            "123": 0.02107715689376638,
+            "456": 0.021103303921577506,
+            "789": 0.02062429811344743,
+            "2026": 0.02065241357952855
+          }
+        },
+        "proximal_poly4": {
+          "mean": 0.02101335413421715,
+          "std": 0.00021945018069198586,
+          "per_seed": {
+            "42": 0.021077240117185862,
+            "123": 0.021229824964806653,
+            "456": 0.021197099265986126,
+            "789": 0.02077046557349288,
+            "2026": 0.02079214074961421
+          }
+        },
+        "IV_Wald_vs_ATE": {
+          "mean": 0.007140905984914836,
+          "std": 0.001146466223771056,
+          "per_seed": {
+            "42": 0.007156088874910052,
+            "123": 0.007869904872178667,
+            "456": 0.00721734301846496,
+            "789": 0.008211022037746173,
+            "2026": 0.005250171121274329
+          }
+        }
+      },
+      "bias_IV_vs_LATE": {
+        "mean": -0.0010910940150851603,
+        "std": 0.001146466223771056,
+        "per_seed": {
+          "42": -0.0010759111250899442,
+          "123": -0.0003620951278213297,
+          "456": -0.0010146569815350365,
+          "789": -2.0977962253823645e-05,
+          "2026": -0.0029818288787256675
+        }
+      },
+      "CI_coverage_prox_poly_at_ATE": 0.0,
+      "CI_coverage_IV_at_LATE": 1.0,
+      "CI_coverage_IV_at_ATE": 0.2,
+      "assumption_table": {
+        "naive": {
+          "requires_IV": false,
+          "requires_IPSW": false,
+          "requires_completeness": false,
+          "requires_proxies": false,
+          "identifies": "biased_mean_difference",
+          "target": "none (severely biased)"
+        },
+        "proxy_control": {
+          "requires_IV": false,
+          "requires_IPSW": true,
+          "requires_completeness": false,
+          "requires_proxies": true,
+          "identifies": "ATE_pop (approximately)",
+          "target": "tau_ATE_pop"
+        },
+        "proximal_poly4": {
+          "requires_IV": false,
+          "requires_IPSW": true,
+          "requires_completeness": true,
+          "requires_proxies": true,
+          "identifies": "ATE_pop (approximation via U_hat)",
+          "target": "tau_ATE_pop",
+          "NIE_NDE_with_latent_b": "NOT identified (requires b-proxy)"
+        },
+        "IV_Wald_IPSW (our method)": {
+          "requires_IV": true,
+          "requires_IPSW": true,
+          "requires_completeness": false,
+          "requires_proxies": false,
+          "identifies": "tau_LATE + kappa_LATE_identification_region",
+          "target": "tau_LATE (complier LATE)",
+          "NIE_NDE": "D=|NDE_LATE| bounded via physics (HM trimming)"
+        }
+      },
+      "key_finding": {
+        "completeness_holds": "YES (Gaussian proxies σ=0.5, condition number≈9, η²≈0.64)",
+        "NIE_NDE_identification": "U-proxies alone CANNOT identify NIE/NDE when b is latent. Requires b-proxy.",
+        "both_need_IPSW": "Both proximal and IV methods require IPSW for crash-conditional (C=1) collider correction.",
+        "proximal_target": "Proximal targets tau_ATE_pop (population average); IV targets tau_LATE (complier subpopulation).",
+        "point_test_kappa": "Only IV approach enables H0: kappa=1 point test (via kappa_LATE = 1 + tau/D)."
+      }
+    }
+  }
+}

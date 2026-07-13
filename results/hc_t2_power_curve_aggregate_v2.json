@@ -1,0 +1,702 @@
+{
+  "computation_type": "hc_t2_power_curve",
+  "description": "Supplementary power curve for HC_T2(b)(iii). H0:ATE_LATE=0 IPSW-Wald rejection rate as function of N_rep. M=1000 reps per (cell, N_rep). All 5 cells × 4 N_rep values.",
+  "preregistration": "preregistration_DRAFT_2026-07-10.md",
+  "prior_reduction_run": "results/hc_t2_reduction_aggregate.json",
+  "env_log": {
+    "experiment_name": "hc_t2_power_curve",
+    "description": "Supplementary power-curve experiment for HC_T2(b)(iii). Sweeps N_rep to show T2-a/b reach power>=0.80 at realistic sample sizes. Ref: DRAFT §5.1 HC_T2(b)(iii). git 8da43de / 8117390 = prior reduction run.",
+    "date": "2026-07-11T12:50:58.820844",
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.17.1",
+    "pandas_version": "2.3.3",
+    "os": "macOS-26.5.1-arm64-arm-64bit",
+    "hostname": "redacted-host",
+    "gpu": "none (CPU-only per DRAFT §4.3.3 rule 5)",
+    "git_commit": "7eb4bf4",
+    "N_rep_list": [
+      10000,
+      20000,
+      50000,
+      100000
+    ],
+    "M_reps_per_cell": 1000,
+    "alpha_level": 0.05,
+    "REP_BASE_SEED_PC": 11111,
+    "IV_STR": 1.5,
+    "ESC_REDUCTION": 0.3,
+    "prior_run_N_rep10k_power": {
+      "T2-a": 0.5555,
+      "T2-b": 0.4405,
+      "T2-c": 0.0925,
+      "T2-d": 0.0635,
+      "T2-null": 0.05
+    },
+    "prior_tau_LATE_true": {
+      "T2-a": -0.063038,
+      "T2-b": -0.058665,
+      "T2-c": -0.018299,
+      "T2-d": -0.015322,
+      "T2-null": 0.001848
+    },
+    "note_M_reps": "M=1000 (vs. original 2000) is sufficient for power curve purposes. SE of rejection rate at p=0.80: sqrt(0.16/1000) ≈ 0.013. This is a reporting instrument, not a confirmatory criterion.",
+    "git_commit_correction_note": "corrected from non-existent hash 8da43de9831d4f53e40bd10fbb59c2cb33d3b961 to actual pilot git HEAD 7eb4bf4fc55e13c67e47f2a9b1750e9c16df572b at time of execution. The original hash referred to a different repository context and was unresolvable in pilot/.git. Reviewer: 浅井査読 MAJOR #1/#2/#3 / 2026-07-11"
+  },
+  "per_cell_summary": {
+    "T2-a": {
+      "tau_LATE_true_ref": -0.063038,
+      "role": "POWER",
+      "power_by_N_rep": {
+        "10000": {
+          "reject_rate_IPSW": 0.559,
+          "SE_reject_IPSW": 0.015700923539715746,
+          "CI_95_L": 0.5282261898621572,
+          "CI_95_U": 0.5897738101378429
+        },
+        "20000": {
+          "reject_rate_IPSW": 0.847,
+          "SE_reject_IPSW": 0.011383804285035824,
+          "CI_95_L": 0.8246877436013298,
+          "CI_95_U": 0.8693122563986702
+        },
+        "50000": {
+          "reject_rate_IPSW": 0.995,
+          "SE_reject_IPSW": 0.002230470802319547,
+          "CI_95_L": 0.9906282772274537,
+          "CI_95_U": 0.9993717227725463
+        },
+        "100000": {
+          "reject_rate_IPSW": 1.0,
+          "SE_reject_IPSW": 0.0,
+          "CI_95_L": 1.0,
+          "CI_95_U": 1.0
+        }
+      },
+      "first_N_rep_power_80_empirical": 20000,
+      "extrapolation": {
+        "fit_valid": true,
+        "a_intercept": -13.896481812015836,
+        "b_slope_log10N": 3.4951815686313066,
+        "R2": 0.993650881021855,
+        "N_fitted_points": 3,
+        "fitted_N_rep_list": [
+          10000,
+          20000,
+          50000
+        ],
+        "fitted_power_list": [
+          0.559,
+          0.847,
+          0.995
+        ],
+        "target_power": 0.8,
+        "N_rep_for_power_80": 16469.92727319255,
+        "N_rep_for_power_80_label": "≈16k",
+        "power_at_nrep_model": {
+          "10000": 0.5335689660802594,
+          "20000": 0.8721051835151943,
+          "50000": 0.9942523706574102,
+          "100000": 0.9998278251512356,
+          "200000": 0.9999981855759558,
+          "500000": 0.9999999991410342
+        },
+        "note": "probit model: probit(power) = -13.896 + 3.495 * log10(N)"
+      }
+    },
+    "T2-b": {
+      "tau_LATE_true_ref": -0.058665,
+      "role": "POWER",
+      "power_by_N_rep": {
+        "10000": {
+          "reject_rate_IPSW": 0.445,
+          "SE_reject_IPSW": 0.015715438269421567,
+          "CI_95_L": 0.41419774099193374,
+          "CI_95_U": 0.4758022590080663
+        },
+        "20000": {
+          "reject_rate_IPSW": 0.751,
+          "SE_reject_IPSW": 0.013674757767507255,
+          "CI_95_L": 0.7241974747756857,
+          "CI_95_U": 0.7778025252243143
+        },
+        "50000": {
+          "reject_rate_IPSW": 0.985,
+          "SE_reject_IPSW": 0.0038438262187565153,
+          "CI_95_L": 0.9774661006112372,
+          "CI_95_U": 0.9925338993887628
+        },
+        "100000": {
+          "reject_rate_IPSW": 1.0,
+          "SE_reject_IPSW": 0.0,
+          "CI_95_L": 1.0,
+          "CI_95_U": 1.0
+        }
+      },
+      "first_N_rep_power_80_empirical": 50000,
+      "extrapolation": {
+        "fit_valid": true,
+        "a_intercept": -13.5094579098982,
+        "b_slope_log10N": 3.3259846049381356,
+        "R2": 0.9923222436251989,
+        "N_fitted_points": 3,
+        "fitted_N_rep_list": [
+          10000,
+          20000,
+          50000
+        ],
+        "fitted_power_list": [
+          0.445,
+          0.751,
+          0.985
+        ],
+        "target_power": 0.8,
+        "N_rep_for_power_80": 20646.018448663646,
+        "N_rep_for_power_80_label": "≈21k",
+        "power_at_nrep_model": {
+          "10000": 0.4185831360792132,
+          "20000": 0.786897263604668,
+          "50000": 0.9829650735263991,
+          "100000": 0.9990971715802106,
+          "200000": 0.999981194538974,
+          "500000": 0.9999999741305508
+        },
+        "note": "probit model: probit(power) = -13.509 + 3.326 * log10(N)"
+      }
+    },
+    "T2-c": {
+      "tau_LATE_true_ref": -0.018299,
+      "role": "POWER",
+      "power_by_N_rep": {
+        "10000": {
+          "reject_rate_IPSW": 0.086,
+          "SE_reject_IPSW": 0.008865889690267977,
+          "CI_95_L": 0.06862285620707476,
+          "CI_95_U": 0.10337714379292523
+        },
+        "20000": {
+          "reject_rate_IPSW": 0.154,
+          "SE_reject_IPSW": 0.011414201680362931,
+          "CI_95_L": 0.13162816470648864,
+          "CI_95_U": 0.17637183529351136
+        },
+        "50000": {
+          "reject_rate_IPSW": 0.283,
+          "SE_reject_IPSW": 0.014244683218660919,
+          "CI_95_L": 0.2550804208914246,
+          "CI_95_U": 0.3109195791085754
+        },
+        "100000": {
+          "reject_rate_IPSW": 0.573,
+          "SE_reject_IPSW": 0.015641962792437528,
+          "CI_95_L": 0.5423417529268224,
+          "CI_95_U": 0.6036582470731775
+        }
+      },
+      "first_N_rep_power_80_empirical": null,
+      "extrapolation": {
+        "fit_valid": true,
+        "a_intercept": -7.4032374854393,
+        "b_slope_log10N": 1.4909878607524425,
+        "R2": 0.9590240739622745,
+        "N_fitted_points": 4,
+        "fitted_N_rep_list": [
+          10000,
+          20000,
+          50000,
+          100000
+        ],
+        "fitted_power_list": [
+          0.086,
+          0.154,
+          0.283,
+          0.573
+        ],
+        "target_power": 0.8,
+        "N_rep_for_power_80": 338685.034675792,
+        "N_rep_for_power_80_label": "≈339k",
+        "power_at_nrep_model": {
+          "10000": 0.07503474787377808,
+          "20000": 0.16097613777962627,
+          "50000": 0.34563570663577986,
+          "100000": 0.5206168558163756,
+          "200000": 0.6916503994849019,
+          "500000": 0.8629912836042497
+        },
+        "note": "probit model: probit(power) = -7.403 + 1.491 * log10(N)"
+      }
+    },
+    "T2-d": {
+      "tau_LATE_true_ref": -0.015322,
+      "role": "POWER",
+      "power_by_N_rep": {
+        "10000": {
+          "reject_rate_IPSW": 0.06,
+          "SE_reject_IPSW": 0.007509993342207435,
+          "CI_95_L": 0.045280413049273424,
+          "CI_95_U": 0.07471958695072657
+        },
+        "20000": {
+          "reject_rate_IPSW": 0.108,
+          "SE_reject_IPSW": 0.009815090422405696,
+          "CI_95_L": 0.08876242277208483,
+          "CI_95_U": 0.12723757722791518
+        },
+        "50000": {
+          "reject_rate_IPSW": 0.192,
+          "SE_reject_IPSW": 0.012455360291858283,
+          "CI_95_L": 0.16758749382795776,
+          "CI_95_U": 0.21641250617204225
+        },
+        "100000": {
+          "reject_rate_IPSW": 0.352,
+          "SE_reject_IPSW": 0.015102847413650183,
+          "CI_95_L": 0.3223984190692456,
+          "CI_95_U": 0.38160158093075436
+        }
+      },
+      "first_N_rep_power_80_empirical": null,
+      "extrapolation": {
+        "fit_valid": true,
+        "a_intercept": -6.141551682466247,
+        "b_slope_log10N": 1.1402067910482414,
+        "R2": 0.9844697894351572,
+        "N_fitted_points": 4,
+        "fitted_N_rep_list": [
+          10000,
+          20000,
+          50000,
+          100000
+        ],
+        "fitted_power_list": [
+          0.06,
+          0.108,
+          0.192,
+          0.352
+        ],
+        "target_power": 0.8,
+        "N_rep_for_power_80": 1331923.6280452756,
+        "N_rep_for_power_80_label": "≈1332k",
+        "power_at_nrep_model": {
+          "10000": 0.05697051989096377,
+          "20000": 0.10795296978918378,
+          "50000": 0.21659218439457212,
+          "100000": 0.3297810879343619,
+          "200000": 0.4612515102004839,
+          "500000": 0.6392491851152782
+        },
+        "note": "probit model: probit(power) = -6.142 + 1.140 * log10(N)"
+      }
+    },
+    "T2-null": {
+      "tau_LATE_true_ref": 0.001848,
+      "role": "SIZE",
+      "power_by_N_rep": {
+        "10000": {
+          "reject_rate_IPSW": 0.046,
+          "SE_reject_IPSW": 0.006624499981130651,
+          "CI_95_L": 0.03301598003698392,
+          "CI_95_U": 0.058984019963016075
+        },
+        "20000": {
+          "reject_rate_IPSW": 0.051,
+          "SE_reject_IPSW": 0.00695693898205238,
+          "CI_95_L": 0.03736439959517733,
+          "CI_95_U": 0.06463560040482266
+        },
+        "50000": {
+          "reject_rate_IPSW": 0.047,
+          "SE_reject_IPSW": 0.006692607862410586,
+          "CI_95_L": 0.033882488589675255,
+          "CI_95_U": 0.060117511410324745
+        },
+        "100000": {
+          "reject_rate_IPSW": 0.045,
+          "SE_reject_IPSW": 0.0065555320150236475,
+          "CI_95_L": 0.03215115725055365,
+          "CI_95_U": 0.05784884274944635
+        }
+      },
+      "first_N_rep_power_80_empirical": null,
+      "extrapolation": {
+        "fit_valid": true,
+        "a_intercept": -1.57097899142666,
+        "b_slope_log10N": -0.022573412047243835,
+        "R2": 0.14240051384077557,
+        "N_fitted_points": 4,
+        "fitted_N_rep_list": [
+          10000,
+          20000,
+          50000,
+          100000
+        ],
+        "fitted_power_list": [
+          0.046,
+          0.051,
+          0.047,
+          0.045
+        ],
+        "target_power": 0.8,
+        "N_rep_for_power_80": NaN,
+        "N_rep_for_power_80_label": "inf/nan",
+        "power_at_nrep_model": {
+          "10000": 0.04832935122480462,
+          "20000": 0.04765112291040586,
+          "50000": 0.04676627644431916,
+          "100000": 0.04610571231741557,
+          "200000": 0.04545266338830988,
+          "500000": 0.04460081867388572
+        },
+        "note": "slope direction incompatible with target power"
+      }
+    }
+  },
+  "verdict_T2_a_b_reachability": {
+    "T2-a_first_N_rep_power_80_empirical": 20000,
+    "T2-b_first_N_rep_power_80_empirical": 50000,
+    "T2-a_N_rep_power_80_extrapolated": 16469.92727319255,
+    "T2-b_N_rep_power_80_extrapolated": 20646.018448663646,
+    "interpretation": "T2-a/b have |tau|≈0.06 (meaningful effect). Power scales with sqrt(N_rep) via IPSW Wald. At N_rep sufficient for 0.80, the test is feasible at realistic sample sizes. T2-c/d have |tau|≈0.015-0.018 (small effect) and require much larger N_rep."
+  },
+  "draft_update_text": "§5.1 HC_T2(b)(iii) POWER CURVE UPDATE (2026-07-11 吉村 power curve run):\nT2-a (|tau|≈0.063): power(N_rep) by 1000 reps IPSW-Wald\n  T2-a: N=10k → 0.559  N=20k → 0.847  N=50k → 0.995  N=100k → 1.000\n  T2-b: N=10k → 0.445  N=20k → 0.751  N=50k → 0.985  N=100k → 1.000\n  T2-c: N=10k → 0.086  N=20k → 0.154  N=50k → 0.283  N=100k → 0.573\n  T2-d: N=10k → 0.060  N=20k → 0.108  N=50k → 0.192  N=100k → 0.352\n",
+  "size_stability": {
+    "10000": {
+      "reject_rate_IPSW": 0.046,
+      "within_2alpha": true
+    },
+    "20000": {
+      "reject_rate_IPSW": 0.051,
+      "within_2alpha": true
+    },
+    "50000": {
+      "reject_rate_IPSW": 0.047,
+      "within_2alpha": true
+    },
+    "100000": {
+      "reject_rate_IPSW": 0.045,
+      "within_2alpha": true
+    }
+  },
+  "all_rows": [
+    {
+      "cell": "T2-a",
+      "rho": 0.5,
+      "alpha_b": 0.3,
+      "N_rep": 10000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.559,
+      "SE_reject_IPSW": 0.015700923539715746,
+      "CI_95_L": 0.5282261898621572,
+      "CI_95_U": 0.5897738101378429,
+      "tau_IV_IPSW_mean": -0.06308886593174827,
+      "tau_IV_IPSW_std": 0.03018473804809476,
+      "elapsed_sec": 1.41
+    },
+    {
+      "cell": "T2-a",
+      "rho": 0.5,
+      "alpha_b": 0.3,
+      "N_rep": 20000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.847,
+      "SE_reject_IPSW": 0.011383804285035824,
+      "CI_95_L": 0.8246877436013298,
+      "CI_95_U": 0.8693122563986702,
+      "tau_IV_IPSW_mean": -0.0637987874519588,
+      "tau_IV_IPSW_std": 0.0218628157461379,
+      "elapsed_sec": 3.22
+    },
+    {
+      "cell": "T2-a",
+      "rho": 0.5,
+      "alpha_b": 0.3,
+      "N_rep": 50000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.995,
+      "SE_reject_IPSW": 0.002230470802319547,
+      "CI_95_L": 0.9906282772274537,
+      "CI_95_U": 0.9993717227725463,
+      "tau_IV_IPSW_mean": -0.06360676114880623,
+      "tau_IV_IPSW_std": 0.013523280590307418,
+      "elapsed_sec": 8.38
+    },
+    {
+      "cell": "T2-a",
+      "rho": 0.5,
+      "alpha_b": 0.3,
+      "N_rep": 100000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 1.0,
+      "SE_reject_IPSW": 0.0,
+      "CI_95_L": 1.0,
+      "CI_95_U": 1.0,
+      "tau_IV_IPSW_mean": -0.06381560148236196,
+      "tau_IV_IPSW_std": 0.009696549519026343,
+      "elapsed_sec": 17.5
+    },
+    {
+      "cell": "T2-b",
+      "rho": 1.0,
+      "alpha_b": 0.3,
+      "N_rep": 10000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.445,
+      "SE_reject_IPSW": 0.015715438269421567,
+      "CI_95_L": 0.41419774099193374,
+      "CI_95_U": 0.4758022590080663,
+      "tau_IV_IPSW_mean": -0.06020040035158867,
+      "tau_IV_IPSW_std": 0.033700135082068976,
+      "elapsed_sec": 2.14
+    },
+    {
+      "cell": "T2-b",
+      "rho": 1.0,
+      "alpha_b": 0.3,
+      "N_rep": 20000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.751,
+      "SE_reject_IPSW": 0.013674757767507255,
+      "CI_95_L": 0.7241974747756857,
+      "CI_95_U": 0.7778025252243143,
+      "tau_IV_IPSW_mean": -0.05984104664390474,
+      "tau_IV_IPSW_std": 0.024075893001572767,
+      "elapsed_sec": 3.3
+    },
+    {
+      "cell": "T2-b",
+      "rho": 1.0,
+      "alpha_b": 0.3,
+      "N_rep": 50000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.985,
+      "SE_reject_IPSW": 0.0038438262187565153,
+      "CI_95_L": 0.9774661006112372,
+      "CI_95_U": 0.9925338993887628,
+      "tau_IV_IPSW_mean": -0.059340387136485734,
+      "tau_IV_IPSW_std": 0.01474067094383382,
+      "elapsed_sec": 7.71
+    },
+    {
+      "cell": "T2-b",
+      "rho": 1.0,
+      "alpha_b": 0.3,
+      "N_rep": 100000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 1.0,
+      "SE_reject_IPSW": 0.0,
+      "CI_95_L": 1.0,
+      "CI_95_U": 1.0,
+      "tau_IV_IPSW_mean": -0.05943207896888639,
+      "tau_IV_IPSW_std": 0.01069978641551618,
+      "elapsed_sec": 20.61
+    },
+    {
+      "cell": "T2-c",
+      "rho": 0.5,
+      "alpha_b": 3.972,
+      "N_rep": 10000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.086,
+      "SE_reject_IPSW": 0.008865889690267977,
+      "CI_95_L": 0.06862285620707476,
+      "CI_95_U": 0.10337714379292523,
+      "tau_IV_IPSW_mean": -0.018636405112998813,
+      "tau_IV_IPSW_std": 0.028395553025426585,
+      "elapsed_sec": 3.27
+    },
+    {
+      "cell": "T2-c",
+      "rho": 0.5,
+      "alpha_b": 3.972,
+      "N_rep": 20000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.154,
+      "SE_reject_IPSW": 0.011414201680362931,
+      "CI_95_L": 0.13162816470648864,
+      "CI_95_U": 0.17637183529351136,
+      "tau_IV_IPSW_mean": -0.018846668775728444,
+      "tau_IV_IPSW_std": 0.020839103839881433,
+      "elapsed_sec": 5.34
+    },
+    {
+      "cell": "T2-c",
+      "rho": 0.5,
+      "alpha_b": 3.972,
+      "N_rep": 50000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.283,
+      "SE_reject_IPSW": 0.014244683218660919,
+      "CI_95_L": 0.2550804208914246,
+      "CI_95_U": 0.3109195791085754,
+      "tau_IV_IPSW_mean": -0.018484137288909668,
+      "tau_IV_IPSW_std": 0.012847840805601828,
+      "elapsed_sec": 10.91
+    },
+    {
+      "cell": "T2-c",
+      "rho": 0.5,
+      "alpha_b": 3.972,
+      "N_rep": 100000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.573,
+      "SE_reject_IPSW": 0.015641962792437528,
+      "CI_95_L": 0.5423417529268224,
+      "CI_95_U": 0.6036582470731775,
+      "tau_IV_IPSW_mean": -0.019149353795606495,
+      "tau_IV_IPSW_std": 0.00900918967530167,
+      "elapsed_sec": 18.48
+    },
+    {
+      "cell": "T2-d",
+      "rho": 1.0,
+      "alpha_b": 3.972,
+      "N_rep": 10000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.06,
+      "SE_reject_IPSW": 0.007509993342207435,
+      "CI_95_L": 0.045280413049273424,
+      "CI_95_U": 0.07471958695072657,
+      "tau_IV_IPSW_mean": -0.016689269116991024,
+      "tau_IV_IPSW_std": 0.032654235747171495,
+      "elapsed_sec": 1.87
+    },
+    {
+      "cell": "T2-d",
+      "rho": 1.0,
+      "alpha_b": 3.972,
+      "N_rep": 20000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.108,
+      "SE_reject_IPSW": 0.009815090422405696,
+      "CI_95_L": 0.08876242277208483,
+      "CI_95_U": 0.12723757722791518,
+      "tau_IV_IPSW_mean": -0.016321447135820313,
+      "tau_IV_IPSW_std": 0.023481797152086002,
+      "elapsed_sec": 3.58
+    },
+    {
+      "cell": "T2-d",
+      "rho": 1.0,
+      "alpha_b": 3.972,
+      "N_rep": 50000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.192,
+      "SE_reject_IPSW": 0.012455360291858283,
+      "CI_95_L": 0.16758749382795776,
+      "CI_95_U": 0.21641250617204225,
+      "tau_IV_IPSW_mean": -0.015769230779950866,
+      "tau_IV_IPSW_std": 0.01453227110142195,
+      "elapsed_sec": 8.72
+    },
+    {
+      "cell": "T2-d",
+      "rho": 1.0,
+      "alpha_b": 3.972,
+      "N_rep": 100000,
+      "M_reps": 1000,
+      "role": "POWER",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.352,
+      "SE_reject_IPSW": 0.015102847413650183,
+      "CI_95_L": 0.3223984190692456,
+      "CI_95_U": 0.38160158093075436,
+      "tau_IV_IPSW_mean": -0.016197987467365532,
+      "tau_IV_IPSW_std": 0.010125954982802936,
+      "elapsed_sec": 17.86
+    },
+    {
+      "cell": "T2-null",
+      "rho": 0.5,
+      "alpha_b": 4.99720863,
+      "N_rep": 10000,
+      "M_reps": 1000,
+      "role": "SIZE",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.046,
+      "SE_reject_IPSW": 0.006624499981130651,
+      "CI_95_L": 0.03301598003698392,
+      "CI_95_U": 0.058984019963016075,
+      "tau_IV_IPSW_mean": 0.0015836297153120754,
+      "tau_IV_IPSW_std": 0.02807614088328795,
+      "elapsed_sec": 1.85
+    },
+    {
+      "cell": "T2-null",
+      "rho": 0.5,
+      "alpha_b": 4.99720863,
+      "N_rep": 20000,
+      "M_reps": 1000,
+      "role": "SIZE",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.051,
+      "SE_reject_IPSW": 0.00695693898205238,
+      "CI_95_L": 0.03736439959517733,
+      "CI_95_U": 0.06463560040482266,
+      "tau_IV_IPSW_mean": 0.0010226481923619898,
+      "tau_IV_IPSW_std": 0.020844484624978607,
+      "elapsed_sec": 3.91
+    },
+    {
+      "cell": "T2-null",
+      "rho": 0.5,
+      "alpha_b": 4.99720863,
+      "N_rep": 50000,
+      "M_reps": 1000,
+      "role": "SIZE",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.047,
+      "SE_reject_IPSW": 0.006692607862410586,
+      "CI_95_L": 0.033882488589675255,
+      "CI_95_U": 0.060117511410324745,
+      "tau_IV_IPSW_mean": 0.0016702616982807491,
+      "tau_IV_IPSW_std": 0.012757607475069805,
+      "elapsed_sec": 9.34
+    },
+    {
+      "cell": "T2-null",
+      "rho": 0.5,
+      "alpha_b": 4.99720863,
+      "N_rep": 100000,
+      "M_reps": 1000,
+      "role": "SIZE",
+      "n_valid": 1000,
+      "reject_rate_IPSW": 0.045,
+      "SE_reject_IPSW": 0.0065555320150236475,
+      "CI_95_L": 0.03215115725055365,
+      "CI_95_U": 0.05784884274944635,
+      "tau_IV_IPSW_mean": 0.0010978465069067193,
+      "tau_IV_IPSW_std": 0.00903445012412329,
+      "elapsed_sec": 18.2
+    }
+  ]
+}

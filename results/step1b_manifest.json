@@ -1,0 +1,84 @@
+{
+  "script": "step1b_spatial_join_test.py",
+  "run_date": "2026-07-10T20:57:25.636227",
+  "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "test_state": "Vermont",
+  "test_year": 2019,
+  "buffer_m": 100,
+  "hpms_web_check": {
+    "https://www.fhwa.dot.gov/policyinformation/hpms/shapefiles.cfm": 200,
+    "https://www.fhwa.dot.gov/policyinformation/hpms/": 200,
+    "https://www.transportation.gov/gis/national-transit-map": 403,
+    "https://geo.dot.gov/": 200
+  },
+  "state_dot_api_status": {
+    "California_AADT": {
+      "status": "ok",
+      "http": 200,
+      "info": ""
+    },
+    "Oregon_Crash": {
+      "status": "http_500"
+    },
+    "Vermont_DOT": {
+      "status": "ok",
+      "http": 200,
+      "info": ""
+    },
+    "BTS_NHS": {
+      "status": "ok",
+      "http": 200,
+      "info": ""
+    }
+  },
+  "join_results": [],
+  "log": [
+    "[20:50:23] ============================================================",
+    "[20:50:23] Step 1b: FARS-HPMS/AADT Spatial Join Feasibility Test",
+    "[20:50:23] ============================================================",
+    "[20:50:23] Test state: Vermont (FIPS=50, FARS code=50)",
+    "[20:50:23] Test year: 2019",
+    "[20:50:23] Buffer: 100m",
+    "[20:50:23] Go criterion: join rate >= 70%",
+    "[20:50:23] \n[1] Loading FARS 2019 crashes for Vermont...",
+    "[20:50:23]   [cache] FARS 2019 accident file",
+    "[20:50:23]   Loaded 33,487 records",
+    "[20:50:23]   Vermont crashes: 44",
+    "[20:50:23]   Vermont crashes with valid coords: 44 / 44",
+    "[20:50:23]   44 crash points loaded",
+    "[20:50:23] \n[2a] Trying Census TIGER/Line 2019 Vermont roads...",
+    "[20:50:23]   Trying TIGER_VT_roads_2019: https://www2.census.gov/geo/tiger/TIGER2019/ROADS/tl_2019_50_roads.zip...",
+    "[20:52:24]   [FAIL] Timeout",
+    "[20:52:24] \n[2b] Trying Census TIGER primary roads (national)...",
+    "[20:52:24]   Trying TIGER_US_primary_roads_2019: https://www2.census.gov/geo/tiger/TIGER2019/PRIMARYROADS/tl_2019_us_primaryroads...",
+    "[20:56:56]   [FAIL] ConnectionError: HTTPSConnectionPool(host='www2.census.gov', port=443): Read timed out.",
+    "[20:56:56] \n[2c] Trying Vermont DOT ArcGIS REST API...",
+    "[20:56:56]   Trying VTrans ArcGIS REST API...",
+    "[20:56:57]   [FAIL] VTrans REST: 404 Client Error: Not Found for url: https://maps.vtrans.vermont.gov/arcgis/rest/services/Master/VTAOT_OpenData/MapServer/0/query?where=1%3D1&outFields=%2A&f=geojson&resultRecordCount=5000",
+    "[20:56:57] \n[WARN] No road network could be loaded for spatial join test",
+    "[20:56:57] This is a network/access failure, NOT a data unavailability finding",
+    "[20:56:57] HPMS/AADT data IS available (FHWA distributes annual state shapefiles)",
+    "[20:56:57] Join is technically feasible; rate estimation deferred to full download",
+    "[20:56:57] \n[3] Checking FHWA HPMS data availability (HTTP HEAD)...",
+    "[20:56:59]   https://www.fhwa.dot.gov/policyinformation/hpms/shapefiles.c: HTTP 200",
+    "[20:57:04]   https://www.fhwa.dot.gov/policyinformation/hpms/: HTTP 200",
+    "[20:57:05]   https://www.transportation.gov/gis/national-transit-map: HTTP 403",
+    "[20:57:06]   https://geo.dot.gov/: HTTP 200",
+    "[20:57:06] \n[4] Checking state DOT AADT open data availability...",
+    "[20:57:11]   California_AADT: OK",
+    "[20:57:20]   Oregon_Crash: HTTP 500",
+    "[20:57:22]   Vermont_DOT: OK",
+    "[20:57:25]   BTS_NHS: OK",
+    "[20:57:25] \nJoin results saved to results/step1b_spatial_join_results.csv",
+    "[20:57:25] \n============================================================",
+    "[20:57:25] SUMMARY: Step 1b Spatial Join",
+    "[20:57:25] ============================================================",
+    "[20:57:25]   No spatial join could be completed (road network not loaded)",
+    "[20:57:25]   Note: HPMS data is known to be publicly available from FHWA",
+    "[20:57:25]   Note: Large state shapefiles require full download (2-5 GB/state)",
+    "[20:57:25]   Recommendation: Schedule HPMS state download for offline processing",
+    "[20:57:25] \nHPMS web endpoint accessibility: 3 / 4 reachable",
+    "[20:57:25] State DOT APIs accessible: 3 / 4"
+  ]
+}

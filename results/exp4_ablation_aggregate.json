@@ -1,0 +1,430 @@
+{
+  "env_log": {
+    "script": "exp4_ablation.py",
+    "date": "2026-07-11T16:33:46.209834",
+    "hostname": "redacted-host",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.17.1",
+    "git_commit": "b58fca8b71c1e0ee73c02c45dd728701256e1a29",
+    "N_final": 1000000,
+    "N_rep": 10000,
+    "M_reps": 500,
+    "seeds": [
+      42,
+      123,
+      456,
+      789,
+      2026
+    ],
+    "combos": [
+      "piw",
+      "piW",
+      "pIw",
+      "pIW",
+      "Piw",
+      "PiW",
+      "PIw",
+      "PIW"
+    ],
+    "status": "exploratory",
+    "gpu_used": false
+  },
+  "combos": {
+    "piw": {
+      "use_physics": false,
+      "use_iv": false,
+      "use_ipsw": false,
+      "description": "Physics=none, IV=naive mean diff, IPSW=unweighted C=1",
+      "cells": {
+        "T2-a": {
+          "tau_hat_mean": -0.018629605323586845,
+          "tau_hat_std": 0.0013525432671582405,
+          "bias_mean": 0.04440839467641315,
+          "bias_std": 0.0013525432671582405,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": null,
+          "reject_rate": 0.422,
+          "reject_SE": 0.022086919205719934
+        },
+        "T2-b": {
+          "tau_hat_mean": 0.036834420364399253,
+          "tau_hat_std": 0.0009578837599013566,
+          "bias_mean": 0.09549942036439925,
+          "bias_std": 0.0009578837599013566,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": null,
+          "reject_rate": 0.974,
+          "reject_SE": 0.007116740827092131
+        },
+        "T2-null": {
+          "tau_hat_mean": 0.06110234763224511,
+          "tau_hat_std": 0.0013040757403544,
+          "bias_mean": 0.05925434763224511,
+          "bias_std": 0.0013040757403544,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": null,
+          "reject_rate": 1.0,
+          "reject_SE": 0.0
+        }
+      }
+    },
+    "piW": {
+      "use_physics": false,
+      "use_iv": false,
+      "use_ipsw": true,
+      "description": "Physics=none, IV=naive mean diff, IPSW=oracle weights",
+      "cells": {
+        "T2-a": {
+          "tau_hat_mean": -0.00402360411174617,
+          "tau_hat_std": 0.0010884513702210101,
+          "bias_mean": 0.059014395888253836,
+          "bias_std": 0.0010884513702210101,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": null,
+          "reject_rate": 0.056,
+          "reject_SE": 0.010282412168358162
+        },
+        "T2-b": {
+          "tau_hat_mean": 0.04641805123613933,
+          "tau_hat_std": 0.000793336647816578,
+          "bias_mean": 0.10508305123613934,
+          "bias_std": 0.0007933366478165728,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": null,
+          "reject_rate": 1.0,
+          "reject_SE": 0.0
+        },
+        "T2-null": {
+          "tau_hat_mean": 0.06926150968021257,
+          "tau_hat_std": 0.0012869117490897748,
+          "bias_mean": 0.06741350968021256,
+          "bias_std": 0.0012869117490897748,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": null,
+          "reject_rate": 1.0,
+          "reject_SE": 0.0
+        }
+      }
+    },
+    "pIw": {
+      "use_physics": false,
+      "use_iv": true,
+      "use_ipsw": false,
+      "description": "Physics=none, IV=IV Wald, IPSW=unweighted C=1",
+      "cells": {
+        "T2-a": {
+          "tau_hat_mean": -0.08085092958215001,
+          "tau_hat_std": 0.0019494635047456275,
+          "bias_mean": -0.017812929582150017,
+          "bias_std": 0.0019494635047456275,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": null,
+          "reject_rate": 0.764,
+          "reject_SE": 0.018989681408596616
+        },
+        "T2-b": {
+          "tau_hat_mean": -0.07074076018411726,
+          "tau_hat_std": 0.0019270679074452027,
+          "bias_mean": -0.012075760184117275,
+          "bias_std": 0.0019270679074452027,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": null,
+          "reject_rate": 0.592,
+          "reject_SE": 0.02197889897151356
+        },
+        "T2-null": {
+          "tau_hat_mean": -0.017731564346113022,
+          "tau_hat_std": 0.002447257856765044,
+          "bias_mean": -0.01957956434611302,
+          "bias_std": 0.002447257856765044,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": null,
+          "reject_rate": 0.078,
+          "reject_SE": 0.011992997957141491
+        }
+      }
+    },
+    "pIW": {
+      "use_physics": false,
+      "use_iv": true,
+      "use_ipsw": true,
+      "description": "Physics=none, IV=IV Wald, IPSW=oracle weights",
+      "cells": {
+        "T2-a": {
+          "tau_hat_mean": -0.0637147553979091,
+          "tau_hat_std": 0.0015388293001088278,
+          "bias_mean": -0.0006767553979091081,
+          "bias_std": 0.0015388293001088278,
+          "ci_coverage": 1.0,
+          "kappa_width_mean": null,
+          "reject_rate": 0.562,
+          "reject_SE": 0.02218810492133116
+        },
+        "T2-b": {
+          "tau_hat_mean": -0.05975609401508517,
+          "tau_hat_std": 0.001146466223771056,
+          "bias_mean": -0.0010910940150851603,
+          "bias_std": 0.001146466223771056,
+          "ci_coverage": 1.0,
+          "kappa_width_mean": null,
+          "reject_rate": 0.438,
+          "reject_SE": 0.02218810492133116
+        },
+        "T2-null": {
+          "tau_hat_mean": 0.0005477116641418207,
+          "tau_hat_std": 0.001425399363118344,
+          "bias_mean": -0.0013002883358581793,
+          "bias_std": 0.001425399363118344,
+          "ci_coverage": 1.0,
+          "kappa_width_mean": null,
+          "reject_rate": 0.054,
+          "reject_SE": 0.010107818755794942
+        }
+      }
+    },
+    "Piw": {
+      "use_physics": true,
+      "use_iv": false,
+      "use_ipsw": false,
+      "description": "Physics=S-scale+D bounds, IV=naive mean diff, IPSW=unweighted C=1",
+      "cells": {
+        "T2-a": {
+          "tau_hat_mean": -0.018629605323586845,
+          "tau_hat_std": 0.0013525432671582405,
+          "bias_mean": 0.04440839467641315,
+          "bias_std": 0.0013525432671582405,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": 1.1594411008221148,
+          "reject_rate": 0.422,
+          "reject_SE": 0.022086919205719934
+        },
+        "T2-b": {
+          "tau_hat_mean": 0.036834420364399253,
+          "tau_hat_std": 0.0009578837599013566,
+          "bias_mean": 0.09549942036439925,
+          "bias_std": 0.0009578837599013566,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": 2.6422771305465322,
+          "reject_rate": 0.974,
+          "reject_SE": 0.007116740827092131
+        },
+        "T2-null": {
+          "tau_hat_mean": 0.06110234763224511,
+          "tau_hat_std": 0.0013040757403544,
+          "bias_mean": 0.05925434763224511,
+          "bias_std": 0.0013040757403544,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": 3.8027951731135112,
+          "reject_rate": 1.0,
+          "reject_SE": 0.0
+        }
+      }
+    },
+    "PiW": {
+      "use_physics": true,
+      "use_iv": false,
+      "use_ipsw": true,
+      "description": "Physics=S-scale+D bounds, IV=naive mean diff, IPSW=oracle weights",
+      "cells": {
+        "T2-a": {
+          "tau_hat_mean": -0.00402360411174617,
+          "tau_hat_std": 0.0010884513702210101,
+          "bias_mean": 0.059014395888253836,
+          "bias_std": 0.0010884513702210101,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": 0.25041496583338063,
+          "reject_rate": 0.056,
+          "reject_SE": 0.010282412168358162
+        },
+        "T2-b": {
+          "tau_hat_mean": 0.04641805123613933,
+          "tau_hat_std": 0.000793336647816578,
+          "bias_mean": 0.10508305123613934,
+          "bias_std": 0.0007933366478165728,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": 3.3297484801560686,
+          "reject_rate": 1.0,
+          "reject_SE": 0.0
+        },
+        "T2-null": {
+          "tau_hat_mean": 0.06926150968021257,
+          "tau_hat_std": 0.0012869117490897748,
+          "bias_mean": 0.06741350968021256,
+          "bias_std": 0.0012869117490897748,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": 4.310592716988691,
+          "reject_rate": 1.0,
+          "reject_SE": 0.0
+        }
+      }
+    },
+    "PIw": {
+      "use_physics": true,
+      "use_iv": true,
+      "use_ipsw": false,
+      "description": "Physics=S-scale+D bounds, IV=IV Wald, IPSW=unweighted C=1",
+      "cells": {
+        "T2-a": {
+          "tau_hat_mean": -0.08085092958215001,
+          "tau_hat_std": 0.0019494635047456275,
+          "bias_mean": -0.017812929582150017,
+          "bias_std": 0.0019494635047456275,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": 5.031877442864191,
+          "reject_rate": 0.764,
+          "reject_SE": 0.018989681408596616
+        },
+        "T2-b": {
+          "tau_hat_mean": -0.07074076018411726,
+          "tau_hat_std": 0.0019270679074452027,
+          "bias_mean": -0.012075760184117275,
+          "bias_std": 0.0019270679074452027,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": 5.074511584078737,
+          "reject_rate": 0.592,
+          "reject_SE": 0.02197889897151356
+        },
+        "T2-null": {
+          "tau_hat_mean": -0.017731564346113022,
+          "tau_hat_std": 0.002447257856765044,
+          "bias_mean": -0.01957956434611302,
+          "bias_std": 0.002447257856765044,
+          "ci_coverage": 0.0,
+          "kappa_width_mean": 1.103550189478581,
+          "reject_rate": 0.078,
+          "reject_SE": 0.011992997957141491
+        }
+      }
+    },
+    "PIW": {
+      "use_physics": true,
+      "use_iv": true,
+      "use_ipsw": true,
+      "description": "Physics=S-scale+D bounds, IV=IV Wald, IPSW=oracle weights",
+      "cells": {
+        "T2-a": {
+          "tau_hat_mean": -0.0637147553979091,
+          "tau_hat_std": 0.0015388293001088278,
+          "bias_mean": -0.0006767553979091081,
+          "bias_std": 0.0015388293001088278,
+          "ci_coverage": 1.0,
+          "kappa_width_mean": 3.9653822426196363,
+          "reject_rate": 0.562,
+          "reject_SE": 0.02218810492133116
+        },
+        "T2-b": {
+          "tau_hat_mean": -0.05975609401508517,
+          "tau_hat_std": 0.001146466223771056,
+          "bias_mean": -0.0010910940150851603,
+          "bias_std": 0.001146466223771056,
+          "ci_coverage": 1.0,
+          "kappa_width_mean": 4.286538489403025,
+          "reject_rate": 0.438,
+          "reject_SE": 0.02218810492133116
+        },
+        "T2-null": {
+          "tau_hat_mean": 0.0005477116641418207,
+          "tau_hat_std": 0.001425399363118344,
+          "bias_mean": -0.0013002883358581793,
+          "bias_std": 0.001425399363118344,
+          "ci_coverage": 1.0,
+          "kappa_width_mean": 0.07698785669344635,
+          "reject_rate": 0.054,
+          "reject_SE": 0.010107818755794942
+        }
+      }
+    }
+  },
+  "summary_table": [
+    {
+      "combo": "piw",
+      "description": "Physics=none, IV=naive mean diff, IPSW=unweighted C=1",
+      "T2a_bias": 0.04440839467641315,
+      "T2a_ci_coverage": 0.0,
+      "T2a_power": 0.422,
+      "T2b_bias": 0.09549942036439925,
+      "T2b_power": 0.974,
+      "null_size": 1.0,
+      "kappa_width_T2a": null
+    },
+    {
+      "combo": "piW",
+      "description": "Physics=none, IV=naive mean diff, IPSW=oracle weights",
+      "T2a_bias": 0.059014395888253836,
+      "T2a_ci_coverage": 0.0,
+      "T2a_power": 0.056,
+      "T2b_bias": 0.10508305123613934,
+      "T2b_power": 1.0,
+      "null_size": 1.0,
+      "kappa_width_T2a": null
+    },
+    {
+      "combo": "pIw",
+      "description": "Physics=none, IV=IV Wald, IPSW=unweighted C=1",
+      "T2a_bias": -0.017812929582150017,
+      "T2a_ci_coverage": 0.0,
+      "T2a_power": 0.764,
+      "T2b_bias": -0.012075760184117275,
+      "T2b_power": 0.592,
+      "null_size": 0.078,
+      "kappa_width_T2a": null
+    },
+    {
+      "combo": "pIW",
+      "description": "Physics=none, IV=IV Wald, IPSW=oracle weights",
+      "T2a_bias": -0.0006767553979091081,
+      "T2a_ci_coverage": 1.0,
+      "T2a_power": 0.562,
+      "T2b_bias": -0.0010910940150851603,
+      "T2b_power": 0.438,
+      "null_size": 0.054,
+      "kappa_width_T2a": null
+    },
+    {
+      "combo": "Piw",
+      "description": "Physics=S-scale+D bounds, IV=naive mean diff, IPSW=unweighted C=1",
+      "T2a_bias": 0.04440839467641315,
+      "T2a_ci_coverage": 0.0,
+      "T2a_power": 0.422,
+      "T2b_bias": 0.09549942036439925,
+      "T2b_power": 0.974,
+      "null_size": 1.0,
+      "kappa_width_T2a": 1.1594411008221148
+    },
+    {
+      "combo": "PiW",
+      "description": "Physics=S-scale+D bounds, IV=naive mean diff, IPSW=oracle weights",
+      "T2a_bias": 0.059014395888253836,
+      "T2a_ci_coverage": 0.0,
+      "T2a_power": 0.056,
+      "T2b_bias": 0.10508305123613934,
+      "T2b_power": 1.0,
+      "null_size": 1.0,
+      "kappa_width_T2a": 0.25041496583338063
+    },
+    {
+      "combo": "PIw",
+      "description": "Physics=S-scale+D bounds, IV=IV Wald, IPSW=unweighted C=1",
+      "T2a_bias": -0.017812929582150017,
+      "T2a_ci_coverage": 0.0,
+      "T2a_power": 0.764,
+      "T2b_bias": -0.012075760184117275,
+      "T2b_power": 0.592,
+      "null_size": 0.078,
+      "kappa_width_T2a": 5.031877442864191
+    },
+    {
+      "combo": "PIW",
+      "description": "Physics=S-scale+D bounds, IV=IV Wald, IPSW=oracle weights",
+      "T2a_bias": -0.0006767553979091081,
+      "T2a_ci_coverage": 1.0,
+      "T2a_power": 0.562,
+      "T2b_bias": -0.0010910940150851603,
+      "T2b_power": 0.438,
+      "null_size": 0.054,
+      "kappa_width_T2a": 3.9653822426196363
+    }
+  ]
+}

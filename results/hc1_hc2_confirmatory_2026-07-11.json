@@ -1,0 +1,270 @@
+{
+  "env_log": {
+    "timestamp": "2026-07-11T08:25:55.588461Z",
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.17.1",
+    "pandas_version": "2.3.3",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "hostname": "redacted-host",
+    "git_commit": "a09984c458df820818c7b098e3f35350510c1cd4",
+    "seeds": [
+      42,
+      123,
+      456,
+      789,
+      2026
+    ],
+    "N_per_seed": 1000000,
+    "ESC_REDUCTION": 0.3,
+    "PHY_COEF": 2.4009999999999995e-09,
+    "alpha_level": 0.05,
+    "script": "hc1_hc2_confirmatory.py",
+    "GPU": "none (CPU-only)"
+  },
+  "HC1_summary": {
+    "overall_pass": true,
+    "criterion_a_pass": true,
+    "criterion_b_pass": true,
+    "H3_raw_pval": 1.12641346543952e-10,
+    "bootstrap_method": "CLT normal approximation (equivalent to n_bootstrap->inf percentile bootstrap for N=10^6)",
+    "per_cell": [
+      {
+        "cell": "G1",
+        "alpha_b": 0.3,
+        "NIE_true": 0.002286,
+        "rmse_phys": 4.5689750728701646e-05,
+        "rmse_naive": 0.06308916428643126,
+        "rmse_ratio": 0.0007242091608832463,
+        "criterion_a": true,
+        "n_ci_cover": 5,
+        "criterion_b": true,
+        "criterion_pass": true,
+        "d_mean": -0.0009950585750367565,
+        "d_std": 5.507851580137042e-06,
+        "t_stat": -403.9721446744035,
+        "cell_pval": 1.12641346543952e-10
+      },
+      {
+        "cell": "G2",
+        "alpha_b": 2.135938,
+        "NIE_true": 0.02067,
+        "rmse_phys": 6.320574765769501e-05,
+        "rmse_naive": 0.4663137539588397,
+        "rmse_ratio": 0.00013554339137780184,
+        "criterion_a": true,
+        "n_ci_cover": 5,
+        "criterion_b": true,
+        "criterion_pass": true,
+        "d_mean": -0.054362125287829785,
+        "d_std": 0.00010179692912883436,
+        "t_stat": -1194.1166456122116,
+        "cell_pval": 1.4754762218398091e-12
+      },
+      {
+        "cell": "G3",
+        "alpha_b": 3.971875,
+        "NIE_true": 0.048473,
+        "rmse_phys": 8.712304372469753e-05,
+        "rmse_naive": 0.9079663963898309,
+        "rmse_ratio": 9.595403978727388e-05,
+        "criterion_a": true,
+        "n_ci_cover": 5,
+        "criterion_b": true,
+        "criterion_pass": true,
+        "d_mean": -0.20610073665285916,
+        "d_std": 0.0003545754002691317,
+        "t_stat": -1299.7383829187665,
+        "cell_pval": 1.0512252000223793e-12
+      },
+      {
+        "cell": "G4",
+        "alpha_b": 4.997209,
+        "NIE_true": 0.069162,
+        "rmse_phys": 0.00010353229759938681,
+        "rmse_naive": 1.1777122914802147,
+        "rmse_ratio": 8.790966889651939e-05,
+        "criterion_a": true,
+        "n_ci_cover": 5,
+        "criterion_b": true,
+        "criterion_pass": true,
+        "d_mean": -0.3467515496569579,
+        "d_std": 0.0005691995525073542,
+        "t_stat": -1362.1936857132964,
+        "cell_pval": 8.712930364362622e-13
+      },
+      {
+        "cell": "G5",
+        "alpha_b": 5.869922,
+        "NIE_true": 0.090215,
+        "rmse_phys": 0.00011937141004448821,
+        "rmse_naive": 1.4235991100608048,
+        "rmse_ratio": 8.38518436832892e-05,
+        "criterion_a": true,
+        "n_ci_cover": 5,
+        "criterion_b": true,
+        "criterion_pass": true,
+        "d_mean": -0.5066585922919453,
+        "d_std": 0.0008009185964660482,
+        "t_stat": -1414.529589833499,
+        "cell_pval": 7.493274822327925e-13
+      }
+    ]
+  },
+  "HC2_summary": {
+    "overall_pass": false,
+    "criterion_no_ipsw": false,
+    "criterion_with_ipsw": false,
+    "H4_raw_pval": 5.906018400547719e-05,
+    "per_cell_G": [
+      {
+        "cell": "G1",
+        "NIE_true": 0.002286,
+        "mean_rel_bias_raw": 0.4944917688025002,
+        "mean_rel_bias_ipsw": 0.039717971669761425,
+        "criterion_no_ipsw": true,
+        "criterion_with_ipsw": true,
+        "criterion_pass": true,
+        "t_stat": 18.084204873279255,
+        "cell_pval": 2.7486660487352488e-05
+      },
+      {
+        "cell": "G2",
+        "NIE_true": 0.02067,
+        "mean_rel_bias_raw": 0.2371997392515564,
+        "mean_rel_bias_ipsw": 0.0051580766562900286,
+        "criterion_no_ipsw": true,
+        "criterion_with_ipsw": true,
+        "criterion_pass": true,
+        "t_stat": 91.37393923585522,
+        "cell_pval": 4.300165457049587e-08
+      },
+      {
+        "cell": "G3",
+        "NIE_true": 0.048473,
+        "mean_rel_bias_raw": 0.19079754929267984,
+        "mean_rel_bias_ipsw": 0.0018306977926830254,
+        "criterion_no_ipsw": false,
+        "criterion_with_ipsw": true,
+        "criterion_pass": false,
+        "t_stat": 161.53502993392217,
+        "cell_pval": 4.40497494036407e-09
+      },
+      {
+        "cell": "G4",
+        "NIE_true": 0.069162,
+        "mean_rel_bias_raw": 0.17201106127631746,
+        "mean_rel_bias_ipsw": 0.002214793719450761,
+        "criterion_no_ipsw": false,
+        "criterion_with_ipsw": true,
+        "criterion_pass": false,
+        "t_stat": 105.62360433696108,
+        "cell_pval": 2.4088948613609773e-08
+      },
+      {
+        "cell": "G5",
+        "NIE_true": 0.090215,
+        "mean_rel_bias_raw": 0.15680128600157278,
+        "mean_rel_bias_ipsw": 0.0014295745881539176,
+        "criterion_no_ipsw": false,
+        "criterion_with_ipsw": true,
+        "criterion_pass": false,
+        "t_stat": 115.40509386145771,
+        "cell_pval": 1.6904564192898874e-08
+      }
+    ],
+    "per_cell_T2": [
+      {
+        "cell": "T2-a",
+        "NIE_true_label": "tau_LATE_true",
+        "mean_tau_true": -0.06303804916418514,
+        "mean_rel_bias_raw": 0.2885512312640449,
+        "mean_rel_bias_ipsw": 0.02836931795699662,
+        "criterion_no_ipsw": true,
+        "criterion_with_ipsw": true,
+        "criterion_pass": true,
+        "t_stat": 19.79185251154109,
+        "cell_pval": 1.9222953174580226e-05
+      },
+      {
+        "cell": "T2-b",
+        "NIE_true_label": "tau_LATE_true",
+        "mean_tau_true": -0.05866502990523216,
+        "mean_rel_bias_raw": 0.21423760093430877,
+        "mean_rel_bias_ipsw": 0.03585146250580301,
+        "criterion_no_ipsw": true,
+        "criterion_with_ipsw": true,
+        "criterion_pass": true,
+        "t_stat": 14.901317876308465,
+        "cell_pval": 5.906018400547719e-05
+      },
+      {
+        "cell": "T2-c",
+        "NIE_true_label": "tau_LATE_true",
+        "mean_tau_true": -0.01829934835605794,
+        "mean_rel_bias_raw": 0.9702935711859328,
+        "mean_rel_bias_ipsw": 0.10384364716889474,
+        "criterion_no_ipsw": true,
+        "criterion_with_ipsw": false,
+        "criterion_pass": false,
+        "t_stat": 32.15853926994261,
+        "cell_pval": 2.787029380391104e-06
+      },
+      {
+        "cell": "T2-d",
+        "NIE_true_label": "tau_LATE_true",
+        "mean_tau_true": -0.01532220062028814,
+        "mean_rel_bias_raw": 1.2686989724748565,
+        "mean_rel_bias_ipsw": 0.13628876555176067,
+        "criterion_no_ipsw": true,
+        "criterion_with_ipsw": false,
+        "criterion_pass": false,
+        "t_stat": 31.29413551210356,
+        "cell_pval": 3.1068391075361745e-06
+      }
+    ]
+  },
+  "bonferroni_holm_K5_complete": {
+    "alpha": 0.05,
+    "K": 5,
+    "note": "HC3 size/power rejection-rate estimation excluded per prereg \u00a76.2",
+    "hypotheses": [
+      {
+        "label": "H1:HC_NI",
+        "raw_p": 8.135957276033288e-15,
+        "adj_p": 3.254382910413315e-14,
+        "reject": true,
+        "decision": "REJECT H0"
+      },
+      {
+        "label": "H2:HC_T2(b)",
+        "raw_p": 0.0,
+        "adj_p": 0.0,
+        "reject": true,
+        "decision": "REJECT H0"
+      },
+      {
+        "label": "H3:HC1",
+        "raw_p": 1.12641346543952e-10,
+        "adj_p": 3.3792403963185604e-10,
+        "reject": true,
+        "decision": "REJECT H0"
+      },
+      {
+        "label": "H4:HC2",
+        "raw_p": 5.906018400547719e-05,
+        "adj_p": 0.00011812036801095438,
+        "reject": true,
+        "decision": "REJECT H0"
+      },
+      {
+        "label": "H5:HC3(G4)",
+        "raw_p": 0.08645660050287927,
+        "adj_p": 0.08645660050287927,
+        "reject": false,
+        "decision": "FAIL TO REJECT"
+      }
+    ],
+    "method": "Bonferroni-Holm stepdown (Holm 1979)"
+  }
+}

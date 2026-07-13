@@ -1,0 +1,110 @@
+{
+  "computation_type": "oracle_true_NIE_kappa_pre_freeze",
+  "date": "2026-07-10T21:56:02.551908",
+  "preregistration_doc": "preregistration_DRAFT_2026-07-10.md",
+  "frozen_params": {
+    "P_T": 0.55,
+    "alpha_b": 0.3,
+    "gamma_b": 0.5,
+    "std_eps_b": 0.3,
+    "std_eps_v": 5.0,
+    "beta_u": 0.1,
+    "std_eps_y": 0.05,
+    "ESC_delta_v_reduction": 0.3,
+    "eta_0": -2.0,
+    "eta_T": -0.5,
+    "eta_U": 0.3,
+    "eta_b": 0.2
+  },
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2026
+  ],
+  "N_per_seed": 1000000,
+  "per_seed_results": [
+    {
+      "seed": 42,
+      "N_total": 1000000,
+      "N_crash": 103732,
+      "P_crash_mean": 0.10345600249668356,
+      "NIE": 0.0022870488497791284,
+      "NDE": -0.06922375666227615,
+      "ATE": -0.06693670781249703,
+      "kappa": 0.033038496609437376,
+      "nie_std_per_unit": 0.0017156114016614044,
+      "nde_std_per_unit": 0.07102616353400784
+    },
+    {
+      "seed": 123,
+      "N_total": 1000000,
+      "N_crash": 103203,
+      "P_crash_mean": 0.10345131867334588,
+      "NIE": 0.0022867075404419007,
+      "NDE": -0.06920489862036007,
+      "ATE": -0.06691819107991817,
+      "kappa": 0.03304256759317254,
+      "nie_std_per_unit": 0.0017148261352500367,
+      "nde_std_per_unit": 0.07098642044938099
+    },
+    {
+      "seed": 456,
+      "N_total": 1000000,
+      "N_crash": 103384,
+      "P_crash_mean": 0.10341090458530422,
+      "NIE": 0.0022868503079555053,
+      "NDE": -0.06922990206508019,
+      "ATE": -0.06694305175712469,
+      "kappa": 0.03303269598454337,
+      "nie_std_per_unit": 0.0017172907519187798,
+      "nde_std_per_unit": 0.0711187158499317
+    },
+    {
+      "seed": 789,
+      "N_total": 1000000,
+      "N_crash": 103482,
+      "P_crash_mean": 0.1034202963855057,
+      "NIE": 0.0022841282231745963,
+      "NDE": -0.06911332784187485,
+      "ATE": -0.06682919961870025,
+      "kappa": 0.03304902678685186,
+      "nie_std_per_unit": 0.0017149509210800777,
+      "nde_std_per_unit": 0.071003360124449
+    },
+    {
+      "seed": 2026,
+      "N_total": 1000000,
+      "N_crash": 103875,
+      "P_crash_mean": 0.10343617255926314,
+      "NIE": 0.0022849394352404233,
+      "NDE": -0.06914454143868536,
+      "ATE": -0.06685960200344493,
+      "kappa": 0.03304583973944809,
+      "nie_std_per_unit": 0.001715459680893373,
+      "nde_std_per_unit": 0.07103536311523688
+    }
+  ],
+  "aggregate": {
+    "NIE_mean": 0.002285934871318311,
+    "NIE_std": 1.3163263579731947e-06,
+    "NDE_mean": -0.06918328532565532,
+    "NDE_std": 5.1655886172131484e-05,
+    "ATE_mean": -0.066897350454337,
+    "ATE_std": 5.0352319547319115e-05,
+    "kappa_mean": 0.03304172534269064,
+    "kappa_std": 6.381668284306516e-06
+  },
+  "env_log": {
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.17.1",
+    "pandas_version": "2.3.3",
+    "hostname": "redacted-host",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "gpu": "none (CPU-only computation)",
+    "git_commit": "dcb85df",
+    "git_commit_note": "post-hoc addition: file generated at this commit before env_log included git_commit field"
+  }
+}

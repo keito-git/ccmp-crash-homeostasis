@@ -1,0 +1,78 @@
+{
+  "computation_type": "kappa_g4_recalibration_tol0001",
+  "description": "G4 cell re-calibration attempt with tighter binary-search tolerance tol_kappa=0.001 (vs. previous 0.01). Checks whether kappa_mean >= 0.999 is achievable.",
+  "previous_G4": {
+    "alpha_b": 4.981641,
+    "kappa_mean": 0.994698,
+    "tol_used": 0.01
+  },
+  "new_G4": {
+    "alpha_b": 4.997208628125,
+    "tol_used": 0.001,
+    "kappa_search": 0.9995098572646471,
+    "kappa_mean": 0.9996927801742409,
+    "kappa_std": 0.00030365237689703595,
+    "NIE_mean": 0.0691620188896473,
+    "NIE_std": 3.225839010155347e-05,
+    "NDE_mean": -0.06918328532565532,
+    "NDE_std": 5.1655886172131484e-05,
+    "kappa_mean_gte_0999": true
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "alpha_b": 4.997208628125,
+      "NIE": 0.0691898271408343,
+      "NDE": -0.06922375666227615,
+      "ATE": -3.392952144185002e-05,
+      "kappa": 0.9995098572646471
+    },
+    {
+      "seed": 123,
+      "alpha_b": 4.997208628125,
+      "NIE": 0.06918323791856948,
+      "NDE": -0.06920489862036007,
+      "ATE": -2.1660701790590653e-05,
+      "kappa": 0.9996870062347838
+    },
+    {
+      "seed": 456,
+      "alpha_b": 4.997208628125,
+      "NIE": 0.06918134053081616,
+      "NDE": -0.06922990206508019,
+      "ATE": -4.856153426402443e-05,
+      "kappa": 0.9992985468299757
+    },
+    {
+      "seed": 789,
+      "alpha_b": 4.997208628125,
+      "NIE": 0.06911712632358095,
+      "NDE": -0.06911332784187485,
+      "ATE": 3.7984817061048615e-06,
+      "kappa": 1.0000549601911053
+    },
+    {
+      "seed": 2026,
+      "alpha_b": 4.997208628125,
+      "NIE": 0.06913856253443561,
+      "NDE": -0.06914454143868536,
+      "ATE": -5.978904249748229e-06,
+      "kappa": 0.9999135303506923
+    }
+  ],
+  "hc3a_definition": "null_cell_kappa_true_ge_0999",
+  "draft_note": "G4 re-calibrated with tol_kappa=0.001: alpha_b=4.99720863, kappa_mean=0.999693 >= 0.999. HC3(a) null cell is kappa_true=1.000 to within 0.001. DRAFT §4.5 G4 values should be updated to new alpha_b.",
+  "elapsed_s": 0.468536,
+  "env_log": {
+    "computation_type": "kappa_g4_recalibration_tol0001",
+    "date": "2026-07-11T09:53:49.594657",
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.17.1",
+    "pandas_version": "2.3.3",
+    "hostname": "redacted-host",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "gpu": "none (CPU-only)",
+    "git_commit": "dcb85df"
+  }
+}

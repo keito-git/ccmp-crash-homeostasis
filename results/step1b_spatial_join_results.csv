@@ -1,0 +1,2 @@
+road_source,n_crash_points,join_rate_100m_all_pct,join_rate_100m_hpms_equiv_pct,join_rate_100m_primary_pct,go_criterion_70pct
+Census_TIGER_2019_VT_13counties,44,86.36,61.36,13.64,True

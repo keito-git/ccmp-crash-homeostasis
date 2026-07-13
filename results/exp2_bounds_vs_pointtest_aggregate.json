@@ -1,0 +1,282 @@
+{
+  "env_log": {
+    "script": "exp2_bounds_vs_pointtest.py",
+    "date": "2026-07-11T16:29:33.346686",
+    "hostname": "redacted-host",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.17.1",
+    "git_commit": "b58fca8b71c1e0ee73c02c45dd728701256e1a29",
+    "N_final": 1000000,
+    "N_rep_list": [
+      10000,
+      20000,
+      50000,
+      100000
+    ],
+    "M_reps": 500,
+    "base_seed": 99999,
+    "alpha": 0.05,
+    "status": "exploratory",
+    "gpu_used": false
+  },
+  "cells": {
+    "T2-a": {
+      "tau_LATE_true": -0.063038,
+      "role": "POWER",
+      "power_curves": {
+        "10000": {
+          "method_A_point_test": {
+            "reject_rate": 0.586,
+            "SE": 0.022027437436070496
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.704,
+            "SE": 0.020414896521902825
+          },
+          "c_IM_mean": 1.6493520995738111
+        },
+        "20000": {
+          "method_A_point_test": {
+            "reject_rate": 0.842,
+            "SE": 0.01631171358257617
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.896,
+            "SE": 0.013651666564928989
+          },
+          "c_IM_mean": 1.6448537317749012
+        },
+        "50000": {
+          "method_A_point_test": {
+            "reject_rate": 0.998,
+            "SE": 0.0019979989989987483
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.998,
+            "SE": 0.0019979989989987483
+          },
+          "c_IM_mean": 1.644853626951487
+        },
+        "100000": {
+          "method_A_point_test": {
+            "reject_rate": 1.0,
+            "SE": 0.0
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 1.0,
+            "SE": 0.0
+          },
+          "c_IM_mean": 1.644853626951487
+        }
+      }
+    },
+    "T2-b": {
+      "tau_LATE_true": -0.058665,
+      "role": "POWER",
+      "power_curves": {
+        "10000": {
+          "method_A_point_test": {
+            "reject_rate": 0.454,
+            "SE": 0.022265848288354075
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.576,
+            "SE": 0.022100859711784968
+          },
+          "c_IM_mean": 1.6546028088455222
+        },
+        "20000": {
+          "method_A_point_test": {
+            "reject_rate": 0.732,
+            "SE": 0.019807877220944195
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.82,
+            "SE": 0.01718138527593162
+          },
+          "c_IM_mean": 1.6453435588673067
+        },
+        "50000": {
+          "method_A_point_test": {
+            "reject_rate": 0.988,
+            "SE": 0.004869496893930626
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.994,
+            "SE": 0.003453693674893592
+          },
+          "c_IM_mean": 1.644853626951487
+        },
+        "100000": {
+          "method_A_point_test": {
+            "reject_rate": 1.0,
+            "SE": 0.0
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 1.0,
+            "SE": 0.0
+          },
+          "c_IM_mean": 1.644853626951487
+        }
+      }
+    },
+    "T2-c": {
+      "tau_LATE_true": -0.018299,
+      "role": "POWER",
+      "power_curves": {
+        "10000": {
+          "method_A_point_test": {
+            "reject_rate": 0.104,
+            "SE": 0.013651666564928989
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.16,
+            "SE": 0.016395121225535353
+          },
+          "c_IM_mean": 1.7290754201250063
+        },
+        "20000": {
+          "method_A_point_test": {
+            "reject_rate": 0.16,
+            "SE": 0.016395121225535353
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.226,
+            "SE": 0.018704224121839433
+          },
+          "c_IM_mean": 1.709036724436661
+        },
+        "50000": {
+          "method_A_point_test": {
+            "reject_rate": 0.344,
+            "SE": 0.021244481636415603
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.44,
+            "SE": 0.02219909908081857
+          },
+          "c_IM_mean": 1.6703079912753953
+        },
+        "100000": {
+          "method_A_point_test": {
+            "reject_rate": 0.55,
+            "SE": 0.022248595461286987
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.656,
+            "SE": 0.021244481636415607
+          },
+          "c_IM_mean": 1.6524619501975522
+        }
+      }
+    },
+    "T2-d": {
+      "tau_LATE_true": -0.015322,
+      "role": "POWER",
+      "power_curves": {
+        "10000": {
+          "method_A_point_test": {
+            "reject_rate": 0.068,
+            "SE": 0.01125841907196565
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.12,
+            "SE": 0.014532721699667961
+          },
+          "c_IM_mean": 1.7476816928870256
+        },
+        "20000": {
+          "method_A_point_test": {
+            "reject_rate": 0.114,
+            "SE": 0.014212951839783317
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.182,
+            "SE": 0.01725549187939886
+          },
+          "c_IM_mean": 1.7279809913605368
+        },
+        "50000": {
+          "method_A_point_test": {
+            "reject_rate": 0.208,
+            "SE": 0.018151363585141477
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.324,
+            "SE": 0.020929596269398033
+          },
+          "c_IM_mean": 1.6945890650195556
+        },
+        "100000": {
+          "method_A_point_test": {
+            "reject_rate": 0.332,
+            "SE": 0.02106067425321421
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.466,
+            "SE": 0.02230892198202325
+          },
+          "c_IM_mean": 1.669140995980114
+        }
+      }
+    },
+    "T2-null": {
+      "tau_LATE_true": 0.001848,
+      "role": "SIZE",
+      "power_curves": {
+        "10000": {
+          "method_A_point_test": {
+            "reject_rate": 0.038,
+            "SE": 0.00855055553750749
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.036,
+            "SE": 0.008331146379700694
+          },
+          "c_IM_mean": 1.8077022202500062
+        },
+        "20000": {
+          "method_A_point_test": {
+            "reject_rate": 0.05,
+            "SE": 0.009746794344808962
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.044,
+            "SE": 0.009172131704244113
+          },
+          "c_IM_mean": 1.8318402838808825
+        },
+        "50000": {
+          "method_A_point_test": {
+            "reject_rate": 0.044,
+            "SE": 0.009172131704244113
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.032,
+            "SE": 0.00787095928079926
+          },
+          "c_IM_mean": 1.82175179598139
+        },
+        "100000": {
+          "method_A_point_test": {
+            "reject_rate": 0.052,
+            "SE": 0.009929350431926552
+          },
+          "method_B_bounds_only": {
+            "reject_rate": 0.036,
+            "SE": 0.008331146379700694
+          },
+          "c_IM_mean": 1.8274643260494472
+        }
+      }
+    }
+  },
+  "interpretation": {
+    "c_IM_convergence": "c_IM approaches 1.645 (one-sided critical value) as width/sigma increases (wide identification region).",
+    "method_B_effective_alpha": "Method B effectively one-sided (rejects only when tau < 0). Size at null cell checks this.",
+    "method_A_alpha": "Method A two-sided at 5%; lower power for directional alternatives tau < 0.",
+    "key_finding": "For wide identification regions (D_U/D_L >> 1), c_IM < 1.96, so Method B is less conservative than two-sided Method A. Both have correct 5% size for their respective alternatives. For fair comparison: Method A one-sided (z < -1.645) would match Method B asymptotically."
+  }
+}

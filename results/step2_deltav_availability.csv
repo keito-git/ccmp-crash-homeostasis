@@ -1,0 +1,13 @@
+source,year,delta_v_found,delta_v_valid,delta_v_valid_pct,n_records,trav_sp_known_pct,vspd_lim_known_pct,mod_year_pre_esc,mod_year_post_esc,note
+FARS,2005.0,False,0.0,0.0,59495.0,,,,,DELTA_V absent. TRAV_SP present (mostly coded unknown). VSPD_LIM n/a (added 2010).
+FARS,2007.0,False,0.0,0.0,56253.0,,,,,DELTA_V absent.
+FARS,2009.0,False,0.0,0.0,45540.0,,,,,DELTA_V absent.
+FARS,2010.0,False,0.0,0.0,44862.0,,100.0,,,DELTA_V absent. VSPD_LIM added this year.
+FARS,2013.0,False,0.0,0.0,45101.0,,100.0,,,DELTA_V absent.
+FARS,2015.0,False,0.0,0.0,49478.0,34.8,95.3,,,DELTA_V absent. TRAV_SP ~35% known (65% coded unknown).
+FARS,2017.0,False,0.0,0.0,53128.0,33.2,96.2,,,DELTA_V absent. TRAV_SP 33.2% known. VSPD_LIM 96.2%.
+FARS,2019.0,False,0.0,0.0,51623.0,,,28596.0,21241.0,"DELTA_V absent. MOD_YEAR: pre-ESC(MY<=2010)=28596, post-ESC(MY>=2012)=21241."
+FARS,2021.0,False,0.0,0.0,61802.0,,,,,"DELTA_V absent. vehiclesf.csv=special vehicle use codes, NOT ESC/ABS."
+CRSS,2021.0,False,0.0,0.0,,,,,,"DELTA_V absent from CRSS (police-report based, no crash reconstruction)."
+NASS-CDS,,True,,,,,,,,NASS-CDS (1997-2015) HAS DELTA_V but NOT PUBLICLY DOWNLOADABLE (HTTP 404). Requires NHTSA portal application.
+CISS,,True,,,,,,,,CISS (2017-present) HAS DELTA_V but NOT PUBLICLY DOWNLOADABLE (HTTP 403). Requires NHTSA portal application.

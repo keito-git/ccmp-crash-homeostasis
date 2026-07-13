@@ -1,0 +1,174 @@
+{
+  "env_log": {
+    "script": "confirmatory_rerun_postfreeze.py",
+    "date": "2026-07-11T16:56:36.046050",
+    "hostname": "redacted-host",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "git_commit": "1b1ca82515401375e325de1c440abba1614919b6",
+    "elapsed_seconds": 89.590767,
+    "purpose": "confirmatory re-run post-freeze for provenance establishment",
+    "notes": "HC1/HC2 not yet run (Tier 1 experiments pending). BH correction applied to K_available=3 out of K=5 prereg hypotheses."
+  },
+  "preregistration": "preregistration_FROZEN_2026-07-11.md §5.1 §6.2",
+  "HC_T2_summary": {
+    "cells_run": [
+      "T2-a",
+      "T2-b",
+      "T2-c",
+      "T2-d",
+      "T2-null"
+    ],
+    "seeds": [
+      42,
+      123,
+      456,
+      789,
+      2026
+    ],
+    "N_per_seed": 1000000,
+    "M_reps": 2000,
+    "N_rep": 10000,
+    "size_power": {
+      "T2-a": {
+        "role": "POWER",
+        "reject_rate_IPSW": 0.5555,
+        "SE_reject_IPSW": 0.011111249929688378,
+        "tau_IV_IPSW_mean": -0.0637013993043531
+      },
+      "T2-b": {
+        "role": "POWER",
+        "reject_rate_IPSW": 0.4405,
+        "SE_reject_IPSW": 0.01110089523416918,
+        "tau_IV_IPSW_mean": -0.059814692762796356
+      },
+      "T2-c": {
+        "role": "POWER",
+        "reject_rate_IPSW": 0.0925,
+        "SE_reject_IPSW": 0.006478570444164361,
+        "tau_IV_IPSW_mean": -0.01888595713724557
+      },
+      "T2-d": {
+        "role": "POWER",
+        "reject_rate_IPSW": 0.0635,
+        "SE_reject_IPSW": 0.005452877680637995,
+        "tau_IV_IPSW_mean": -0.01616510007833421
+      },
+      "T2-null": {
+        "role": "SIZE",
+        "reject_rate_IPSW": 0.05,
+        "SE_reject_IPSW": 0.004873397172404482,
+        "tau_IV_IPSW_mean": 0.001470696025862729
+      }
+    }
+  },
+  "HC_NI_summary": {
+    "crit_a_pass": true,
+    "crit_b_pass": true,
+    "crit_c_pass": true,
+    "HC_NI_supported": true,
+    "NIE_true_T3i_mean": 0.032413446316267726,
+    "NIE_true_T3ii_mean": 0.0,
+    "CI_T3i": [
+      0.03239894848070906,
+      0.03242794415182639
+    ]
+  },
+  "HC3_G4_summary": {
+    "alpha_b_calibrated": 4.997208628125,
+    "kappa_mean": 0.9996927801742409,
+    "kappa_std": 0.00030365237689703595,
+    "HC3a_kappa_gte_999": true
+  },
+  "deterministic_match": {
+    "HC_T2": {
+      "status": "PASS",
+      "details": {
+        "tau_LATE_true": {
+          "max_diff": 9.64939933512099e-17,
+          "match": true
+        },
+        "tau_IV_IPSW": {
+          "max_diff": 9.020562075079397e-17,
+          "match": true
+        },
+        "D_L": {
+          "max_diff": 8.326672684688674e-17,
+          "match": true
+        },
+        "D_U": {
+          "max_diff": 8.326672684688674e-17,
+          "match": true
+        }
+      }
+    },
+    "HC_NI": {
+      "status": "PASS",
+      "details": {
+        "NIE_true_T3i_mean": {
+          "rerun": 0.032413446316267726,
+          "pilot": 0.032413446316267726,
+          "diff": 0.0,
+          "match": true
+        },
+        "NIE_true_T3ii_mean": {
+          "rerun": 0.0,
+          "pilot": 0.0,
+          "diff": 0.0,
+          "match": true
+        }
+      }
+    },
+    "HC3_G4": {
+      "status": "PASS",
+      "kappa_diff": 0.0,
+      "rerun_kappa": 0.9996927801742409,
+      "pilot_kappa": 0.9996927801742409
+    },
+    "overall": "PASS"
+  },
+  "bonferroni_holm": {
+    "raw_p_values": {
+      "H1:HC_NI (NIE_true_T3i>0)": 8.135957276033288e-15,
+      "H2:HC_T2(b) (tau_IV_IPSW<0, T2-a)": 0.0,
+      "H3:HC1 (NIE recovery, Tier1) [NOT_YET_RUN]": null,
+      "H4:HC2 (collider correction) [NOT_YET_RUN]": null,
+      "H5:HC3(G4) (kappa=1 at G4 null)": 0.08645660050287927
+    },
+    "result": {
+      "alpha": 0.05,
+      "K_available": 3,
+      "K_total_prereg": 5,
+      "sorted_order": [
+        [
+          1,
+          0.0
+        ],
+        [
+          0,
+          8.135957276033288e-15
+        ],
+        [
+          4,
+          0.08645660050287927
+        ]
+      ],
+      "adjusted_p_values": {
+        "0": 1.6271914552066576e-14,
+        "1": 0.0,
+        "2": NaN,
+        "3": NaN,
+        "4": 0.08645660050287927
+      },
+      "reject_H0": {
+        "0": true,
+        "1": true,
+        "2": null,
+        "3": null,
+        "4": false
+      },
+      "method": "Bonferroni-Holm stepdown (Holm 1979)"
+    },
+    "note": "H3(HC1) and H4(HC2) are pending (Tier 1 experiments not yet run). BH applied to H1+H2+H5 (K_available=3)."
+  }
+}

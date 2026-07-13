@@ -1,0 +1,10 @@
+# Core numerical / statistical stack (confirmatory and exploratory experiments)
+numpy>=1.24
+pandas>=1.5
+scipy>=1.10
+matplotlib>=3.7
+
+# Geospatial stack (data_checks/ only: FARS-HPMS spatial-join feasibility)
+geopandas>=0.13
+shapely>=2.0
+requests>=2.28

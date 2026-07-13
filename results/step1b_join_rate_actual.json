@@ -1,0 +1,24 @@
+{
+  "test_state": "Vermont",
+  "test_year": 2019,
+  "n_crash_points": 44,
+  "road_source": "Census_TIGER_2019_VT_counties_13of14",
+  "n_road_segments_total": 54716,
+  "join_100m_all_roads": {
+    "n_matched": 38,
+    "rate_pct": 86.36,
+    "pass": true
+  },
+  "join_100m_hpms_equiv": {
+    "n_matched": 27,
+    "rate_pct": 61.36,
+    "pass": false
+  },
+  "join_100m_primary_s1100": {
+    "n_matched": 6,
+    "rate_pct": 13.64,
+    "pass": false
+  },
+  "run_date": "2026-07-10T21:06:15.842563",
+  "note_on_hpms": "HPMS covers federal-aid roads. Census TIGER all-roads gives upper bound. S1100+S1200 = proxy for HPMS coverage."
+}
