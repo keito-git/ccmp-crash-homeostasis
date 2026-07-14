@@ -1,0 +1,78 @@
+{
+  "purpose": "Input-data fingerprint for the exploratory CRSS real-data analysis (Sec. 5.6).",
+  "source": "NHTSA Crash Report Sampling System (CRSS), public release, downloaded from nhtsa.gov.",
+  "note": "Files are not redistributed. These hashes let a third party verify that the files they download from NHTSA are the ones the reported estimates were computed on.",
+  "consumed_by": [
+    "scripts/realdata_tier2_fastresult_v2.py",
+    "scripts/realdata_falsification_test.py",
+    "scripts/realdata_changeover_design.py"
+  ],
+  "esc_treatment_source": "data/esc_equipment_list_nhtsa_api_v2.csv (NHTSA 5-Star Safety Ratings API)",
+  "n_files": 12,
+  "files": {
+    "CRSS2016/PERSON.CSV": {
+      "sha256": "0253172acb706c2c2739922819475dc893975e629fbbd8a4e245b41556ada12a",
+      "bytes": 19825086,
+      "year": 2016
+    },
+    "CRSS2016/VEHICLE.CSV": {
+      "sha256": "e9f6c53d18a78857d8993346d849dc3f79dddb3a4705b9ded078d84286ebb5d9",
+      "bytes": 24088314,
+      "year": 2016
+    },
+    "CRSS2017/PERSON.CSV": {
+      "sha256": "1f15b6d144d271830de3fe907a4617258ac3b1f9718b33d7a34a5b844238045a",
+      "bytes": 23420839,
+      "year": 2017
+    },
+    "CRSS2017/VEHICLE.CSV": {
+      "sha256": "1cac71d4443b48cac58da43c2fd4656611237bd2afe9b299125b4a8caab71126",
+      "bytes": 28628212,
+      "year": 2017
+    },
+    "CRSS2018/PERSON.csv": {
+      "sha256": "e7091a0e8b85f78464ce294590e24aaeb3b95a6d18f5f49c31635d477136ae34",
+      "bytes": 18574931,
+      "year": 2018
+    },
+    "CRSS2018/VEHICLE.csv": {
+      "sha256": "f34d6d5280341c258794d03565743abb5c3890434d9670f93ba07a8876928e95",
+      "bytes": 25253667,
+      "year": 2018
+    },
+    "CRSS2019/person.CSV": {
+      "sha256": "06f107e9cc8b025b43e2f1b1792b80dfb19f43ec65e29cc6fe08324f35b81fc8",
+      "bytes": 134484503,
+      "year": 2019
+    },
+    "CRSS2019/vehicle.csv": {
+      "sha256": "84e053e978c3ee0d4a9673253f5192df9e9432b575a4db085eb2214f3500b4c7",
+      "bytes": 161243123,
+      "year": 2019
+    },
+    "CRSS2020/CRSS2020CSV/person.csv": {
+      "sha256": "c1aaf2a5345e70fb918dad75277cf08c0bb768d26dc190ec354bc1353bd82322",
+      "bytes": 151513746,
+      "year": 2020
+    },
+    "CRSS2020/CRSS2020CSV/vehicle.csv": {
+      "sha256": "90b84dd7d93b79284f1b4a9033062ae7f65b7c977f3b7e125e8d08941ff85de3",
+      "bytes": 173641088,
+      "year": 2020
+    },
+    "CRSS2021/CRSS2021CSV/person.csv": {
+      "sha256": "b5acea29fa34ac3f2ec5ef6ca225ac0944def363486865a58d8fb77833c14597",
+      "bytes": 154235527,
+      "year": 2021
+    },
+    "CRSS2021/CRSS2021CSV/vehicle.csv": {
+      "sha256": "6bd18ec8d0702004d82e4fcdf86125c41710a83d2155a3a196de6f88143d0bb8",
+      "bytes": 174341419,
+      "year": 2021
+    }
+  },
+  "python_version": "3.11.3",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "hostname": "redacted-host",
+  "GPU": "none (CPU-only)"
+}
