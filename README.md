@@ -90,6 +90,7 @@ a few minutes each on a modern laptop.
 | Script | Produces |
 |---|---|
 | `c2_bounds_verification.py` | First-principles check of the kappa_LATE = 1 + tau/D identification map |
+| `kish_neff.py` | Kish effective sample size of the IPSW weights on the C=1 subsample (Sec. 5.3). Supersedes an erroneous figure of 165 in an earlier draft, which was the mean square of the weights and not an effective sample size |
 
 **Real-data analysis on CRSS (exploratory; Sec. 5.6)**
 
