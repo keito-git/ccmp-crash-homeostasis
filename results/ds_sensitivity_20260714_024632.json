@@ -1,0 +1,96 @@
+{
+  "env_log": {
+    "timestamp": "2026-07-14T02:46:32.819558Z",
+    "script": "realdata_ds_sensitivity.py (v2)",
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy_version": "1.26.4",
+    "pandas_version": "1.5.3",
+    "scipy_version": "1.17.1",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "hostname": "redacted-host",
+    "git_commit": "a09984c458df820818c7b098e3f35350510c1cd4",
+    "GPU": "none (CPU-only)",
+    "crss_years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "n_raw": 747342,
+    "n_analytic": 400774,
+    "T_source": "Dang 2007 / Sivinski 2011 (esc_equipment_list.csv)",
+    "analysis_arm": "Cross-validation / sensitivity",
+    "analysis_freeze_date": "2026-07-14"
+  },
+  "coverage": {
+    "n_z0": 280552,
+    "n_t0": 9515,
+    "n_t1": 22359,
+    "n_tna": 248678,
+    "n_z1": 390285,
+    "n_analytic": 400774,
+    "pct_T0_z0": 3.39,
+    "pct_T1_z0": 7.97,
+    "pct_Tna_z0": 88.64
+  },
+  "first_stage": {
+    "FS": 0.29339994385086954,
+    "SE_FS": 0.002997220872849015,
+    "F_stat": 9582.582258594497,
+    "ET_Z0": 0.7066000561491164,
+    "ET_Z1": 0.9999999999999859
+  },
+  "wald_primary": {
+    "tau": -0.03487569366032293,
+    "SE_tau": 0.007444100852387447,
+    "CI_L": -0.04946613133100232,
+    "CI_U": -0.020285255989643532,
+    "z_stat": -4.685010903518013,
+    "p_value": 2.7994502928204752e-06,
+    "reject": true,
+    "FS": 0.29339994385086954,
+    "RF": -0.010232526561698874,
+    "EY_Z1": 0.14900032619423464,
+    "EY_Z0": 0.15923285275593352,
+    "ET_Z1": 0.9999999999999859,
+    "ET_Z0": 0.7066000561491164,
+    "n_Z0": 31281,
+    "n_Z1": 369493
+  },
+  "wald_Z_wide": {
+    "tau": -0.03987870941686656,
+    "SE_tau": 0.007098687641336076,
+    "CI_L": -0.053792137193885266,
+    "CI_U": -0.025965281639847855,
+    "z_stat": -5.617758018348418,
+    "p_value": 1.9345116551409223e-08,
+    "reject": true,
+    "FS": 0.3266093895763179,
+    "RF": -0.013024760939734148,
+    "EY_Z1": 0.14900032619423464,
+    "EY_Z0": 0.1620250871339688,
+    "ET_Z1": 0.9999999999999859,
+    "ET_Z0": 0.673390610423668,
+    "n_Z0": 28236,
+    "n_Z1": 369493
+  },
+  "bootstrap": {
+    "CI_L_boot": -0.053533417472636444,
+    "CI_U_boot": -0.018904190691034727,
+    "SE_boot": 0.009281876944926855,
+    "n_boot_valid": 500
+  },
+  "power": {
+    "power_at_obs_tau": 0.997,
+    "mde_80pct": 0.0209,
+    "power_at_reference_tau": {
+      "|tau|=0.015": 0.522,
+      "|tau|=0.030": 0.981,
+      "|tau|=0.060": 1.0
+    }
+  },
+  "analysis_arm": "Dang/Sivinski cross-validation (T from Dang 2007 / Sivinski 2011)",
+  "note": "Primary analysis (NHTSA API T source) still caching."
+}

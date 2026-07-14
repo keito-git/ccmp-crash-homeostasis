@@ -1,0 +1,2903 @@
+make,model,year,esc_consensus,T_assign,v2_action
+HONDA,ACCORD,2002,No,0.0,carried
+SATURN,SL2,2002,No,0.0,carried
+FORD,FOCUS,2004,Optional,,carried
+CADILLAC,DTS,2010,Standard,1.0,carried
+SATURN,VUE,2006,Optional,,carried
+DODGE,CALIBER,2007,Optional,,carried
+INFINITI,G35,2004,Standard,1.0,carried
+GMC,JIMMY UTILITY,2000,No,0.0,carried
+DODGE,DURANGO,2004,No,0.0,carried
+FORD,EXPLORER,2002,Optional,,carried
+TOYOTA,COROLLA,2001,No,0.0,carried
+TOYOTA,AVALON,2007,Optional,,carried
+GMC,SIERRA,2004,No,0.0,carried
+CHEVROLET,COBALT,2010,Optional,,carried
+KIA,SPORTAGE,2006,Standard,1.0,carried
+AUDI,A4,2005,Standard,1.0,rescued
+SUBARU,LEGACY,2002,Optional,,carried
+TOYOTA,COROLLA,2007,Optional,,carried
+GMC,YUKON XL,2007,Standard,1.0,carried
+HYUNDAI,ELANTRA,2009,Optional,,carried
+HONDA,ACCORD,2005,No,0.0,carried
+LEXUS,GS,2006,not_found,,rescue_failed
+FORD,EXPLORER,2004,Optional,,carried
+JEEP,GRAND CHEROKEE,2007,Standard,1.0,carried
+PONTIAC,GRAND AM,2002,No,0.0,carried
+TOYOTA,YARIS,2007,No,0.0,carried
+CHEVROLET,COLORADO,2005,No,0.0,carried
+CHRYSLER,PT CRUISER,2005,No,0.0,carried
+TOYOTA,COROLLA,2000,No,0.0,carried
+LINCOLN,TOWN CAR,2001,No,0.0,carried
+TOYOTA,SEQUOIA,2006,Standard,1.0,carried
+HONDA,ACCORD,2003,No,0.0,carried
+JEEP,GRAND CHEROKEE,2006,Standard,1.0,carried
+SUZUKI,AERIO,2007,No,0.0,carried
+CHEVROLET,MALIBU,2010,Standard,1.0,carried
+ACURA,TL,2007,Standard,1.0,rescued
+BMW,325I,2002,not_found,,carried
+DODGE,STRATUS,2000,No,0.0,carried
+JEEP,PATRIOT,2009,Standard,1.0,carried
+KIA,OPTIMA,2007,Optional,,carried
+FORD,FOCUS,2009,Optional,,carried
+TOYOTA,CAMRY,2002,Optional,,carried
+ACURA,TL,2006,Standard,1.0,rescued
+CHEVROLET,AVEO,2004,No,0.0,carried
+SUBARU,FORESTER,2002,No,0.0,carried
+KIA,SORENTO,2004,No,0.0,carried
+TOYOTA,COROLLA,2005,Optional,,carried
+DODGE,AVENGER,2008,Optional,,carried
+KIA,OPTIMA,2008,Optional,,carried
+DODGE,CARAVAN/GRAND CARAVAN,2006,not_found,,carried
+NISSAN,ALTIMA,2008,Optional,,carried
+LEXUS,GX,2008,not_found,,rescue_failed
+BUICK,PARK AVENUE,2003,Optional,,carried
+GMC,YUKON,2008,Standard,1.0,carried
+HONDA,ACCORD,2009,Standard,1.0,carried
+FORD,EXCURSION,2000,not_found,,carried
+MAZDA,MAZDA3,2008,Optional,,carried
+NISSAN,SENTRA,2002,No,0.0,carried
+NISSAN,ALTIMA,2007,No,0.0,carried
+TOYOTA,SCION TC,2009,No,0.0,carried
+HONDA,CR-V,2006,Standard,1.0,carried
+HONDA,ACCORD,2001,No,0.0,carried
+MERCEDES-BENZ,S-CLASS,2000,not_found,,carried
+CHRYSLER,300C,2005,not_found,,carried
+JEEP,GRAND CHEROKEE,2000,No,0.0,carried
+LEXUS,RX,2008,not_found,,rescue_failed
+CHEVROLET,HHR,2010,Standard,1.0,carried
+CHEVROLET,CORVETTE,2005,Standard,1.0,carried
+FORD,MUSTANG,2007,No,0.0,carried
+BUICK,LUCERNE,2006,Optional,,carried
+FORD,EXPEDITION,2006,Optional,,carried
+TOYOTA,HIGHLANDER,2005,Standard,1.0,carried
+CHRYSLER,300C,2008,not_found,,carried
+TOYOTA,4-RUNNER,2007,not_found,,carried
+NISSAN,ALTIMA,2005,No,0.0,carried
+HONDA,ACCORD,2004,No,0.0,carried
+TOYOTA,SCION TC,2007,No,0.0,carried
+FORD,FOCUS,2010,Standard,1.0,carried
+VOLKSWAGEN,JETTA,2008,Optional,,carried
+TOYOTA,RAV4,2000,No,0.0,carried
+HONDA,CIVIC,2005,No,0.0,carried
+CHEVROLET,SILVERADO,2007,Optional,,carried
+FORD,CROWN VICTORIA,2000,No,0.0,carried
+HONDA,S2000,2006,No,0.0,carried
+TOYOTA,SCION XB,2006,Standard,1.0,carried
+HONDA,CIVIC,2006,Optional,,carried
+GMC,ENVOY,2005,No,0.0,carried
+SATURN,ION,2006,No,0.0,carried
+CHEVROLET,IMPALA,2008,Optional,,carried
+MITSUBISHI,MONTERO SPORT,2003,No,0.0,carried
+MINI,COOPER,2004,Optional,,carried
+CHEVROLET,SUBURBAN,2004,Optional,,carried
+TOYOTA,SIENNA,2010,Standard,1.0,carried
+HONDA,ACCORD,2006,Optional,,carried
+HONDA,CIVIC,2009,Optional,,carried
+KIA,SEDONA,2008,Standard,1.0,carried
+TOYOTA,4-RUNNER,2003,not_found,,carried
+CHEVROLET,TRAILBLAZER,2006,Standard,1.0,carried
+CHEVROLET,IMPALA,2004,No,0.0,carried
+TOYOTA,COROLLA,2010,Standard,1.0,carried
+CHEVROLET,SILVERADO,2004,No,0.0,carried
+NISSAN,XTERRA,2007,Standard,1.0,carried
+TOYOTA,CAMRY,2001,No,0.0,carried
+FORD,MUSTANG,2005,No,0.0,carried
+CADILLAC,CTS,2005,Optional,,carried
+HYUNDAI,TIBURON,2008,Optional,,carried
+TOYOTA,4-RUNNER,2005,not_found,,carried
+NISSAN,SENTRA,2001,No,0.0,carried
+CHEVROLET,SILVERADO,2002,No,0.0,carried
+CHEVROLET,IMPALA,2009,Optional,,carried
+TOYOTA,CAMRY,2009,Optional,,carried
+DODGE,NEON,2003,No,0.0,carried
+JEEP,LIBERTY,2002,No,0.0,carried
+GMC,ENVOY,2003,No,0.0,carried
+ACURA,MDX,2007,Standard,1.0,carried
+DODGE,STRATUS,2005,No,0.0,carried
+CHEVROLET,SILVERADO,2003,No,0.0,carried
+OLDSMOBILE,ALERO,2003,No,0.0,carried
+VOLVO,S60,2004,Optional,,carried
+LINCOLN,NAVIGATOR,2004,Optional,,carried
+INFINITI,M35,2006,not_found,,carried
+CHEVROLET,EQUINOX,2006,No,0.0,carried
+HONDA,ODYSSEY,2006,Standard,1.0,carried
+TOYOTA,CAMRY,2010,Standard,1.0,carried
+HONDA,PILOT,2006,Standard,1.0,carried
+TOYOTA,CAMRY,2008,Optional,,carried
+TOYOTA,AVALON,2000,No,0.0,carried
+JEEP,GRAND CHEROKEE,2001,No,0.0,carried
+TOYOTA,SCION XA,2006,No,0.0,carried
+FORD,TAURUS,2005,No,0.0,carried
+FORD,EXPLORER,2007,Standard,1.0,carried
+TOYOTA,CAMRY,2004,Optional,,carried
+JEEP,GRAND CHEROKEE,2004,No,0.0,carried
+CHEVROLET,IMPALA,2005,No,0.0,carried
+HONDA,CIVIC,2008,Optional,,carried
+CHEVROLET,SILVERADO,2000,No,0.0,carried
+NISSAN,SENTRA,2008,No,0.0,carried
+DODGE,DURANGO,2002,No,0.0,carried
+GMC,YUKON,2007,Standard,1.0,carried
+PONTIAC,GRAND PRIX,2006,Optional,,carried
+MAZDA,CX-9,2010,Standard,1.0,carried
+CHEVROLET,IMPALA,2001,No,0.0,carried
+DODGE,JOURNEY,2010,Standard,1.0,carried
+MERCURY,MARAUDER,2004,No,0.0,carried
+CHRYSLER,TOWN AND COUNTRY,2001,No,0.0,carried
+MAZDA,MAZDA6,2004,No,0.0,carried
+LEXUS,ES,2001,not_found,,rescue_failed
+TOYOTA,RAV4,2004,Standard,1.0,carried
+KIA,SPECTRA,2009,No,0.0,carried
+NISSAN,MAXIMA,2004,Optional,,carried
+HYUNDAI,SONATA,2007,Standard,1.0,carried
+SUZUKI,GRAND VITARA,2008,Standard,1.0,carried
+FORD,TAURUS,2003,No,0.0,carried
+BMW,325I,2003,not_found,,carried
+INFINITI,G35,2007,Standard,1.0,carried
+HONDA,CR-V,2002,No,0.0,carried
+MAZDA,MAZDA3,2005,No,0.0,carried
+FORD,ESCORT,2002,No,0.0,carried
+HONDA,CIVIC,2007,Optional,,carried
+FORD,ESCAPE,2002,No,0.0,carried
+FORD,CONTOUR,2000,No,0.0,carried
+CHRYSLER,PT CRUISER,2002,No,0.0,carried
+HYUNDAI,TIBURON,2000,not_found,,carried
+LEXUS,RX,2010,not_found,,rescue_failed
+PONTIAC,GRAND AM,2005,No,0.0,carried
+HYUNDAI,SANTA FE,2004,No,0.0,carried
+PONTIAC,G5,2009,Optional,,rescued
+PONTIAC,VIBE,2007,Optional,,carried
+DODGE,CARAVAN/GRAND CARAVAN,2000,not_found,,carried
+PONTIAC,G6,2007,Optional,,rescued
+HYUNDAI,SONATA,2009,Standard,1.0,carried
+KIA,SEDONA,2004,No,0.0,carried
+FORD,EXPLORER,2003,Optional,,carried
+HONDA,ACCORD,2010,Standard,1.0,carried
+ACURA,TSX,2009,Standard,1.0,carried
+AUDI,A4,2004,Standard,1.0,rescued
+FORD,EXCURSION,2001,not_found,,carried
+CHEVROLET,IMPALA,2003,No,0.0,carried
+FORD,FOCUS,2001,Optional,,carried
+MERCEDES-BENZ,E-CLASS,2003,Standard,1.0,carried
+VOLKSWAGEN,BEETLE,2009,not_found,,carried
+FORD,WINDSTAR,2002,Optional,,carried
+HONDA,CIVIC,2002,No,0.0,carried
+CHEVROLET,CAVALIER,2002,No,0.0,carried
+HONDA,CIVIC,2000,No,0.0,carried
+FORD,TRANSIT CONNECT,2010,Optional,,carried
+HYUNDAI,ACCENT,2002,No,0.0,carried
+GMC,YUKON,2004,Optional,,carried
+SATURN,SL1,2001,not_found,,carried
+CHRYSLER,TOWN AND COUNTRY,2010,not_found,,carried
+CHEVROLET,TAHOE,2007,Standard,1.0,carried
+MITSUBISHI,LANCER,2006,No,0.0,carried
+ACURA,MDX,2009,Standard,1.0,carried
+CHEVROLET,CAVALIER,2003,No,0.0,carried
+CHEVROLET,MALIBU,2005,No,0.0,carried
+MERCURY,GRAND MARQUIS,2003,No,0.0,carried
+CADILLAC,CTS,2008,Standard,1.0,carried
+SUZUKI,GRAND VITARA,2007,Standard,1.0,carried
+HONDA,ACCORD,2008,Standard,1.0,carried
+NISSAN,SENTRA,2005,No,0.0,carried
+HONDA,ODYSSEY,2005,Standard,1.0,carried
+LINCOLN,NAVIGATOR,2010,Standard,1.0,carried
+FORD,CROWN VICTORIA,2010,No,0.0,carried
+NISSAN,SENTRA,2004,No,0.0,carried
+CHRYSLER,TOWN AND COUNTRY,2008,not_found,,carried
+CHEVROLET,HHR,2006,No,0.0,carried
+CHEVROLET,MALIBU,2004,No,0.0,carried
+CHRYSLER,300,2009,Optional,,carried
+LEXUS,IS,2002,not_found,,rescue_failed
+TOYOTA,CAMRY SOLARA,2008,Optional,,carried
+PONTIAC,GRAND AM,2004,No,0.0,carried
+HONDA,PILOT,2008,Standard,1.0,carried
+SUBARU,FORESTER,2008,Optional,,carried
+VOLKSWAGEN,JETTA,2000,No,0.0,carried
+HONDA,CIVIC,2003,No,0.0,carried
+JEEP,LIBERTY,2005,No,0.0,carried
+KIA,RIO,2006,Optional,,carried
+SATURN,ION,2005,No,0.0,carried
+CHRYSLER,SEBRING,2007,Optional,,carried
+FORD,FOCUS,2005,No,0.0,carried
+DODGE,CARAVAN/GRAND CARAVAN,2007,not_found,,carried
+TOYOTA,HIGHLANDER,2002,Optional,,carried
+DODGE,AVENGER,2010,Optional,,carried
+MAZDA,TRIBUTE,2003,No,0.0,carried
+CHEVROLET,MONTE CARLO,2002,No,0.0,carried
+MAZDA,MAZDA3,2007,Optional,,carried
+HYUNDAI,SANTA FE,2008,Standard,1.0,carried
+CHRYSLER,TOWN AND COUNTRY,2005,not_found,,carried
+HYUNDAI,ELANTRA,2002,No,0.0,carried
+CHEVROLET,TAHOE,2003,Optional,,carried
+JEEP,LIBERTY,2006,Standard,1.0,carried
+CHEVROLET,IMPALA,2007,No,0.0,carried
+CHEVROLET,MALIBU,2006,No,0.0,carried
+NISSAN,XTERRA,2006,Standard,1.0,carried
+TOYOTA,AVALON,2003,Optional,,carried
+HYUNDAI,XG 350,2005,No,0.0,carried
+HONDA,CR-V,2001,No,0.0,carried
+GMC,ACADIA,2007,Standard,1.0,carried
+MERCURY,MILAN,2008,No,0.0,carried
+TOYOTA,SIENNA,2002,Optional,,carried
+LINCOLN,LS,2000,not_found,,rescue_failed
+MITSUBISHI,GALANT,2007,No,0.0,carried
+PONTIAC,G6,2005,No,0.0,rescued
+TOYOTA,CAMRY,2000,No,0.0,carried
+FORD,EXCURSION,2003,No,0.0,carried
+HONDA,CR-V,2007,Standard,1.0,carried
+FORD,MUSTANG,2006,No,0.0,carried
+CADILLAC,CTS,2007,Optional,,carried
+CHRYSLER,300,2007,Optional,,carried
+TOYOTA,4-RUNNER,2006,not_found,,carried
+DODGE,DURANGO,2009,Standard,1.0,carried
+FORD,ESCAPE,2003,No,0.0,carried
+BUICK,LESABRE,2005,Optional,,carried
+FORD,TAURUS,2002,No,0.0,carried
+JEEP,GRAND CHEROKEE,2002,No,0.0,carried
+CHEVROLET,MALIBU,2009,Standard,1.0,carried
+LEXUS,ES,2010,not_found,,rescue_failed
+CHEVROLET,COBALT,2006,No,0.0,carried
+CADILLAC,ESCALADE,2003,Optional,,carried
+HONDA,CIVIC,2004,No,0.0,carried
+BUICK,LESABRE,2004,Optional,,carried
+LEXUS,ES,2003,not_found,,rescue_failed
+TOYOTA,FJ CRUISER,2008,Standard,1.0,carried
+TOYOTA,COROLLA,2008,Optional,,carried
+BMW,528I,2008,not_found,,carried
+LEXUS,RX,2003,not_found,,rescue_failed
+VOLKSWAGEN,BEETLE,2000,not_found,,carried
+CHEVROLET,MALIBU,2001,No,0.0,carried
+CHEVROLET,MALIBU,2007,No,0.0,carried
+FORD,EXPEDITION,2010,Standard,1.0,carried
+MITSUBISHI,MONTERO SPORT,2000,not_found,,carried
+NISSAN,ALTIMA,2003,No,0.0,carried
+HYUNDAI,ACCENT,2009,No,0.0,carried
+MITSUBISHI,ECLIPSE,2000,not_found,,carried
+LINCOLN,ZEPHYR,2006,No,0.0,carried
+BUICK,RENDEZVOUS,2004,No,0.0,carried
+FORD,FLEX,2009,Standard,1.0,carried
+GMC,YUKON,2006,Standard,1.0,carried
+HYUNDAI,ELANTRA,2006,No,0.0,carried
+LINCOLN,MKX,2008,Standard,1.0,carried
+MERCEDES-BENZ,E-CLASS,2004,Standard,1.0,carried
+CHEVROLET,MONTE CARLO,2000,not_found,,carried
+HONDA,ACCORD,2007,Optional,,carried
+LINCOLN,NAVIGATOR,2005,Standard,1.0,carried
+INFINITI,G37,2009,Standard,1.0,carried
+NISSAN,PATHFINDER,2007,Standard,1.0,carried
+CHEVROLET,IMPALA,2010,Standard,1.0,carried
+MERCEDES-BENZ,C-CLASS,2006,Standard,1.0,carried
+CHEVROLET,COBALT,2007,No,0.0,carried
+FORD,CROWN VICTORIA,2005,No,0.0,carried
+GMC,SAFARI,2003,No,0.0,carried
+VOLKSWAGEN,JETTA,2004,Optional,,carried
+MAZDA,MAZDA3,2006,No,0.0,carried
+JEEP,WRANGLER,2001,No,0.0,carried
+FORD,EDGE,2010,Standard,1.0,carried
+FORD,MUSTANG,2002,No,0.0,carried
+CHEVROLET,TRAILBLAZER,2005,No,0.0,carried
+VOLKSWAGEN,PASSAT,2006,Standard,1.0,carried
+BMW,X5,2005,Standard,1.0,rescued
+MERCURY,MILAN,2007,No,0.0,carried
+CHEVROLET,SUBURBAN,2007,Standard,1.0,carried
+MERCURY,MARINER,2008,ambiguous,,carried
+DODGE,CHARGER,2006,Standard,1.0,carried
+TOYOTA,CAMRY,2007,Optional,,carried
+CHEVROLET,IMPALA,2006,No,0.0,carried
+TOYOTA,AVALON,2002,Optional,,carried
+HYUNDAI,SANTA FE,2009,Standard,1.0,carried
+HONDA,CR-V,2004,No,0.0,carried
+TOYOTA,SIENNA,2004,Optional,,carried
+CHEVROLET,CAMARO,2010,Standard,1.0,carried
+JEEP,LIBERTY,2004,No,0.0,carried
+NISSAN,SENTRA,2006,No,0.0,carried
+NISSAN,XTERRA,2010,Standard,1.0,carried
+ACURA,TSX,2006,Standard,1.0,carried
+INFINITI,G35,2005,Standard,1.0,carried
+HONDA,CIVIC,2001,No,0.0,carried
+CHEVROLET,SUBURBAN,2003,Optional,,carried
+CHEVROLET,MALIBU,2002,No,0.0,carried
+CHEVROLET,SUBURBAN,2008,Standard,1.0,carried
+TOYOTA,COROLLA,2003,No,0.0,carried
+JEEP,WRANGLER,2002,No,0.0,carried
+MITSUBISHI,ENDEAVOR,2004,Optional,,carried
+FORD,MUSTANG,2004,No,0.0,carried
+TOYOTA,SCION TC,2005,No,0.0,carried
+OLDSMOBILE,INTRIGUE,2002,Optional,,carried
+FORD,TAURUS,2001,No,0.0,carried
+NISSAN,ALTIMA,2006,No,0.0,carried
+GMC,SONOMA,2000,No,0.0,carried
+DODGE,MAGNUM,2007,Optional,,carried
+TOYOTA,COROLLA,2004,No,0.0,carried
+NISSAN,ROGUE,2008,Standard,1.0,carried
+NISSAN,MAXIMA,2006,Optional,,carried
+MERCURY,MONTEREY,2004,Optional,,carried
+MAZDA,PROTEGE,2000,No,0.0,carried
+SATURN,ION,2007,No,0.0,carried
+MITSUBISHI,GALANT,2005,No,0.0,carried
+DODGE,CALIBER,2010,Optional,,carried
+FORD,FUSION,2008,No,0.0,carried
+HONDA,ACCORD,2000,No,0.0,carried
+NISSAN,350Z,2003,Optional,,carried
+CHRYSLER,300,2008,Optional,,carried
+LEXUS,IS,2007,not_found,,rescue_failed
+MERCEDES-BENZ,C-CLASS,2003,Standard,1.0,carried
+TOYOTA,COROLLA,2006,Optional,,carried
+LEXUS,RX,2004,not_found,,rescue_failed
+TOYOTA,CAMRY SOLARA,2002,Optional,,carried
+BUICK,ENCLAVE,2009,Standard,1.0,carried
+NISSAN,ALTIMA,2010,Standard,1.0,carried
+CHEVROLET,TAHOE,2006,Standard,1.0,carried
+FORD,FUSION,2007,No,0.0,carried
+MAZDA,RX-8,2005,Optional,,carried
+CHEVROLET,EQUINOX,2005,No,0.0,carried
+HYUNDAI,SANTA FE,2003,No,0.0,carried
+TOYOTA,SIENNA,2006,Optional,,carried
+FORD,EDGE,2007,Standard,1.0,carried
+KIA,SEDONA,2002,No,0.0,carried
+SUBARU,IMPREZA,2003,No,0.0,carried
+LEXUS,GX,2010,not_found,,rescue_failed
+KIA,SPORTAGE,2007,Standard,1.0,carried
+SUBARU,FORESTER,2010,Standard,1.0,carried
+DODGE,STRATUS,2002,No,0.0,carried
+TOYOTA,YARIS,2008,No,0.0,carried
+TOYOTA,RAV4,2008,Standard,1.0,carried
+GMC,ENVOY,2004,No,0.0,carried
+HONDA,ODYSSEY,2002,No,0.0,carried
+FORD,FREESTAR,2004,Optional,,carried
+HONDA,ELEMENT,2006,No,0.0,carried
+TOYOTA,CAMRY,2006,Optional,,carried
+KIA,SPORTAGE,2001,not_found,,carried
+TOYOTA,COROLLA MATRIX,2003,No,0.0,carried
+KIA,SPECTRA,2006,No,0.0,carried
+MERCEDES-BENZ,CLS-CLASS,2007,Standard,1.0,carried
+PONTIAC,GRAND AM,2003,No,0.0,carried
+TOYOTA,SIENNA,2009,Standard,1.0,carried
+TOYOTA,HIGHLANDER,2008,Standard,1.0,carried
+JEEP,LIBERTY,2010,Standard,1.0,carried
+TOYOTA,COROLLA,2009,Optional,,carried
+JAGUAR,S-TYPE,2003,Standard,1.0,carried
+JAGUAR,S-TYPE,2006,Standard,1.0,carried
+MERCURY,COUGAR,2000,not_found,,carried
+HYUNDAI,TUCSON,2006,Standard,1.0,carried
+CHRYSLER,PT CRUISER,2006,No,0.0,carried
+FORD,FUSION,2009,Optional,,carried
+JEEP,GRAND CHEROKEE,2005,Optional,,carried
+FORD,FUSION,2010,Standard,1.0,carried
+BUICK,CENTURY,2003,No,0.0,carried
+TOYOTA,SIENNA,2003,Optional,,carried
+CHEVROLET,IMPALA,2000,No,0.0,carried
+HONDA,FIT,2009,Optional,,carried
+FORD,EXPEDITION,2000,No,0.0,carried
+CHEVROLET,TAHOE,2004,Optional,,carried
+TOYOTA,CAMRY,2003,Optional,,carried
+KIA,SPECTRA LD,2005,No,0.0,carried
+CHEVROLET,CAVALIER,2000,No,0.0,carried
+GMC,ENVOY,2008,Standard,1.0,carried
+FORD,TAURUS,2000,No,0.0,carried
+JEEP,WRANGLER,2000,No,0.0,carried
+VOLKSWAGEN,TOUAREG,2004,Standard,1.0,carried
+CHEVROLET,UPLANDER,2008,Standard,1.0,carried
+FORD,EXPEDITION,2004,Optional,,carried
+NISSAN,SENTRA,2007,No,0.0,carried
+SUZUKI,GRAND VITARA,2006,ambiguous,,carried
+FORD,EXPLORER,2005,ambiguous,,carried
+PONTIAC,VIBE,2005,Optional,,carried
+LEXUS,ES,2008,not_found,,rescue_failed
+PONTIAC,G6,2008,Optional,,rescued
+HYUNDAI,ELANTRA,2004,No,0.0,carried
+KIA,SPECTRA,2008,No,0.0,carried
+NISSAN,MAXIMA,2001,No,0.0,carried
+VOLVO,S60,2006,Optional,,carried
+TOYOTA,RAV4,2010,Standard,1.0,carried
+GMC,SIERRA,2008,Optional,,carried
+DODGE,NEON,2005,No,0.0,carried
+PONTIAC,SOLSTICE,2007,Optional,,carried
+TOYOTA,RAV4,2003,No,0.0,carried
+FORD,MUSTANG,2009,No,0.0,carried
+TOYOTA,RAV4,2002,No,0.0,carried
+JEEP,WRANGLER,2010,Standard,1.0,carried
+BUICK,RAINIER,2004,No,0.0,carried
+TOYOTA,CAMRY,2005,Optional,,carried
+MITSUBISHI,ECLIPSE,2001,No,0.0,carried
+VOLKSWAGEN,JETTA,2003,Optional,,carried
+CHEVROLET,EQUINOX,2007,Standard,1.0,carried
+SATURN,SC1,2002,not_found,,carried
+CHEVROLET,SILVERADO,2006,No,0.0,carried
+BUICK,LESABRE,2002,Optional,,carried
+HONDA,ODYSSEY,2007,Standard,1.0,carried
+CHEVROLET,IMPALA,2002,No,0.0,carried
+FORD,EDGE,2009,Standard,1.0,carried
+CHEVROLET,SUBURBAN,2010,Standard,1.0,carried
+CHEVROLET,TRAILBLAZER,2002,No,0.0,carried
+PONTIAC,GRAND PRIX,2008,Optional,,carried
+TOYOTA,COROLLA,2002,No,0.0,carried
+FORD,MUSTANG,2010,Standard,1.0,carried
+VOLKSWAGEN,JETTA,2001,No,0.0,carried
+CHEVROLET,S-10 PICKUP,2000,No,0.0,carried
+CHEVROLET,ASTRO VAN,2001,No,0.0,carried
+VOLKSWAGEN,JETTA,2006,Optional,,carried
+SUBARU,LEGACY,2004,Optional,,carried
+SUZUKI,XL7,2004,not_found,,carried
+CHRYSLER,TOWN AND COUNTRY,2004,not_found,,carried
+MAZDA,CX-7,2010,Standard,1.0,carried
+MAZDA,MAZDA5,2006,No,0.0,carried
+PONTIAC,VIBE,2003,No,0.0,carried
+KIA,OPTIMA,2004,No,0.0,carried
+HONDA,ODYSSEY,2008,Standard,1.0,carried
+CHEVROLET,EXPRESS,2008,ambiguous,,carried
+CHEVROLET,MALIBU,2003,No,0.0,carried
+DODGE,DURANGO,2005,No,0.0,carried
+VOLKSWAGEN,PASSAT,2003,Optional,,carried
+HYUNDAI,ELANTRA,2001,No,0.0,carried
+CADILLAC,ESCALADE,2007,Standard,1.0,carried
+PONTIAC,MONTANA/ SV6,2005,not_found,,carried
+TOYOTA,SIENNA,2005,Optional,,carried
+MAZDA,MAZDA6,2003,No,0.0,carried
+MITSUBISHI,ECLIPSE,2003,No,0.0,carried
+ACURA,MDX,2005,Standard,1.0,carried
+AUDI,A6,2009,Standard,1.0,rescued
+CADILLAC,CTS,2003,Optional,,carried
+HYUNDAI,SONATA,2005,No,0.0,carried
+TOYOTA,CAMRY SOLARA,2007,Optional,,carried
+SATURN,VUE,2002,No,0.0,carried
+FORD,ESCAPE,2008,ambiguous,,carried
+JEEP,COMMANDER,2007,Standard,1.0,carried
+CADILLAC,SEVILLE,2004,Standard,1.0,carried
+BMW,325XI,2004,not_found,,carried
+CHEVROLET,HHR,2009,Standard,1.0,carried
+HONDA,PILOT,2009,Standard,1.0,carried
+HONDA,FIT,2010,Optional,,carried
+OLDSMOBILE,ALERO,2002,No,0.0,carried
+DODGE,CARAVAN/GRAND CARAVAN,2001,not_found,,carried
+DODGE,CARAVAN/GRAND CARAVAN,2005,not_found,,carried
+TOYOTA,FJ CRUISER,2007,Standard,1.0,carried
+KIA,SPECTRA,2007,No,0.0,carried
+KIA,RIO,2009,No,0.0,carried
+TOYOTA,CAMRY SOLARA,2006,Optional,,carried
+GMC,YUKON,2005,Optional,,carried
+SUBARU,IMPREZA,2008,Optional,,carried
+KIA,FORTE,2010,Standard,1.0,carried
+CHEVROLET,COBALT,2009,Optional,,carried
+BUICK,RENDEZVOUS,2002,No,0.0,carried
+PONTIAC,AZTEK,2004,No,0.0,carried
+CHRYSLER,SEBRING,2002,No,0.0,carried
+PONTIAC,G5,2007,No,0.0,rescued
+PONTIAC,G6,2006,Optional,,rescued
+SAAB,9-5,2000,not_found,,carried
+OLDSMOBILE,INTRIGUE,2000,No,0.0,carried
+BUICK,LUCERNE,2008,Optional,,carried
+MITSUBISHI,ECLIPSE,2006,No,0.0,carried
+SUBARU,FORESTER,2004,No,0.0,carried
+CHEVROLET,TAHOE,2002,No,0.0,carried
+ACURA,RDX,2008,Standard,1.0,carried
+FORD,EXPLORER,2008,Standard,1.0,carried
+CADILLAC,DEVILLE,2004,Optional,,carried
+BUICK,LACROSSE,2005,Optional,,carried
+SATURN,L300,2003,not_found,,carried
+MAZDA,MAZDA6,2010,Standard,1.0,carried
+FORD,FIVE HUNDRED,2006,No,0.0,carried
+NISSAN,MAXIMA,2007,Optional,,carried
+MITSUBISHI,ECLIPSE SPYDER,2004,No,0.0,carried
+HYUNDAI,ACCENT,2008,No,0.0,carried
+DODGE,DURANGO,2001,No,0.0,carried
+HYUNDAI,ENTOURAGE,2007,Standard,1.0,carried
+MITSUBISHI,OUTLANDER,2007,Standard,1.0,carried
+SATURN,ION,2004,No,0.0,carried
+TOYOTA,4-RUNNER,2008,not_found,,carried
+CHEVROLET,SUBURBAN,2001,No,0.0,carried
+JEEP,GRAND CHEROKEE,2009,Standard,1.0,carried
+LINCOLN,NAVIGATOR,2006,Standard,1.0,carried
+BMW,X3,2005,Standard,1.0,rescued
+HONDA,CR-V,2003,No,0.0,carried
+MAZDA,CX-7,2007,Standard,1.0,carried
+TOYOTA,HIGHLANDER,2006,Standard,1.0,carried
+NISSAN,MAXIMA,2002,Optional,,carried
+JEEP,WRANGLER,2009,Standard,1.0,carried
+TOYOTA,AVALON,2008,Optional,,carried
+VOLKSWAGEN,JETTA,2002,Optional,,carried
+HONDA,PILOT,2005,Standard,1.0,carried
+FORD,EXPEDITION,2001,No,0.0,carried
+TOYOTA,SIENNA,2001,Optional,,carried
+LEXUS,IS,2004,not_found,,rescue_failed
+MAZDA,TRIBUTE,2004,No,0.0,carried
+BMW,540I,2002,not_found,,carried
+BMW,525I,2007,not_found,,carried
+JEEP,PATRIOT,2010,Standard,1.0,carried
+MAZDA,MPV,2000,No,0.0,carried
+HONDA,CIVIC,2010,Optional,,carried
+DODGE,STRATUS,2004,No,0.0,carried
+LEXUS,ES,2004,not_found,,rescue_failed
+NISSAN,SENTRA,2010,Optional,,carried
+MERCURY,MONTEGO,2005,No,0.0,carried
+CHRYSLER,TOWN AND COUNTRY,2003,not_found,,carried
+CHEVROLET,MALIBU,2008,Optional,,carried
+TOYOTA,AVALON,2005,Optional,,carried
+TOYOTA,SEQUOIA,2003,Standard,1.0,carried
+LINCOLN,MKZ,2010,Standard,1.0,carried
+KIA,SEDONA,2003,No,0.0,carried
+DODGE,STRATUS,2006,No,0.0,carried
+FORD,EXPLORER,2006,Standard,1.0,carried
+HYUNDAI,ELANTRA,2008,Optional,,carried
+PONTIAC,SUNFIRE,2001,No,0.0,carried
+SUBARU,FORESTER,2005,No,0.0,carried
+CHRYSLER,ASPEN,2007,Standard,1.0,carried
+NISSAN,ALTIMA,2001,No,0.0,carried
+TOYOTA,PRIUS,2007,Optional,,carried
+NISSAN,PATHFINDER,2002,No,0.0,carried
+LAND ROVER,RANGE ROVER SPORT,2006,Standard,1.0,carried
+HONDA,CR-V,2009,Standard,1.0,carried
+LEXUS,ES,2002,not_found,,rescue_failed
+SUBARU,FORESTER,2009,Standard,1.0,carried
+SUBARU,FORESTER,2000,No,0.0,carried
+NISSAN,MURANO,2007,Optional,,carried
+VOLKSWAGEN,JETTA,2007,Optional,,carried
+HONDA,PILOT,2004,Optional,,carried
+BMW,X3,2004,Standard,1.0,rescued
+BUICK,LESABRE,2001,Optional,,carried
+SATURN,SL2,2000,not_found,,carried
+MERCURY,COUGAR,2001,No,0.0,carried
+CADILLAC,DEVILLE,2005,Optional,,carried
+FORD,ESCAPE,2006,No,0.0,carried
+NISSAN,MURANO,2006,Optional,,carried
+HONDA,PILOT,2003,No,0.0,carried
+FORD,FOCUS,2002,Optional,,carried
+TOYOTA,SEQUOIA,2001,not_found,,carried
+DODGE,CHARGER,2010,Optional,,carried
+NISSAN,370Z,2009,Standard,1.0,carried
+LEXUS,RX,2001,not_found,,rescue_failed
+ACURA,TL,2001,No,0.0,rescued
+CHRYSLER,PACIFICA,2004,No,0.0,carried
+PONTIAC,MONTANA/ SV6,2004,not_found,,carried
+CHEVROLET,TRAILBLAZER,2004,No,0.0,carried
+CHRYSLER,VOYAGER,2000,not_found,,carried
+FORD,TAURUS,2004,No,0.0,carried
+VOLKSWAGEN,PASSAT,2000,No,0.0,carried
+KIA,SPORTAGE,2009,Standard,1.0,carried
+KIA,RONDO,2008,Standard,1.0,carried
+BUICK,LACROSSE,2007,Optional,,carried
+BUICK,TERRAZA,2006,Optional,,carried
+TOYOTA,SCION TC,2006,No,0.0,carried
+NISSAN,VERSA,2009,No,0.0,carried
+PLYMOUTH,NEON,2001,No,0.0,carried
+MERCURY,GRAND MARQUIS,2004,No,0.0,carried
+MITSUBISHI,OUTLANDER,2010,Standard,1.0,carried
+CHRYSLER,PT CRUISER,2007,No,0.0,carried
+DODGE,CARAVAN/GRAND CARAVAN,2003,not_found,,carried
+CHEVROLET,ASTRO VAN,2000,No,0.0,carried
+HYUNDAI,ELANTRA,2000,No,0.0,carried
+GMC,ACADIA,2010,Standard,1.0,carried
+KIA,SORENTO,2008,Standard,1.0,carried
+MINI,COOPER,2006,Optional,,carried
+FORD,TAURUS,2008,Optional,,carried
+CHRYSLER,PACIFICA,2005,No,0.0,carried
+MITSUBISHI,GALANT,2000,No,0.0,carried
+ACURA,MDX,2008,Standard,1.0,carried
+SATURN,VUE,2004,No,0.0,carried
+PONTIAC,G6,2009,Optional,,rescued
+FORD,RANGER,2003,No,0.0,carried
+DODGE,GRAND CARAVAN,2010,Standard,1.0,carried
+LEXUS,IS,2008,Standard,1.0,rescued
+MITSUBISHI,GALANT,2002,No,0.0,carried
+CHRYSLER,SEBRING,2010,Optional,,carried
+FORD,CROWN VICTORIA,2006,No,0.0,carried
+BMW,X3,2007,Standard,1.0,rescued
+CHRYSLER,300,2006,Standard,1.0,carried
+JEEP,WRANGLER,2003,No,0.0,carried
+NISSAN,VERSA,2010,Optional,,carried
+GMC,ENVOY,2007,Standard,1.0,carried
+ACURA,TSX,2007,Standard,1.0,carried
+CHRYSLER,SEBRING,2001,No,0.0,carried
+TOYOTA,SEQUOIA,2005,Standard,1.0,carried
+MERCURY,MOUNTAINEER,2002,Optional,,carried
+NISSAN,VERSA,2007,No,0.0,carried
+VOLKSWAGEN,BEETLE,2010,not_found,,carried
+HYUNDAI,ELANTRA,2007,No,0.0,carried
+CHEVROLET,CAVALIER,2004,No,0.0,carried
+TOYOTA,LAND CRUISER,2009,not_found,,carried
+PONTIAC,VIBE,2009,Standard,1.0,carried
+CHEVROLET,COBALT,2008,Optional,,carried
+OLDSMOBILE,ALERO,2001,No,0.0,carried
+SUBARU,IMPREZA,2009,Standard,1.0,carried
+SUBARU,IMPREZA,2002,No,0.0,carried
+DODGE,DURANGO,2000,No,0.0,carried
+BMW,323I,2000,not_found,,carried
+FORD,FOCUS,2007,No,0.0,carried
+DODGE,CHARGER,2009,Optional,,carried
+DODGE,NEON,2004,No,0.0,carried
+SUZUKI,SX4,2009,Optional,,carried
+VOLVO,S40,2001,not_found,,carried
+BUICK,CENTURY,2002,No,0.0,carried
+VOLKSWAGEN,JETTA,2005,Optional,,carried
+FORD,TAURUS,2010,Standard,1.0,carried
+DODGE,NEON,2000,No,0.0,carried
+FORD,EXPLORER,2010,Standard,1.0,carried
+SATURN,SL1,2002,not_found,,carried
+CHRYSLER,TOWN AND COUNTRY,2007,not_found,,carried
+KIA,SEDONA,2005,No,0.0,carried
+MAZDA,PROTEGE,2002,No,0.0,carried
+FORD,WINDSTAR,2000,No,0.0,carried
+FORD,CROWN VICTORIA,2009,No,0.0,carried
+KIA,SORENTO,2006,No,0.0,carried
+MITSUBISHI,MONTERO SPORT,2002,No,0.0,carried
+ACURA,TL,2002,Optional,,rescued
+CADILLAC,DEVILLE,2001,Optional,,carried
+NISSAN,350Z,2005,Optional,,carried
+MERCEDES-BENZ,E-CLASS,2006,Standard,1.0,carried
+CHRYSLER,PACIFICA,2007,Standard,1.0,carried
+BMW,325CI,2001,not_found,,carried
+CHRYSLER,PT CRUISER,2008,No,0.0,carried
+PONTIAC,GRAND PRIX,2007,Optional,,carried
+HONDA,CR-V,2000,No,0.0,carried
+DODGE,DURANGO,2003,No,0.0,carried
+DODGE,CARAVAN/GRAND CARAVAN,2008,not_found,,carried
+FORD,FREESTYLE,2005,No,0.0,carried
+HYUNDAI,SONATA,2006,Standard,1.0,carried
+JEEP,COMMANDER,2010,Standard,1.0,carried
+FORD,ZX2,2001,not_found,,carried
+ISUZU,I-350,2006,No,0.0,carried
+FORD,F-150,2003,No,0.0,carried
+OLDSMOBILE,ALERO,2000,No,0.0,carried
+CHRYSLER,CONCORDE,2002,No,0.0,carried
+NISSAN,ROGUE,2010,Standard,1.0,carried
+MERCURY,SABLE,2002,No,0.0,carried
+PONTIAC,G6,2010,Standard,1.0,rescued
+SAAB,9-3,2005,Standard,1.0,carried
+HYUNDAI,SANTA FE,2007,Standard,1.0,carried
+TOYOTA,SCION TC,2010,No,0.0,carried
+PONTIAC,VIBE,2006,Optional,,carried
+BUICK,CENTURY,2001,No,0.0,carried
+KIA,SORENTO,2007,Standard,1.0,carried
+MITSUBISHI,LANCER SPORTBACK,2004,No,0.0,carried
+KIA,SPORTAGE,2008,Standard,1.0,carried
+NISSAN,ALTIMA,2009,Optional,,carried
+TOYOTA,HIGHLANDER,2007,Standard,1.0,carried
+FORD,EXPEDITION,2007,Standard,1.0,carried
+PONTIAC,GRAND PRIX,2000,not_found,,carried
+MAZDA,TRIBUTE,2006,No,0.0,carried
+TOYOTA,HIGHLANDER,2001,not_found,,carried
+SUZUKI,GRAND VITARA XL-7,2002,No,0.0,carried
+MERCEDES-BENZ,M-CLASS,2000,not_found,,carried
+MAZDA,MAZDA3,2010,Optional,,carried
+FORD,ESCAPE,2005,No,0.0,carried
+NISSAN,MAXIMA,2009,Standard,1.0,carried
+MITSUBISHI,LANCER,2010,Standard,1.0,carried
+TOYOTA,SCION XB,2005,Standard,1.0,carried
+FORD,MUSTANG,2001,No,0.0,carried
+DODGE,GRAND CARAVAN,2002,No,0.0,carried
+DODGE,NITRO,2007,Standard,1.0,carried
+HONDA,CR-V,2008,Standard,1.0,carried
+AUDI,A6,2008,Standard,1.0,rescued
+MAZDA,TRIBUTE,2002,No,0.0,carried
+CADILLAC,STS,2005,Standard,1.0,carried
+FORD,ZX2,2002,No,0.0,carried
+ACURA,RL,2005,Standard,1.0,rescued
+JAGUAR,XF,2009,Standard,1.0,rescued
+FORD,ESCAPE,2009,Standard,1.0,carried
+GMC,YUKON,2009,Standard,1.0,carried
+LEXUS,ES,2007,not_found,,rescue_failed
+JEEP,COMPASS,2007,Standard,1.0,carried
+TOYOTA,4-RUNNER,2002,not_found,,carried
+HYUNDAI,SONATA,2003,No,0.0,carried
+JEEP,WRANGLER,2007,Standard,1.0,carried
+JEEP,WRANGLER,2008,Standard,1.0,carried
+VOLKSWAGEN,JETTA,2010,Standard,1.0,carried
+CHEVROLET,VENTURE,2000,No,0.0,carried
+KIA,SOUL,2010,Optional,,carried
+MERCURY,VILLAGER,2002,No,0.0,carried
+NISSAN,ROGUE,2009,Standard,1.0,carried
+MITSUBISHI,LANCER,2002,No,0.0,carried
+VOLKSWAGEN,JETTA,2009,Standard,1.0,carried
+CHEVROLET,MALIBU,2000,No,0.0,carried
+ACURA,CL,2001,not_found,,rescue_failed
+CHEVROLET,TRAILBLAZER,2007,Standard,1.0,carried
+ISUZU,RODEO,2000,No,0.0,carried
+NISSAN,PATHFINDER,2005,Standard,1.0,carried
+DODGE,CHARGER,2007,Optional,,carried
+DODGE,NITRO,2008,Standard,1.0,carried
+HYUNDAI,ELANTRA,2003,Optional,,carried
+MERCURY,GRAND MARQUIS,2007,No,0.0,carried
+SUBARU,OUTBACK,2010,Standard,1.0,carried
+SAAB,9-5,2003,Standard,1.0,carried
+INFINITI,FX35,2008,not_found,,carried
+LEXUS,GS,2008,not_found,,rescue_failed
+HYUNDAI,SONATA,2008,Standard,1.0,carried
+JEEP,COMMANDER,2006,Standard,1.0,carried
+FORD,FOCUS,2008,No,0.0,carried
+CHEVROLET,TRAILBLAZER,2003,No,0.0,carried
+CHEVROLET,GEO PRIZM,2000,not_found,,carried
+MERCEDES-BENZ,CLK-CLASS,2005,Standard,1.0,carried
+LEXUS,ES,2006,not_found,,rescue_failed
+CHRYSLER,TOWN AND COUNTRY,2002,not_found,,carried
+SUBARU,IMPREZA,2005,No,0.0,carried
+VOLVO,S40,2006,Optional,,carried
+HONDA,ODYSSEY,2010,Standard,1.0,carried
+NISSAN,PATHFINDER,2003,Optional,,carried
+HONDA,ODYSSEY,2001,No,0.0,carried
+TOYOTA,AVALON,2004,Optional,,carried
+VOLVO,XC90,2003,Standard,1.0,carried
+CHRYSLER,SEBRING,2009,Optional,,carried
+HYUNDAI,SANTA FE,2005,No,0.0,carried
+SUBARU,OUTBACK,2009,Standard,1.0,carried
+DODGE,INTREPID,2002,No,0.0,carried
+CHRYSLER,TOWN AND COUNTRY,2006,not_found,,carried
+FORD,EXPLORER SPORT TRAC,2003,No,0.0,carried
+CHRYSLER,300C,2010,not_found,,carried
+DODGE,INTREPID,2001,No,0.0,carried
+FORD,EXPLORER,2001,No,0.0,carried
+MERCURY,SABLE,2003,No,0.0,carried
+SUZUKI,AERIO,2005,No,0.0,carried
+MAZDA,MAZDA6,2009,Standard,1.0,carried
+FORD,F-800,2010,not_found,,carried
+SUBARU,OUTBACK,2005,Optional,,carried
+BUICK,ENCLAVE,2008,Standard,1.0,carried
+NISSAN,MURANO,2005,Optional,,carried
+CADILLAC,CTS,2004,Optional,,carried
+ISUZU,I-290,2008,No,0.0,carried
+BMW,328I,2009,not_found,,carried
+FORD,TAURUS,2006,No,0.0,carried
+GMC,YUKON XL,2001,No,0.0,carried
+CHRYSLER,PT CRUISER,2003,No,0.0,carried
+DODGE,AVENGER,2009,Optional,,carried
+VOLVO,S80,2004,Optional,,carried
+ACURA,TL,2005,Standard,1.0,rescued
+CADILLAC,CTS,2010,Standard,1.0,carried
+FORD,ESCAPE,2010,Standard,1.0,carried
+FORD,FIVE HUNDRED,2005,No,0.0,carried
+MITSUBISHI,GALANT,2001,No,0.0,carried
+VOLKSWAGEN,BEETLE,2004,not_found,,carried
+MAZDA,MAZDA6,2005,No,0.0,carried
+JEEP,WRANGLER,2005,No,0.0,carried
+HONDA,CR-V,2005,Standard,1.0,carried
+NISSAN,ALTIMA,2002,No,0.0,carried
+LINCOLN,MKS,2009,Standard,1.0,carried
+CHRYSLER,TOWN AND COUNTRY,2000,not_found,,carried
+FORD,MUSTANG,2003,No,0.0,carried
+CHEVROLET,TAHOE,2010,Standard,1.0,carried
+TOYOTA,CAMRY SOLARA,2001,No,0.0,carried
+HYUNDAI,ACCENT,2010,No,0.0,carried
+NISSAN,ALTIMA,2004,Optional,,carried
+TOYOTA,SCION TC,2008,No,0.0,carried
+CADILLAC,DEVILLE,2003,Optional,,carried
+OLDSMOBILE,BRAVADA,2000,No,0.0,carried
+MERCURY,GRAND MARQUIS,2010,No,0.0,carried
+BUICK,LESABRE,2000,No,0.0,carried
+LAND ROVER,RANGE ROVER SPORT,2008,Standard,1.0,carried
+CHEVROLET,AVEO,2005,No,0.0,carried
+DODGE,CALIBER,2008,Optional,,carried
+SATURN,AURA,2007,Standard,1.0,carried
+NISSAN,VERSA,2008,No,0.0,carried
+NISSAN,QUEST,2007,Optional,,carried
+FORD,FOCUS,2000,No,0.0,carried
+BUICK,PARK AVENUE,2000,not_found,,carried
+CHEVROLET,TRAVERSE,2010,Standard,1.0,carried
+CHRYSLER,SEBRING,2000,not_found,,carried
+HONDA,CR-V,2010,Standard,1.0,carried
+CADILLAC,SRX,2009,Standard,1.0,carried
+LINCOLN,MKX,2007,Standard,1.0,carried
+MITSUBISHI,GALANT,2003,No,0.0,carried
+PONTIAC,VIBE,2004,No,0.0,carried
+LINCOLN,NAVIGATOR,2008,Standard,1.0,carried
+ISUZU,RODEO,2003,No,0.0,carried
+NISSAN,SENTRA,2003,No,0.0,carried
+MAZDA,TRIBUTE,2001,No,0.0,carried
+BUICK,LACROSSE,2006,Optional,,carried
+CHEVROLET,AVEO,2008,No,0.0,carried
+NISSAN,SENTRA,2000,not_found,,carried
+SUBARU,LEGACY,2003,Optional,,carried
+HYUNDAI,XG 350,2002,No,0.0,carried
+CADILLAC,SRX,2010,Standard,1.0,carried
+FORD,TAURUS,2007,No,0.0,carried
+MITSUBISHI,OUTLANDER,2005,No,0.0,carried
+ACURA,MDX,2004,Standard,1.0,carried
+LEXUS,LS,2009,not_found,,rescue_failed
+NISSAN,PATHFINDER,2000,No,0.0,carried
+ISUZU,ASCENDER,2007,Standard,1.0,carried
+FORD,MUSTANG,2008,No,0.0,carried
+JEEP,PATRIOT,2007,Standard,1.0,carried
+ACURA,TSX,2010,Standard,1.0,carried
+FORD,FOCUS,2006,No,0.0,carried
+VOLKSWAGEN,EOS,2008,Standard,1.0,carried
+MERCEDES-BENZ,M-CLASS,2001,not_found,,carried
+BMW,325I,2006,not_found,,carried
+CHEVROLET,MALIBU CLASSIC,2005,No,0.0,carried
+MITSUBISHI,OUTLANDER,2004,No,0.0,carried
+BMW,328I,2007,not_found,,carried
+TOYOTA,AVALON,2006,Optional,,carried
+BMW,525I,2005,not_found,,carried
+HYUNDAI,SONATA,2004,No,0.0,carried
+SATURN,AURA,2008,Optional,,carried
+CHEVROLET,COBALT,2005,No,0.0,carried
+NISSAN,ARMADA,2005,Standard,1.0,carried
+JEEP,LIBERTY,2009,Standard,1.0,carried
+ACURA,RL,2000,No,0.0,rescued
+VOLKSWAGEN,PASSAT,2008,Standard,1.0,carried
+MERCEDES-BENZ,E-CLASS,2008,Standard,1.0,carried
+NISSAN,XTERRA,2001,No,0.0,carried
+PONTIAC,AZTEK,2001,No,0.0,carried
+AUDI,A4,2006,Standard,1.0,rescued
+FORD,FUSION,2006,No,0.0,carried
+HYUNDAI,SONATA,2001,No,0.0,carried
+MAZDA,626,2001,No,0.0,carried
+GMC,ENVOY,2002,No,0.0,carried
+CHEVROLET,EQUINOX,2008,Standard,1.0,carried
+BUICK,CENTURY,2005,No,0.0,carried
+DODGE,NEON,2002,No,0.0,carried
+BUICK,RENDEZVOUS,2005,No,0.0,carried
+HONDA,PILOT,2007,Standard,1.0,carried
+PONTIAC,VIBE,2010,Standard,1.0,carried
+ACURA,TSX,2004,Standard,1.0,carried
+FORD,MUSTANG,2000,No,0.0,carried
+ACURA,MDX,2006,Standard,1.0,carried
+HONDA,PASSPORT,2002,No,0.0,carried
+HYUNDAI,SONATA,2010,Standard,1.0,carried
+DODGE,CHARGER,2008,Optional,,carried
+KIA,OPTIMA,2009,Standard,1.0,carried
+BMW,530I,2002,not_found,,carried
+CHRYSLER,300C,2006,not_found,,carried
+TOYOTA,CAMRY SOLARA,2005,Optional,,carried
+CHRYSLER,SEBRING,2005,No,0.0,carried
+CHEVROLET,BLAZER,2002,No,0.0,carried
+DODGE,JOURNEY,2009,Standard,1.0,carried
+MERCEDES-BENZ,C-CLASS,2008,Standard,1.0,carried
+MERCEDES-BENZ,S-CLASS,2010,Standard,1.0,carried
+FORD,EDGE,2008,Standard,1.0,carried
+CHEVROLET,CAVALIER,2005,No,0.0,carried
+PONTIAC,SUNFIRE,2000,No,0.0,carried
+CHRYSLER,VOYAGER,2001,No,0.0,carried
+CADILLAC,SRX,2004,Standard,1.0,carried
+PONTIAC,GRAND PRIX,2001,No,0.0,carried
+KIA,RIO,2008,No,0.0,carried
+TOYOTA,SEQUOIA,2004,Standard,1.0,carried
+FORD,FREESTYLE,2006,No,0.0,carried
+LINCOLN,MKZ,2007,No,0.0,carried
+PONTIAC,MONTANA/ SV6,2001,not_found,,carried
+VOLKSWAGEN,RABBIT,2007,Optional,,carried
+BUICK,CENTURY,2004,No,0.0,carried
+SATURN,L300,2004,not_found,,carried
+OLDSMOBILE,INTRIGUE,2001,Optional,,carried
+JEEP,GRAND CHEROKEE,2003,No,0.0,carried
+FORD,WINDSTAR,2003,Optional,,carried
+PLYMOUTH,NEON,2000,No,0.0,carried
+FORD,CROWN VICTORIA,2007,No,0.0,carried
+VOLKSWAGEN,ROUTAN,2009,Standard,1.0,carried
+MITSUBISHI,ECLIPSE,2004,No,0.0,carried
+OLDSMOBILE,ALERO,2004,No,0.0,carried
+FORD,EXPEDITION,2003,Optional,,carried
+LINCOLN,MKX,2009,Standard,1.0,carried
+CADILLAC,STS,2007,Standard,1.0,carried
+LINCOLN,TOWN CAR,2006,No,0.0,carried
+CHEVROLET,TAHOE,2009,Standard,1.0,carried
+JEEP,GRAND CHEROKEE,2010,Standard,1.0,carried
+BUICK,LACROSSE,2010,Standard,1.0,carried
+TOYOTA,4-RUNNER,2010,not_found,,carried
+SATURN,SL2,2001,not_found,,carried
+BMW,325CI,2004,not_found,,carried
+ACURA,CL,2003,Optional,,rescued
+LINCOLN,NAVIGATOR,2000,No,0.0,carried
+MERCURY,GRAND MARQUIS,2001,No,0.0,carried
+BMW,X5,2002,Standard,1.0,rescued
+NISSAN,350Z,2008,Optional,,carried
+NISSAN,QUEST,2001,No,0.0,carried
+FORD,EXPLORER,2000,No,0.0,carried
+VOLKSWAGEN,PASSAT,2004,Standard,1.0,carried
+DODGE,CARAVAN,2002,No,0.0,carried
+MERCURY,GRAND MARQUIS,2008,No,0.0,carried
+FORD,CROWN VICTORIA,2003,No,0.0,carried
+KIA,AMANTI,2004,Optional,,carried
+LEXUS,GS,2000,not_found,,rescue_failed
+BMW,550I,2009,not_found,,carried
+CHRYSLER,NEON,2001,not_found,,carried
+FORD,EXPEDITION MAX,2007,Standard,1.0,carried
+MAZDA,MAZDA6,2007,Optional,,carried
+NISSAN,MURANO,2009,Standard,1.0,carried
+CHEVROLET,AVEO,2010,No,0.0,carried
+TOYOTA,SCION XD,2008,Optional,,carried
+KIA,OPTIMA,2005,No,0.0,carried
+HYUNDAI,AZERA,2006,Standard,1.0,carried
+LINCOLN,TOWN CAR,2000,No,0.0,carried
+FORD,EXPEDITION,2008,Standard,1.0,carried
+MITSUBISHI,GALANT,2004,No,0.0,carried
+CADILLAC,SEVILLE,2001,not_found,,carried
+CADILLAC,ESCALADE,2004,Standard,1.0,carried
+CHRYSLER,SEBRING,2003,No,0.0,carried
+ACURA,TSX,2005,Standard,1.0,carried
+NISSAN,MURANO,2003,Optional,,carried
+AUDI,A4,2010,Standard,1.0,rescued
+SUZUKI,XL7,2008,Standard,1.0,carried
+LEXUS,RX,2006,not_found,,rescue_failed
+VOLKSWAGEN,PASSAT,2009,Standard,1.0,carried
+KIA,SORENTO,2005,No,0.0,carried
+AUDI,Q7,2007,Standard,1.0,rescued
+TOYOTA,PRIUS,2008,Optional,,carried
+KIA,SPORTAGE,2005,Standard,1.0,carried
+BMW,745I,2003,not_found,,carried
+HYUNDAI,ELANTRA,2005,No,0.0,carried
+LINCOLN,CONTINENTAL,2002,No,0.0,carried
+FORD,CROWN VICTORIA,2008,No,0.0,carried
+INFINITI,G20,2002,No,0.0,carried
+CHEVROLET,TRAILBLAZER,2008,Standard,1.0,carried
+JAGUAR,X-TYPE,2002,Optional,,carried
+MERCEDES-BENZ,GLK-CLASS,2010,Standard,1.0,carried
+MASERATI,GRANTURISMO,2008,not_found,,carried
+MERCEDES-BENZ,SL-CLASS,2003,Standard,1.0,carried
+AUDI,TT,2001,No,0.0,rescued
+CHRYSLER,300,2005,Optional,,carried
+MITSUBISHI,ECLIPSE,2002,No,0.0,carried
+LEXUS,LS,2003,not_found,,rescue_failed
+CHRYSLER,CROSSFIRE,2004,Standard,1.0,carried
+GMC,SAFARI,2004,No,0.0,carried
+MAZDA,CX-9,2008,Standard,1.0,carried
+HYUNDAI,TIBURON,2006,Optional,,carried
+TOYOTA,CELICA,2001,No,0.0,carried
+CADILLAC,SRX,2007,Standard,1.0,carried
+KIA,SPORTAGE,2000,not_found,,carried
+SATURN,L300,2005,not_found,,carried
+MERCEDES-BENZ,C-CLASS,2004,Standard,1.0,carried
+NISSAN,XTERRA,2000,No,0.0,carried
+LEXUS,IS,2006,not_found,,rescue_failed
+INFINITI,I35,2002,Optional,,carried
+LEXUS,IS,2010,Standard,1.0,rescued
+MAZDA,MX-5,2010,not_found,,carried
+ACURA,TL,2000,not_found,,rescue_failed
+SUBARU,LEGACY,2006,No,0.0,carried
+FORD,FREESTYLE,2007,No,0.0,carried
+SUZUKI,KIZASHI,2010,Standard,1.0,carried
+KIA,OPTIMA,2006,Optional,,carried
+MAZDA,MAZDA6,2006,No,0.0,carried
+VOLVO,XC70,2004,Optional,,carried
+BMW,325I,2004,not_found,,carried
+GMC,YUKON,2002,No,0.0,carried
+KIA,SPECTRA,2001,not_found,,carried
+MERCURY,MOUNTAINEER,2007,Standard,1.0,carried
+CHEVROLET,ASTRO VAN,2003,No,0.0,carried
+TOYOTA,CELICA,2002,No,0.0,carried
+CADILLAC,SEVILLE,2002,Standard,1.0,carried
+TOYOTA,HIGHLANDER,2004,Standard,1.0,carried
+MERCEDES-BENZ,C-CLASS,2005,Standard,1.0,carried
+CHEVROLET,VENTURE,2002,No,0.0,carried
+CHEVROLET,UPLANDER,2005,Optional,,carried
+MINI,COOPER CONVERTIBLE,2008,Optional,,carried
+TOYOTA,CELICA,2005,No,0.0,carried
+CADILLAC,SRX,2005,Standard,1.0,carried
+BMW,545I,2005,not_found,,carried
+CHEVROLET,UPLANDER,2007,Optional,,carried
+SUZUKI,ESTEEM,2002,No,0.0,carried
+CHRYSLER,SEBRING,2008,Optional,,carried
+MITSUBISHI,ENDEAVOR,2008,Standard,1.0,carried
+HUMMER,H3,2008,Standard,1.0,rescued
+TOYOTA,YARIS,2009,No,0.0,carried
+CHEVROLET,HHR,2007,No,0.0,carried
+SATURN,VUE,2005,No,0.0,carried
+MAZDA,MAZDA5,2010,Standard,1.0,carried
+MERCEDES-BENZ,C-CLASS,2007,Standard,1.0,carried
+INFINITI,G35,2008,Standard,1.0,carried
+OLDSMOBILE,AURORA,2002,Optional,,carried
+JEEP,LIBERTY,2008,Standard,1.0,carried
+TOYOTA,HIGHLANDER,2010,Standard,1.0,carried
+VOLKSWAGEN,BEETLE,2005,not_found,,carried
+PONTIAC,G8,2009,Standard,1.0,rescued
+BMW,535I,2009,not_found,,carried
+BMW,M3,2010,not_found,,rescue_failed
+BMW,335I,2007,not_found,,carried
+INFINITI,G35,2003,Standard,1.0,carried
+CHEVROLET,VENTURE,2003,No,0.0,carried
+KIA,RIO,2010,No,0.0,carried
+SUZUKI,XL7,2005,not_found,,carried
+TOYOTA,PRIUS,2005,Optional,,carried
+HONDA,ODYSSEY,2000,No,0.0,carried
+BMW,525I,2004,not_found,,carried
+INFINITI,G37,2010,Standard,1.0,carried
+CHEVROLET,TAHOE,2001,No,0.0,carried
+TOYOTA,4-RUNNER,2000,not_found,,carried
+VOLKSWAGEN,GOLF,2010,Standard,1.0,carried
+TOYOTA,CAMRY SOLARA,2000,No,0.0,carried
+TOYOTA,COROLLA MATRIX,2009,Optional,,carried
+HONDA,ELEMENT,2008,Standard,1.0,carried
+HYUNDAI,ACCENT,2006,No,0.0,carried
+VOLVO,S40,2004,No,0.0,carried
+BMW,325I,2005,not_found,,carried
+VOLVO,V70,2004,Optional,,carried
+HYUNDAI,ELANTRA,2010,Optional,,carried
+TOYOTA,ECHO,2003,No,0.0,carried
+TOYOTA,COROLLA MATRIX,2006,Optional,,carried
+PONTIAC,TORRENT,2006,No,0.0,carried
+HONDA,FIT,2008,No,0.0,carried
+TOYOTA,CAMRY SOLARA,2004,Optional,,carried
+MERCEDES-BENZ,S-CLASS,2009,Standard,1.0,carried
+HYUNDAI,SANTA FE,2010,Standard,1.0,carried
+CHEVROLET,TRACKER,2001,No,0.0,carried
+CHEVROLET,SUBURBAN,2009,Standard,1.0,carried
+SUZUKI,RENO,2007,No,0.0,carried
+BMW,328I,2010,not_found,,carried
+PONTIAC,MONTANA/ SV6,2000,not_found,,carried
+HUMMER,H3,2007,Standard,1.0,rescued
+HYUNDAI,GENESIS,2009,Standard,1.0,carried
+PONTIAC,GRAND PRIX,2002,No,0.0,carried
+VOLVO,S40,2000,not_found,,carried
+HYUNDAI,XG 350,2004,No,0.0,carried
+ACURA,TL,2004,Standard,1.0,rescued
+MERCURY,MARINER,2006,No,0.0,carried
+KIA,SORENTO,2003,Optional,,carried
+MERCEDES-BENZ,C-CLASS,2002,Standard,1.0,carried
+ACURA,RSX,2002,No,0.0,carried
+TOYOTA,COROLLA MATRIX,2005,Optional,,carried
+TOYOTA,4-RUNNER,2001,not_found,,carried
+INFINITI,G35,2006,Standard,1.0,carried
+ACURA,TL,2010,Standard,1.0,rescued
+KIA,RIO,2003,No,0.0,carried
+MERCEDES-BENZ,E-CLASS,2000,not_found,,carried
+TOYOTA,HIGHLANDER,2003,Optional,,carried
+BMW,330CIC,2005,not_found,,carried
+NISSAN,SENTRA,2009,No,0.0,carried
+LEXUS,GS,2001,not_found,,rescue_failed
+MAZDA,MAZDA5,2008,No,0.0,carried
+DODGE,CARAVAN,2004,No,0.0,carried
+TOYOTA,CELICA,2000,not_found,,carried
+CADILLAC,SEVILLE,2000,not_found,,carried
+CHRYSLER,SEBRING,2006,No,0.0,carried
+MERCURY,SABLE,2004,No,0.0,carried
+MAZDA,MPV,2003,No,0.0,carried
+MERCURY,MARINER,2005,No,0.0,carried
+HUMMER,H2,2008,not_found,,rescue_failed
+SUZUKI,GRAND VITARA,2009,Standard,1.0,carried
+PONTIAC,GTO,2004,No,0.0,carried
+CHRYSLER,PT CRUISER,2001,No,0.0,carried
+MITSUBISHI,LANCER,2003,No,0.0,carried
+CHEVROLET,ASTRO VAN,2002,No,0.0,carried
+TOYOTA,RAV4,2006,Standard,1.0,carried
+HONDA,ODYSSEY,2009,Standard,1.0,carried
+BMW,750I,2008,not_found,,carried
+SATURN,VUE,2003,No,0.0,carried
+HUMMER,H2,2004,not_found,,rescue_failed
+MAZDA,MPV,2001,No,0.0,carried
+SATURN,LW2,2000,not_found,,carried
+BMW,328I,2008,not_found,,carried
+BUICK,LUCERNE,2010,Optional,,carried
+LAND ROVER,RANGE ROVER,2006,Standard,1.0,carried
+LINCOLN,MKZ,2008,No,0.0,carried
+LEXUS,GX,2005,not_found,,rescue_failed
+BUICK,CENTURY,2000,No,0.0,carried
+CHEVROLET,MONTE CARLO,2003,not_found,,carried
+FORD,EXPEDITION MAX,2008,Standard,1.0,carried
+CHRYSLER,VOYAGER,2002,No,0.0,carried
+AUDI,A6,2002,Standard,1.0,rescued
+MERCEDES-BENZ,SLK-CLASS,2005,Standard,1.0,carried
+MITSUBISHI,GALANT,2006,No,0.0,carried
+CHEVROLET,BLAZER,2001,No,0.0,carried
+TOYOTA,RAV4,2009,Standard,1.0,carried
+INFINITI,I35,2004,Optional,,carried
+CHRYSLER,PT CRUISER,2004,No,0.0,carried
+HYUNDAI,SANTA FE,2001,not_found,,carried
+NISSAN,PATHFINDER,2001,No,0.0,carried
+SATURN,ION,2003,No,0.0,carried
+VOLVO,S60,2005,Optional,,carried
+FORD,FLEX,2010,Standard,1.0,carried
+MITSUBISHI,LANCER,2004,No,0.0,carried
+MAZDA,MX-5,2001,not_found,,carried
+HUMMER,H2,2006,No,0.0,rescued
+SUZUKI,FORENZA,2007,No,0.0,carried
+MERCURY,MONTEGO,2006,No,0.0,carried
+CHEVROLET,CORVETTE,2000,not_found,,carried
+PONTIAC,VIBE,2008,Optional,,carried
+MAZDA,626,2002,No,0.0,carried
+MERCURY,SABLE,2000,No,0.0,carried
+JEEP,WRANGLER,2006,No,0.0,carried
+VOLVO,S40,2007,Standard,1.0,carried
+HONDA,PILOT,2010,Standard,1.0,carried
+ACURA,TL,2003,Optional,,rescued
+LAND ROVER,RANGE ROVER,2003,Standard,1.0,carried
+DODGE,MAGNUM,2005,Standard,1.0,carried
+VOLKSWAGEN,BEETLE,2006,not_found,,carried
+MERCURY,MARINER,2009,Standard,1.0,carried
+MERCEDES-BENZ,CLS-CLASS,2008,Standard,1.0,carried
+NISSAN,QUEST,2005,Optional,,carried
+VOLKSWAGEN,PASSAT,2002,ambiguous,,carried
+TOYOTA,PRIUS,2004,Optional,,carried
+NISSAN,MAXIMA,2010,Standard,1.0,carried
+HUMMER,H2,2003,not_found,,rescue_failed
+KIA,SPORTAGE,2010,Standard,1.0,carried
+JAGUAR,X-TYPE,2004,Optional,,carried
+MITSUBISHI,ECLIPSE,2008,Optional,,carried
+VOLVO,S40,2008,Standard,1.0,carried
+CADILLAC,ELDORADO,2000,not_found,,carried
+MERCEDES-BENZ,M-CLASS,2010,not_found,,carried
+MAZDA,CX-7,2008,Standard,1.0,carried
+CADILLAC,ELDORADO,2001,not_found,,carried
+MERCURY,GRAND MARQUIS,2002,No,0.0,carried
+NISSAN,XTERRA,2005,Optional,,carried
+ACURA,RSX,2006,No,0.0,carried
+CADILLAC,ESCALADE,2002,Standard,1.0,carried
+FORD,CROWN VICTORIA,2004,No,0.0,carried
+INFINITI,QX56,2007,Standard,1.0,carried
+FORD,RANGER,2007,No,0.0,carried
+LAND ROVER,FREELANDER,2002,No,0.0,carried
+BMW,330I,2001,not_found,,carried
+SUZUKI,AERIO,2002,No,0.0,carried
+TOYOTA,ECHO,2001,No,0.0,carried
+NISSAN,CUBE,2009,Standard,1.0,carried
+BMW,X5,2001,not_found,,rescue_failed
+CHEVROLET,MONTE CARLO,2004,No,0.0,carried
+ISUZU,RODEO,2001,No,0.0,carried
+MERCEDES-BENZ,C-CLASS,2009,Standard,1.0,carried
+NISSAN,MAXIMA,2005,Optional,,carried
+FORD,EXPLORER,2009,Standard,1.0,carried
+ACURA,MDX,2002,No,0.0,carried
+DODGE,GRAND CARAVAN,2004,No,0.0,carried
+MITSUBISHI,GALANT,2009,No,0.0,carried
+LAND ROVER,LR3,2005,Standard,1.0,carried
+MERCEDES-BENZ,CLK-CLASS,2008,Standard,1.0,carried
+HONDA,ODYSSEY,2003,No,0.0,carried
+INFINITI,I30,2001,No,0.0,carried
+KIA,SEDONA,2007,Standard,1.0,carried
+CHRYSLER,SEBRING,2004,No,0.0,carried
+LINCOLN,TOWN CAR,2002,No,0.0,carried
+CHEVROLET,BLAZER,2000,No,0.0,carried
+VOLVO,XC90,2008,Standard,1.0,carried
+JAGUAR,X-TYPE,2005,Standard,1.0,carried
+LINCOLN,TOWN CAR,2005,No,0.0,carried
+DODGE,GRAND CARAVAN,2009,Standard,1.0,carried
+OLDSMOBILE,SILHOUETTE,2003,No,0.0,carried
+LINCOLN,TOWN CAR,2007,No,0.0,carried
+TOYOTA,RAV4,2005,Standard,1.0,carried
+NISSAN,PATHFINDER,2008,Standard,1.0,carried
+CHEVROLET,SUBURBAN,2000,not_found,,carried
+HYUNDAI,SONATA,2002,No,0.0,carried
+MERCEDES-BENZ,E-CLASS,2005,Standard,1.0,carried
+NISSAN,QUEST,2002,No,0.0,carried
+SATURN,RELAY,2005,Optional,,carried
+BUICK,ENCLAVE,2010,Standard,1.0,carried
+SATURN,SW2,2000,not_found,,carried
+BMW,330XI,2004,not_found,,carried
+TOYOTA,VENZA,2009,Standard,1.0,carried
+MITSUBISHI,ECLIPSE SPYDER,2003,No,0.0,carried
+LEXUS,RX,2000,not_found,,rescue_failed
+SUZUKI,GRAND VITARA,2003,No,0.0,carried
+GMC,ACADIA,2008,Standard,1.0,carried
+BMW,Z4,2004,Standard,1.0,rescued
+MINI,CLUBMAN,2008,Standard,1.0,carried
+GMC,YUKON,2000,No,0.0,carried
+MERCURY,SABLE,2005,No,0.0,carried
+NISSAN,XTERRA,2009,Standard,1.0,carried
+SUBARU,FORESTER,2001,No,0.0,carried
+FORD,ESCAPE,2004,No,0.0,carried
+BMW,335I,2009,not_found,,carried
+JEEP,CHEROKEE,2001,No,0.0,carried
+BMW,330I,2006,not_found,,carried
+TOYOTA,SIENNA,2008,Standard,1.0,carried
+BMW,750LI,2009,not_found,,carried
+SATURN,VUE,2008,Standard,1.0,carried
+CHEVROLET,UPLANDER,2006,Optional,,carried
+DODGE,DURANGO,2008,Standard,1.0,carried
+MITSUBISHI,LANCER,2009,Optional,,carried
+KIA,SPECTRA,2003,No,0.0,carried
+FORD,TAURUS X,2009,Standard,1.0,carried
+BMW,530XI,2006,not_found,,carried
+LEXUS,IS,2003,not_found,,rescue_failed
+MINI,COOPER CONVERTIBLE,2009,Optional,,carried
+KIA,SEDONA,2006,Standard,1.0,carried
+NISSAN,MAXIMA,2000,No,0.0,carried
+CHEVROLET,MONTE CARLO,2001,No,0.0,carried
+CHRYSLER,PACIFICA,2006,No,0.0,carried
+GMC,ENVOY,2009,Standard,1.0,carried
+BMW,525I,2006,not_found,,carried
+VOLVO,S70,2000,No,0.0,carried
+PONTIAC,GRAND AM,2000,No,0.0,carried
+GMC,YUKON,2001,No,0.0,carried
+CHEVROLET,MONTE CARLO,2006,No,0.0,carried
+SAAB,9-3,2003,ambiguous,,carried
+TOYOTA,SIENNA,2007,Optional,,carried
+NISSAN,350Z,2004,Optional,,carried
+KIA,RIO,2001,No,0.0,carried
+CHEVROLET,TAHOE,2008,Standard,1.0,carried
+JAGUAR,XJ8,2003,not_found,,carried
+MERCURY,MONTEGO,2007,No,0.0,carried
+FORD,FREESTAR,2007,Optional,,carried
+TOYOTA,COROLLA MATRIX,2007,Optional,,carried
+CHRYSLER,LHS,2001,No,0.0,carried
+KIA,RONDO,2007,Optional,,carried
+LEXUS,RX,2007,not_found,,rescue_failed
+TOYOTA,AVALON,2001,Optional,,carried
+SUBARU,IMPREZA,2004,No,0.0,carried
+FORD,TAURUS,2009,Standard,1.0,carried
+SUBARU,LEGACY,2001,Optional,,carried
+SUBARU,LEGACY,2005,No,0.0,carried
+MERCEDES-BENZ,CLK-CLASS,2000,not_found,,carried
+FORD,ESCORT,2001,No,0.0,carried
+NISSAN,ALTIMA,2000,No,0.0,carried
+MERCEDES-BENZ,CLK-CLASS,2007,Standard,1.0,carried
+JEEP,LIBERTY,2003,No,0.0,carried
+PONTIAC,FIREBIRD,2001,No,0.0,carried
+OLDSMOBILE,BRAVADA,2002,No,0.0,carried
+VOLKSWAGEN,PASSAT,2001,No,0.0,carried
+SATURN,LS2,2001,not_found,,carried
+CHEVROLET,AVEO,2007,No,0.0,carried
+MERCEDES-BENZ,E-CLASS,2010,Standard,1.0,carried
+BMW,540I,2000,not_found,,carried
+MAZDA,626,2000,No,0.0,carried
+SUZUKI,VERONA,2005,No,0.0,carried
+GMC,YUKON,2003,Optional,,carried
+LEXUS,LS,2007,not_found,,rescue_failed
+LEXUS,RX,2005,not_found,,rescue_failed
+NISSAN,MURANO,2004,Optional,,carried
+MINI,COOPER,2010,Standard,1.0,carried
+ACURA,RSX,2005,No,0.0,carried
+NISSAN,ARMADA,2008,Standard,1.0,carried
+FORD,F-150,2005,No,0.0,carried
+MITSUBISHI,DIAMANTE,2004,No,0.0,carried
+CHEVROLET,TRACKER,2004,No,0.0,carried
+NISSAN,XTERRA,2008,Standard,1.0,carried
+HYUNDAI,TIBURON,2007,Optional,,carried
+BMW,X3,2008,Standard,1.0,rescued
+MERCURY,GRAND MARQUIS,2006,No,0.0,carried
+VOLVO,S40,2010,Standard,1.0,carried
+MITSUBISHI,MONTERO SPORT,2001,No,0.0,carried
+MERCEDES-BENZ,S-CLASS,2006,Standard,1.0,carried
+SATURN,L200,2003,not_found,,carried
+TOYOTA,SCION TC,2000,not_found,,carried
+VOLVO,V70,2001,not_found,,carried
+BMW,325XI,2003,not_found,,carried
+SUBARU,OUTBACK,2007,Optional,,carried
+TOYOTA,ECHO,2000,not_found,,carried
+ISUZU,TROOPER,2002,No,0.0,carried
+BUICK,REGAL,2001,No,0.0,carried
+SUZUKI,GRAND VITARA,2001,No,0.0,carried
+MITSUBISHI,LANCER,2008,Optional,,carried
+FORD,FREESTAR,2006,Optional,,carried
+SUBARU,B9 TRIBECA,2007,not_found,,carried
+TOYOTA,SEQUOIA,2008,Standard,1.0,carried
+PONTIAC,GRAND AM,2001,No,0.0,carried
+CHEVROLET,EQUINOX,2009,Standard,1.0,carried
+CHEVROLET,MALIBU CLASSIC,2004,No,0.0,carried
+VOLVO,XC90,2006,Standard,1.0,carried
+DODGE,NEON,2001,No,0.0,carried
+CHEVROLET,GEO PRIZM,2002,not_found,,carried
+MITSUBISHI,ECLIPSE,2007,No,0.0,carried
+CHEVROLET,CORVETTE,2002,Standard,1.0,carried
+LINCOLN,MKZ,2009,Standard,1.0,carried
+HYUNDAI,TIBURON,2004,No,0.0,carried
+VOLVO,S40,2005,Optional,,carried
+MINI,COOPER,2005,Optional,,carried
+MERCURY,SABLE,2001,Optional,,carried
+FORD,FIVE HUNDRED,2007,No,0.0,carried
+OLDSMOBILE,AURORA,2003,Standard,1.0,carried
+CHEVROLET,HHR,2008,Optional,,carried
+BUICK,RENDEZVOUS,2006,No,0.0,carried
+GMC,TERRAIN,2010,Standard,1.0,carried
+VOLKSWAGEN,PASSAT,2010,Standard,1.0,carried
+MITSUBISHI,ECLIPSE SPYDER,2008,No,0.0,carried
+SUZUKI,GRAND VITARA,2005,No,0.0,carried
+GMC,SAFARI,2002,No,0.0,carried
+FORD,FREESTAR,2005,Optional,,carried
+GMC,YUKON XL,2005,Optional,,carried
+AUDI,A5,2010,Standard,1.0,rescued
+NISSAN,PATHFINDER,2004,Optional,,carried
+SATURN,OUTLOOK,2008,Standard,1.0,carried
+DODGE,DURANGO,2006,Optional,,carried
+HONDA,ACCORD CROSSTOUR,2010,Standard,1.0,carried
+MITSUBISHI,OUTLANDER,2008,Standard,1.0,carried
+TOYOTA,PRIUS,2010,Standard,1.0,carried
+BMW,528I,2010,not_found,,carried
+BMW,X5,2004,Standard,1.0,rescued
+CADILLAC,COMMERCIAL CHASSIS,2007,not_found,,carried
+KIA,RIO,2007,No,0.0,carried
+MAZDA,MX-5,2006,not_found,,carried
+MERCURY,MOUNTAINEER,2006,Standard,1.0,carried
+MERCEDES-BENZ,C-CLASS,2000,not_found,,carried
+FORD,ESCAPE,2007,No,0.0,carried
+HONDA,ELEMENT,2004,No,0.0,carried
+FORD,WINDSTAR,2001,No,0.0,carried
+MAZDA,CX-9,2009,Standard,1.0,carried
+TOYOTA,RAV4,2007,Standard,1.0,carried
+BMW,328XI,2007,not_found,,carried
+INFINITI,QX4,2003,No,0.0,carried
+BMW,M5,2000,not_found,,rescue_failed
+ACURA,RDX,2007,Standard,1.0,carried
+CADILLAC,CTS,2006,Optional,,carried
+HYUNDAI,XG300,2001,not_found,,carried
+ACURA,MDX,2010,Standard,1.0,carried
+LEXUS,ES,2005,not_found,,rescue_failed
+DODGE,INTREPID,2004,No,0.0,carried
+BMW,335D,2009,not_found,,carried
+TOYOTA,SCION XB,2008,Standard,1.0,carried
+VOLKSWAGEN,BEETLE,2001,not_found,,carried
+VOLKSWAGEN,EOS,2007,Standard,1.0,carried
+SUBARU,LEGACY,2000,No,0.0,carried
+CHEVROLET,AVEO,2006,No,0.0,carried
+FORD,EXPEDITION,2009,Standard,1.0,carried
+MERCEDES-BENZ,M-CLASS,2007,not_found,,carried
+BMW,X5,2006,Standard,1.0,rescued
+TOYOTA,SEQUOIA,2002,Standard,1.0,carried
+GMC,ENVOY,2006,Standard,1.0,carried
+SATURN,SC2,2001,not_found,,carried
+BUICK,LUCERNE,2007,Optional,,carried
+MERCEDES-BENZ,CLK-CLASS,2003,Standard,1.0,carried
+BUICK,TERRAZA,2007,Standard,1.0,carried
+VOLKSWAGEN,PASSAT,2007,Standard,1.0,carried
+LAND ROVER,LR3,2008,Standard,1.0,carried
+LINCOLN,TOWN CAR,2003,No,0.0,carried
+MERCURY,MOUNTAINEER,2004,Optional,,carried
+VOLKSWAGEN,GLI,2008,Standard,1.0,carried
+HYUNDAI,ACCENT,2000,not_found,,carried
+CHEVROLET,GEO PRIZM,2001,not_found,,carried
+OLDSMOBILE,AURORA,2001,Optional,,carried
+MAZDA,MAZDA5,2007,No,0.0,carried
+MERCEDES-BENZ,E-CLASS,2002,Standard,1.0,carried
+NISSAN,XTERRA,2002,No,0.0,carried
+MERCURY,SABLE,2008,Optional,,carried
+NISSAN,PATHFINDER,2006,Standard,1.0,carried
+INFINITI,G37,2008,Standard,1.0,carried
+MERCURY,MYSTIQUE,2000,No,0.0,carried
+BMW,330CI,2003,not_found,,carried
+TOYOTA,4-RUNNER,2004,not_found,,carried
+HONDA,ODYSSEY,2004,No,0.0,carried
+GMC,YUKON XL,2002,No,0.0,carried
+CHEVROLET,BLAZER,2003,No,0.0,carried
+BUICK,PARK AVENUE,2002,Optional,,carried
+CHEVROLET,VENTURE,2005,No,0.0,carried
+HYUNDAI,ACCENT,2004,No,0.0,carried
+BUICK,LACROSSE,2008,Optional,,carried
+JEEP,LIBERTY,2007,Standard,1.0,carried
+GMC,YUKON XL,2000,No,0.0,carried
+VOLKSWAGEN,TOUAREG,2008,Standard,1.0,carried
+VOLKSWAGEN,GTI,2002,not_found,,carried
+MERCEDES-BENZ,C-CLASS,2010,Standard,1.0,carried
+HYUNDAI,TIBURON,2005,No,0.0,carried
+HONDA,PASSPORT,2000,No,0.0,carried
+LEXUS,LS,2008,not_found,,rescue_failed
+BMW,X5,2008,Standard,1.0,rescued
+MITSUBISHI,LANCER,2005,No,0.0,carried
+AUDI,A4,2007,not_found,,rescue_failed
+PONTIAC,GRAND PRIX,2003,No,0.0,carried
+MAZDA,TRIBUTE,2005,No,0.0,carried
+MAZDA,MX-5,2000,not_found,,carried
+MERCURY,MILAN,2009,Optional,,carried
+TOYOTA,YARIS,2010,Standard,1.0,carried
+CADILLAC,ESCALADE,2005,Standard,1.0,carried
+CHEVROLET,SUBURBAN,2002,No,0.0,carried
+AUDI,A6,2010,Standard,1.0,rescued
+MERCEDES-BENZ,CLK-CLASS,2002,Standard,1.0,carried
+GMC,SIERRA,2007,Optional,,carried
+DODGE,STRATUS,2001,No,0.0,carried
+NISSAN,350Z,2006,Optional,,carried
+LINCOLN,MKS,2010,Standard,1.0,carried
+HUMMER,H3,2009,Standard,1.0,rescued
+VOLVO,XC90,2005,Standard,1.0,carried
+CADILLAC,ESCALADE,2000,No,0.0,carried
+KIA,RIO,2005,No,0.0,carried
+AUDI,Q7,2008,Standard,1.0,rescued
+MAZDA,MILLENIA,2002,No,0.0,carried
+GMC,JIMMY UTILITY,2001,No,0.0,carried
+VOLVO,S80,2005,Optional,,carried
+BMW,750LI,2007,not_found,,carried
+HONDA,INSIGHT,2010,Optional,,carried
+MERCURY,GRAND MARQUIS,2000,No,0.0,carried
+HONDA,FIT,2007,No,0.0,carried
+GMC,YUKON XL,2003,Optional,,carried
+AUDI,Q5,2010,Standard,1.0,rescued
+NISSAN,350Z,2007,Optional,,carried
+FORD,EXPEDITION,2002,No,0.0,carried
+SUBARU,IMPREZA,2006,No,0.0,carried
+SAAB,9-5,2005,Standard,1.0,carried
+LEXUS,LS,2004,not_found,,rescue_failed
+HONDA,ELEMENT,2009,Standard,1.0,carried
+BMW,530I,2005,not_found,,carried
+HONDA,S2000,2003,No,0.0,carried
+PORSCHE,PANAMERA,2010,Standard,1.0,carried
+BUICK,RAINIER,2007,Standard,1.0,carried
+MITSUBISHI,GALANT,2008,No,0.0,carried
+KIA,SPECTRA LD,2004,No,0.0,carried
+SUBARU,IMPREZA,2007,No,0.0,carried
+VOLKSWAGEN,BEETLE,2003,not_found,,carried
+JAGUAR,S-TYPE,2000,not_found,,carried
+BMW,Z3,2000,not_found,,rescue_failed
+JEEP,CHEROKEE,2000,No,0.0,carried
+ISUZU,RODEO,2002,No,0.0,carried
+MERCEDES-BENZ,C-CLASS,2001,not_found,,carried
+AUDI,TT,2008,Standard,1.0,rescued
+BMW,525I,2001,not_found,,carried
+NISSAN,XTERRA,2003,Optional,,carried
+GMC,YUKON XL,2004,Optional,,carried
+TOYOTA,RAV4,2001,No,0.0,carried
+AUDI,A3,2007,Standard,1.0,rescued
+TOYOTA,SIENNA,2000,No,0.0,carried
+VOLKSWAGEN,JETTA WAGON,2010,Standard,1.0,carried
+CHEVROLET,VENTURE,2004,No,0.0,carried
+SUBARU,OUTBACK,2008,Optional,,carried
+NISSAN,CUBE,2010,Standard,1.0,carried
+LINCOLN,AVIATOR,2003,Optional,,carried
+LAND ROVER,RANGE ROVER SPORT,2007,Standard,1.0,carried
+NISSAN,MURANO,2010,Standard,1.0,carried
+TOYOTA,SCION XA,2005,No,0.0,carried
+MITSUBISHI,ECLIPSE SPYDER,2001,No,0.0,carried
+SATURN,LS1,2000,not_found,,carried
+MERCURY,COUGAR,2002,No,0.0,carried
+CADILLAC,DEVILLE,2002,Optional,,carried
+CADILLAC,ESCALADE,2008,Standard,1.0,carried
+HONDA,PRELUDE,2001,not_found,,carried
+LEXUS,SC,2002,not_found,,rescue_failed
+CHEVROLET,ASTRO VAN,2005,No,0.0,carried
+GMC,ACADIA,2009,Standard,1.0,carried
+CHEVROLET,TAHOE,2005,Optional,,carried
+INFINITI,I30,2000,No,0.0,carried
+PONTIAC,SUNFIRE,2003,No,0.0,carried
+PORSCHE,BOXSTER,2003,Optional,,carried
+MERCEDES-BENZ,S-CLASS,2002,Standard,1.0,carried
+VOLVO,XC60,2010,Standard,1.0,carried
+NISSAN,ARMADA,2007,Standard,1.0,carried
+SMART,FORTWO,2008,Standard,1.0,carried
+NISSAN,ARMADA,2004,Standard,1.0,carried
+MERCURY,MOUNTAINEER,2003,Optional,,carried
+CHEVROLET,CORVETTE,2001,not_found,,carried
+BMW,330CIC,2003,not_found,,carried
+ACURA,RL,2010,Standard,1.0,rescued
+CHEVROLET,CAVALIER,2001,No,0.0,carried
+HYUNDAI,ACCENT,2003,ambiguous,,carried
+HONDA,S2000,2008,Standard,1.0,carried
+MAZDA,MPV,2004,No,0.0,carried
+LEXUS,ES,2000,not_found,,rescue_failed
+TOYOTA,PRIUS,2002,Optional,,carried
+CHRYSLER,300,2000,not_found,,carried
+TOYOTA,PRIUS,2009,Optional,,carried
+NISSAN,370Z,2010,Standard,1.0,carried
+TOYOTA,SCION XB,2010,Standard,1.0,carried
+JEEP,WRANGLER,2004,No,0.0,carried
+KIA,RONDO,2009,Standard,1.0,carried
+FORD,EXPEDITION,2005,Optional,,carried
+HONDA,ELEMENT,2003,No,0.0,carried
+PONTIAC,BONNEVILLE,2005,Optional,,carried
+FORD,CROWN VICTORIA,2002,No,0.0,carried
+PONTIAC,BONNEVILLE,2000,not_found,,carried
+LINCOLN,MKX,2010,Standard,1.0,carried
+LEXUS,IS,2009,Standard,1.0,rescued
+HYUNDAI,GENESIS COUPE,2010,Standard,1.0,carried
+FORD,F-150,2004,No,0.0,carried
+MAZDA,MAZDA3,2004,No,0.0,carried
+PONTIAC,G3,2009,No,0.0,rescued
+MERCEDES-BENZ,SLK-CLASS,2003,not_found,,carried
+MERCURY,GRAND MARQUIS,2005,No,0.0,carried
+BMW,X3,2006,Standard,1.0,rescued
+SATURN,SL1,2000,not_found,,carried
+FORD,F-150,2006,No,0.0,carried
+FORD,F-350,2005,not_found,,carried
+TOYOTA,HIGHLANDER,2009,Standard,1.0,carried
+GMC,SIERRA,2001,No,0.0,carried
+KIA,BORREGO,2009,Standard,1.0,carried
+MINI,COOPER,2009,Optional,,carried
+FORD,ESCAPE,2001,No,0.0,carried
+ISUZU,AXIOM,2002,No,0.0,carried
+JEEP,PATRIOT,2008,Standard,1.0,carried
+SAAB,9-3,2007,Standard,1.0,carried
+TOYOTA,CELICA,2004,No,0.0,carried
+FORD,FOCUS,2003,Optional,,carried
+MERCEDES-BENZ,R-CLASS,2008,Standard,1.0,carried
+KIA,SPORTAGE,2002,No,0.0,carried
+SATURN,LS,2002,not_found,,rescue_failed
+TOYOTA,COROLLA MATRIX,2008,Optional,,carried
+INFINITI,EX35,2008,Standard,1.0,carried
+CADILLAC,DTS,2006,Optional,,carried
+CHRYSLER,300C,2007,not_found,,carried
+SUBARU,IMPREZA,2010,Standard,1.0,carried
+INFINITI,M35,2008,not_found,,carried
+TOYOTA,LAND CRUISER,2000,not_found,,carried
+MERCEDES-BENZ,M-CLASS,2008,not_found,,carried
+MERCEDES-BENZ,S-CLASS,2003,Standard,1.0,carried
+TOYOTA,SEQUOIA,2010,Standard,1.0,carried
+VOLVO,S60,2001,No,0.0,carried
+VOLKSWAGEN,TOUAREG,2010,Standard,1.0,carried
+SUBARU,LEGACY,2008,Optional,,carried
+HONDA,ELEMENT,2007,Standard,1.0,carried
+ACURA,MDX,2001,not_found,,carried
+HYUNDAI,SANTA FE,2006,No,0.0,carried
+ISUZU,RODEO,2004,No,0.0,carried
+LAND ROVER,DISCOVERY,2004,No,0.0,carried
+SUBARU,LEGACY,2009,Optional,,carried
+KIA,OPTIMA,2002,No,0.0,carried
+AUDI,Q5,2009,Standard,1.0,rescued
+LEXUS,LX,2000,not_found,,rescue_failed
+BUICK,RENDEZVOUS,2007,No,0.0,carried
+BUICK,REGAL,2000,No,0.0,carried
+CHEVROLET,SUBURBAN,2005,Optional,,carried
+FORD,EXCURSION,2004,not_found,,carried
+BUICK,RAINIER,2005,No,0.0,carried
+SUZUKI,FORENZA,2006,No,0.0,carried
+KIA,OPTIMA,2003,No,0.0,carried
+HONDA,ELEMENT,2010,Standard,1.0,carried
+TOYOTA,SCION XD,2009,Optional,,carried
+LINCOLN,MKT,2010,Standard,1.0,carried
+VOLVO,S40,2002,Optional,,carried
+PONTIAC,GRAND PRIX,2004,Optional,,carried
+SATURN,OUTLOOK,2007,Standard,1.0,carried
+PONTIAC,SUNFIRE,2005,No,0.0,carried
+CHRYSLER,300,2010,Optional,,carried
+LEXUS,RX,2002,not_found,,rescue_failed
+CADILLAC,DTS,2008,Standard,1.0,carried
+INFINITI,FX50,2010,not_found,,carried
+HYUNDAI,ELANTRA TOURING,2010,Standard,1.0,carried
+MITSUBISHI,ENDEAVOR,2005,Optional,,carried
+PONTIAC,GRAND PRIX,2005,Optional,,carried
+CHEVROLET,AVEO,2009,No,0.0,carried
+SATURN,AURA,2009,Standard,1.0,carried
+VOLVO,S80,2000,No,0.0,carried
+ACURA,RDX,2010,Standard,1.0,carried
+VOLVO,XC70,2006,Optional,,carried
+SUBARU,FORESTER,2003,No,0.0,carried
+ISUZU,AXIOM,2003,No,0.0,carried
+LEXUS,GS,2007,not_found,,rescue_failed
+HYUNDAI,TUCSON,2008,Standard,1.0,carried
+AUDI,A6,2007,Standard,1.0,rescued
+PONTIAC,BONNEVILLE,2001,Optional,,carried
+HYUNDAI,AZERA,2007,Standard,1.0,carried
+LINCOLN,TOWN CAR,2008,No,0.0,carried
+MERCEDES-BENZ,CLK-CLASS,2001,not_found,,carried
+MERCEDES-BENZ,M-CLASS,2009,not_found,,carried
+INFINITI,FX35,2009,not_found,,carried
+DODGE,CALIBER,2009,Optional,,carried
+TOYOTA,VENZA,2010,Standard,1.0,carried
+DODGE,DURANGO,2007,Standard,1.0,carried
+OLDSMOBILE,SILHOUETTE,2004,No,0.0,carried
+CHEVROLET,CAMARO,2002,No,0.0,carried
+MERCURY,MARINER,2007,No,0.0,carried
+NISSAN,QUEST,2009,Optional,,carried
+MITSUBISHI,GALANT,2010,Standard,1.0,carried
+VOLKSWAGEN,GTI,2001,not_found,,carried
+BMW,645CI,2005,not_found,,carried
+BMW,528I,2009,not_found,,carried
+LEXUS,GS,2010,not_found,,rescue_failed
+TOYOTA,SCION XD,2010,Standard,1.0,carried
+SUBARU,BAJA,2003,No,0.0,carried
+SUBARU,B9 TRIBECA,2009,not_found,,carried
+VOLVO,V70,2002,Optional,,carried
+SAAB,9-3,2004,Standard,1.0,carried
+KIA,SPECTRA,2004,No,0.0,carried
+HYUNDAI,TUCSON,2007,Standard,1.0,carried
+FORD,F-250,2006,not_found,,carried
+AUDI,A3,2006,Standard,1.0,rescued
+CHEVROLET,EQUINOX,2010,Standard,1.0,carried
+SUBARU,FORESTER,2006,No,0.0,carried
+VOLVO,V50,2006,Optional,,carried
+FORD,TAURUS X,2008,Standard,1.0,carried
+LINCOLN,TOWN CAR,2009,No,0.0,carried
+VOLKSWAGEN,GTI,2009,Standard,1.0,carried
+AUDI,A4,2008,Standard,1.0,rescued
+HYUNDAI,ACCENT,2007,No,0.0,carried
+VOLKSWAGEN,JETTA WAGON,2005,Optional,,carried
+ISUZU,ASCENDER,2004,No,0.0,carried
+VOLKSWAGEN,PASSAT,2005,Standard,1.0,carried
+MERCURY,MONTEREY,2005,Optional,,carried
+FORD,F-550,2001,not_found,,carried
+MAZDA,MAZDA6,2008,No,0.0,carried
+CHRYSLER,300,2004,not_found,,carried
+MITSUBISHI,ECLIPSE,2009,Optional,,carried
+GMC,YUKON XL,2009,Standard,1.0,carried
+MINI,COOPER CONVERTIBLE,2006,Optional,,carried
+MAZDA,CX-9,2007,Standard,1.0,carried
+SATURN,SKY,2008,Standard,1.0,carried
+PONTIAC,AZTEK,2003,No,0.0,carried
+HONDA,ELEMENT,2005,No,0.0,carried
+HYUNDAI,TIBURON,2001,not_found,,carried
+PONTIAC,MONTANA/ SV6,2003,not_found,,carried
+MERCEDES-BENZ,GL-CLASS,2008,Standard,1.0,carried
+MINI,COOPER,2008,Optional,,carried
+INFINITI,FX35,2004,not_found,,carried
+HYUNDAI,TUCSON,2005,Standard,1.0,carried
+TOYOTA,CELICA,2003,No,0.0,carried
+HYUNDAI,SONATA,2000,No,0.0,carried
+BMW,330CI,2001,not_found,,carried
+KIA,SORENTO,2009,Standard,1.0,carried
+PORSCHE,BOXSTER,2009,Standard,1.0,carried
+VOLVO,C30,2008,Standard,1.0,carried
+LEXUS,GS,2005,not_found,,rescue_failed
+LEXUS,LS,2001,not_found,,rescue_failed
+INFINITI,M45,2007,not_found,,carried
+HUMMER,H2,2007,No,0.0,rescued
+FORD,E-150,2002,not_found,,carried
+CADILLAC,ESCALADE,2010,Standard,1.0,carried
+MERCEDES-BENZ,E-CLASS,2009,Standard,1.0,carried
+AUDI,A4,2009,Standard,1.0,rescued
+VOLKSWAGEN,ROUTAN,2010,Standard,1.0,carried
+MERCURY,MOUNTAINEER,2005,Standard,1.0,carried
+JEEP,GRAND CHEROKEE,2008,Standard,1.0,carried
+SATURN,VUE,2007,No,0.0,carried
+MERCEDES-BENZ,E-CLASS,2007,Standard,1.0,carried
+KIA,SPECTRA,2002,No,0.0,carried
+DODGE,NITRO,2009,Standard,1.0,carried
+FORD,ZX2,2003,No,0.0,carried
+PONTIAC,TORRENT,2007,Standard,1.0,carried
+LINCOLN,LS,2003,Optional,,rescued
+MERCEDES-BENZ,M-CLASS,2004,not_found,,carried
+HYUNDAI,ACCENT,2001,No,0.0,carried
+CADILLAC,SRX,2006,Standard,1.0,carried
+CHEVROLET,LUMINA,2000,No,0.0,carried
+CADILLAC,DEVILLE,2000,No,0.0,carried
+ACURA,TSX,2008,Standard,1.0,carried
+LEXUS,RX,2009,not_found,,rescue_failed
+LINCOLN,NAVIGATOR,2003,Optional,,carried
+DODGE,DAKOTA,2000,No,0.0,carried
+HUMMER,H3,2006,No,0.0,rescued
+CHEVROLET,VENTURE,2001,No,0.0,carried
+AUDI,A6,2005,Standard,1.0,rescued
+SATURN,LS2,2000,not_found,,carried
+PONTIAC,TORRENT,2009,Standard,1.0,carried
+LEXUS,GX,2006,not_found,,rescue_failed
+NISSAN,XTERRA,2004,Optional,,carried
+BMW,530IA,2003,not_found,,carried
+PONTIAC,BONNEVILLE,2002,Optional,,carried
+ACURA,MDX,2003,Standard,1.0,carried
+VOLVO,V40,2004,No,0.0,carried
+TOYOTA,PRIUS,2006,Optional,,carried
+SUBARU,FORESTER,2007,No,0.0,carried
+KIA,SEPHIA II/SPECTRA,2000,not_found,,carried
+BUICK,REGAL,2003,No,0.0,carried
+MERCURY,MARINER,2010,Standard,1.0,carried
+VOLVO,S60,2007,Standard,1.0,carried
+NISSAN,ARMADA,2006,Standard,1.0,carried
+CHEVROLET,AVALANCHE,2009,Standard,1.0,carried
+SUBARU,BAJA,2006,No,0.0,carried
+TOYOTA,TACOMA,2002,No,0.0,carried
+LEXUS,GX,2007,not_found,,rescue_failed
+JEEP,COMPASS,2009,Standard,1.0,carried
+FORD,E-250,2008,not_found,,carried
+CHEVROLET,TRAVERSE,2009,Standard,1.0,carried
+CHRYSLER,TOWN AND COUNTRY,2009,not_found,,carried
+NISSAN,PATHFINDER,2010,Standard,1.0,carried
+AUDI,A6,2003,Standard,1.0,rescued
+CHRYSLER,CONCORDE,2004,No,0.0,carried
+VOLVO,S80,2007,Optional,,carried
+MAZDA,MX-5,2007,not_found,,carried
+LEXUS,LS,2010,not_found,,rescue_failed
+JAGUAR,XK,2007,Standard,1.0,rescued
+ACURA,RSX,2003,No,0.0,carried
+FORD,F-150,2010,Standard,1.0,carried
+MAZDA,MX-5,2002,not_found,,carried
+MERCURY,MILAN,2010,Standard,1.0,carried
+AUDI,A6,2004,Standard,1.0,rescued
+VOLVO,XC70,2005,Optional,,carried
+CHEVROLET,TRACKER,2002,No,0.0,carried
+CADILLAC,STS,2008,Standard,1.0,carried
+BMW,X5,2003,Standard,1.0,rescued
+DODGE,MAGNUM,2006,Standard,1.0,carried
+MERCURY,MILAN,2006,No,0.0,carried
+MAZDA,MPV,2002,No,0.0,carried
+VOLVO,S60,2002,Optional,,carried
+SAAB,9-3,2000,not_found,,carried
+HONDA,PASSPORT,2001,No,0.0,carried
+LEXUS,GX,2004,not_found,,rescue_failed
+HONDA,S2000,2005,No,0.0,carried
+NISSAN,MAXIMA,2003,No,0.0,carried
+LINCOLN,CONTINENTAL,2001,not_found,,carried
+CHEVROLET,TRACKER,2003,No,0.0,carried
+LINCOLN,TOWN CAR,2004,No,0.0,carried
+FORD,F-350,2008,No,0.0,carried
+MITSUBISHI,ENDEAVOR,2006,Optional,,carried
+PONTIAC,GTO,2006,No,0.0,carried
+LEXUS,ES,2009,not_found,,rescue_failed
+LAND ROVER,DISCOVERY,2000,not_found,,carried
+SATURN,LS2,2002,not_found,,carried
+MERCEDES-BENZ,S-CLASS,2007,Standard,1.0,carried
+TOYOTA,FJ CRUISER,2010,Standard,1.0,carried
+TOYOTA,TACOMA,2004,Optional,,carried
+ACURA,RL,2006,Standard,1.0,rescued
+PONTIAC,SUNFIRE,2002,No,0.0,carried
+MERCEDES-BENZ,CLK-CLASS,2009,Standard,1.0,carried
+LEXUS,LX,2002,not_found,,rescue_failed
+KIA,SEDONA,2009,Standard,1.0,carried
+BUICK,RENDEZVOUS,2003,No,0.0,carried
+MAZDA,PROTEGE,2003,No,0.0,carried
+INFINITI,M35,2007,not_found,,carried
+BMW,525IA,2003,not_found,,carried
+FORD,CROWN VICTORIA,2001,No,0.0,carried
+MERCEDES-BENZ,CL-CLASS,2004,Standard,1.0,carried
+BMW,535I,2008,not_found,,carried
+TOYOTA,SCION XB,2009,Standard,1.0,carried
+VOLKSWAGEN,BEETLE,2008,not_found,,carried
+ACURA,INTEGRA,2001,not_found,,carried
+GMC,YUKON XL,2010,Standard,1.0,carried
+SUBARU,B9 TRIBECA,2006,not_found,,carried
+LEXUS,GX,2009,not_found,,rescue_failed
+KIA,OPTIMA,2010,Standard,1.0,carried
+MAZDA,RX-8,2006,Optional,,carried
+CADILLAC,STS,2006,Standard,1.0,carried
+VOLVO,S80,2001,Optional,,carried
+AUDI,TT,2004,Standard,1.0,rescued
+CHEVROLET,CORVETTE,2008,Standard,1.0,carried
+INFINITI,M45,2003,Standard,1.0,carried
+LEXUS,LX,2003,not_found,,rescue_failed
+VOLVO,XC90,2009,Standard,1.0,carried
+INFINITI,FX35,2003,not_found,,carried
+INFINITI,Q45,2000,not_found,,carried
+NISSAN,QUEST,2008,Optional,,carried
+ACURA,TL,2009,Standard,1.0,rescued
+BMW,M3,2008,not_found,,rescue_failed
+CHEVROLET,LUMINA,2001,No,0.0,carried
+INFINITI,QX4,2001,No,0.0,carried
+BMW,135I,2010,not_found,,carried
+AUDI,S5,2009,Standard,1.0,rescued
+SUZUKI,SX4,2008,Optional,,carried
+PONTIAC,SUNFIRE,2004,No,0.0,carried
+LEXUS,IS,2001,not_found,,rescue_failed
+SUZUKI,AERIO,2003,No,0.0,carried
+VOLVO,S60,2009,Standard,1.0,carried
+MERCURY,SABLE,2009,Standard,1.0,carried
+HONDA,S2000,2000,not_found,,carried
+CHEVROLET,TAHOE,2000,No,0.0,carried
+SUZUKI,FORENZA,2008,No,0.0,carried
+NISSAN,QUEST,2004,Optional,,carried
+KIA,RIO,2002,No,0.0,carried
+MERCEDES-BENZ,R-CLASS,2006,Standard,1.0,carried
+GMC,SAFARI,2000,No,0.0,carried
+PONTIAC,MONTANA/ SV6,2002,not_found,,carried
+INFINITI,EX35,2010,Standard,1.0,carried
+LINCOLN,AVIATOR,2004,Optional,,carried
+FORD,EXPLORER SPORT,2003,No,0.0,carried
+MERCEDES-BENZ,GL-CLASS,2007,Standard,1.0,carried
+BMW,325I,2001,not_found,,carried
+BMW,330I,2004,not_found,,carried
+JAGUAR,VANDEN PLAS,2002,not_found,,carried
+VOLKSWAGEN,JETTA WAGON,2002,Optional,,carried
+CADILLAC,SRX,2008,Standard,1.0,carried
+HYUNDAI,VERACRUZ,2008,Standard,1.0,carried
+DODGE,STRATUS,2003,No,0.0,carried
+BUICK,LESABRE,2003,Optional,,carried
+MITSUBISHI,ENDEAVOR,2007,Standard,1.0,carried
+MAZDA,MAZDA3,2009,Optional,,carried
+HYUNDAI,TUCSON,2009,Standard,1.0,carried
+CHRYSLER,PACIFICA,2008,Standard,1.0,carried
+MERCEDES-BENZ,S-CLASS,2001,not_found,,carried
+SUBARU,OUTBACK,2006,Optional,,carried
+CHRYSLER,LHS,2000,No,0.0,carried
+VOLVO,XC70,2010,Standard,1.0,carried
+VOLVO,S40,2003,No,0.0,carried
+MITSUBISHI,DIAMANTE,2000,not_found,,carried
+MAZDA,MAZDA5,2009,No,0.0,carried
+CHEVROLET,CAMARO,2000,No,0.0,carried
+BUICK,REGAL,2002,No,0.0,carried
+PONTIAC,BONNEVILLE,2004,Optional,,carried
+BMW,325XI,2006,not_found,,carried
+AUDI,RS6,2003,Standard,1.0,carried
+DODGE,RAM VAN,2001,No,0.0,carried
+VOLVO,S80,2008,Standard,1.0,carried
+JEEP,CHEROKEE,2005,not_found,,carried
+CHRYSLER,CONCORDE,2000,No,0.0,carried
+DODGE,CHALLENGER,2009,Optional,,carried
+MITSUBISHI,ENDEAVOR,2010,Standard,1.0,carried
+CHEVROLET,MONTE CARLO,2005,No,0.0,carried
+TOYOTA,COROLLA MATRIX,2004,No,0.0,carried
+LINCOLN,CONTINENTAL,2000,not_found,,carried
+LINCOLN,LS,2001,Optional,,rescued
+KIA,AMANTI,2007,Optional,,carried
+VOLVO,C70,2003,Optional,,carried
+MERCEDES-BENZ,SLK-CLASS,2001,not_found,,carried
+MAZDA,MX-5,2003,not_found,,carried
+CHRYSLER,CIRRUS,2000,No,0.0,carried
+SUZUKI,XL7,2007,Standard,1.0,carried
+KIA,RIO,2004,No,0.0,carried
+DODGE,NITRO,2010,Standard,1.0,carried
+OLDSMOBILE,BRAVADA,2003,No,0.0,carried
+BUICK,PARK AVENUE,2001,Optional,,carried
+BUICK,REGAL,2004,No,0.0,carried
+KIA,AMANTI,2006,Optional,,carried
+SAAB,9-3,2006,Standard,1.0,carried
+SUZUKI,SX4,2007,Optional,,carried
+ACURA,TL,2008,Standard,1.0,rescued
+LEXUS,HS,2010,not_found,,rescue_failed
+VOLVO,XC70,2007,Standard,1.0,carried
+SAAB,9-3,2009,Standard,1.0,carried
+TOYOTA,LAND CRUISER,2006,not_found,,carried
+VOLKSWAGEN,BEETLE,2002,not_found,,carried
+LAND ROVER,LR2,2008,Standard,1.0,carried
+NISSAN,MAXIMA,2008,Optional,,carried
+DODGE,MAGNUM,2008,Optional,,carried
+OLDSMOBILE,SILHOUETTE,2000,No,0.0,carried
+JEEP,COMPASS,2010,Standard,1.0,carried
+SATURN,ASTRA,2008,Optional,,carried
+VOLVO,V70,2005,Optional,,carried
+MERCURY,GRAND MARQUIS,2009,No,0.0,carried
+MINI,COOPER,2007,Optional,,carried
+BMW,M3CI,2002,not_found,,carried
+SATURN,SC2,2002,not_found,,carried
+AUDI,A6,2000,not_found,,rescue_failed
+BMW,550I,2008,not_found,,carried
+MITSUBISHI,MIRAGE,2000,not_found,,carried
+NISSAN,QUEST,2006,Optional,,carried
+VOLVO,XC90,2004,Standard,1.0,carried
+MINI,CLUBMAN,2009,Standard,1.0,carried
+GMC,YUKON XL,2008,Standard,1.0,carried
+PORSCHE,CAYENNE,2005,Standard,1.0,carried
+TOYOTA,AVALON,2009,Standard,1.0,carried
+SATURN,OUTLOOK,2009,Standard,1.0,carried
+TOYOTA,PRIUS,2001,Optional,,carried
+HYUNDAI,TIBURON,2003,Optional,,carried
+SATURN,RELAY,2006,Optional,,carried
+SATURN,SC2,2000,not_found,,carried
+MITSUBISHI,ECLIPSE SPYDER,2002,No,0.0,carried
+MERCEDES-BENZ,SL-CLASS,2004,Standard,1.0,carried
+LINCOLN,AVIATOR,2005,Standard,1.0,carried
+INFINITI,FX35,2005,not_found,,carried
+CHEVROLET,BLAZER,2004,No,0.0,carried
+WILSON TRAILER CO.,WILSON TRAILER CO.,2007,not_found,,carried
+HYUNDAI,AZERA,2009,Standard,1.0,carried
+VOLVO,S60,2003,Optional,,carried
+MITSUBISHI,LANCER,2007,No,0.0,carried
+HUMMER,H2,2005,No,0.0,rescued
+KIA,SPECTRA LD,2002,No,0.0,carried
+MERCEDES-BENZ,SLK-CLASS,2009,Standard,1.0,carried
+VOLKSWAGEN,RABBIT,2008,Optional,,carried
+DODGE,CHALLENGER,2010,Optional,,carried
+SATURN,SC1,2000,not_found,,carried
+SATURN,VUE,2009,Standard,1.0,carried
+VOLKSWAGEN,GOLF,2004,Optional,,carried
+HYUNDAI,AZERA,2008,Standard,1.0,carried
+MERCURY,VILLAGER,2001,No,0.0,carried
+PONTIAC,TORRENT,2008,Standard,1.0,carried
+BMW,330XI,2006,not_found,,carried
+BUICK,LUCERNE,2009,Optional,,carried
+CHEVROLET,CORVETTE,2004,Standard,1.0,carried
+AUDI,A4,2002,Standard,1.0,rescued
+BMW,135I,2009,not_found,,carried
+SUZUKI,FORENZA,2005,No,0.0,carried
+MERCURY,MOUNTAINEER,2009,Standard,1.0,carried
+VOLKSWAGEN,BEETLE,2007,not_found,,carried
+SUZUKI,GRAND VITARA,2004,No,0.0,carried
+SMART,FORTWO,2009,Standard,1.0,carried
+SATURN,LW1,2002,not_found,,carried
+BMW,325CI,2000,not_found,,carried
+MERCEDES-BENZ,SL-CLASS,2002,Standard,1.0,carried
+MAZDA,RX-8,2004,Optional,,carried
+FORD,ZX2,2000,not_found,,carried
+MERCEDES-BENZ,CLK-CLASS,2004,Standard,1.0,carried
+DODGE,RAM,2010,ambiguous,,carried
+BMW,X5,2010,Standard,1.0,rescued
+PORSCHE,CAYENNE,2009,Standard,1.0,carried
+VOLKSWAGEN,GTI,2007,Standard,1.0,carried
+SATURN,LS1,2001,not_found,,carried
+VOLKSWAGEN,TIGUAN,2009,Standard,1.0,carried
+VOLKSWAGEN,JETTA WAGON,2009,Standard,1.0,carried
+BMW,Z4,2009,not_found,,rescue_failed
+TOYOTA,SCION XB,2004,Standard,1.0,carried
+MITSUBISHI,OUTLANDER,2009,Standard,1.0,carried
+HYUNDAI,ENTOURAGE,2008,Standard,1.0,carried
+ACURA,RL,2004,Standard,1.0,rescued
+TOYOTA,CAMRY SOLARA,2003,Optional,,carried
+VOLKSWAGEN,TOUAREG,2006,Standard,1.0,carried
+MERCEDES-BENZ,SLK-CLASS,2000,not_found,,carried
+SAAB,9-5,2009,Standard,1.0,carried
+BMW,M3CIC,2004,not_found,,carried
+SUZUKI,VERONA,2004,No,0.0,carried
+OLDSMOBILE,SILHOUETTE,2001,No,0.0,carried
+PORSCHE,CAYENNE,2006,Standard,1.0,carried
+KIA,AMANTI,2005,Optional,,carried
+TOYOTA,AVALON,2010,Standard,1.0,carried
+GMC,YUKON,2010,Standard,1.0,carried
+BMW,750I,2009,not_found,,carried
+INFINITI,FX35,2010,not_found,,carried
+HYUNDAI,TUCSON,2010,Standard,1.0,carried
+CHRYSLER,CROSSFIRE,2006,Standard,1.0,carried
+INFINITI,FX45,2003,Standard,1.0,carried
+MITSUBISHI,MONTERO SPORT,2004,No,0.0,carried
+MERCEDES-BENZ,S-CLASS,2004,Standard,1.0,carried
+ACURA,RSX,2004,No,0.0,carried
+MERCURY,VILLAGER,2000,No,0.0,carried
+LINCOLN,TOWN CAR,2010,No,0.0,carried
+BMW,750I,2001,not_found,,carried
+LAND ROVER,FREELANDER,2005,No,0.0,carried
+TOYOTA,ECHO,2002,No,0.0,carried
+AUDI,A4,2001,not_found,,rescue_failed
+MERCEDES-BENZ,SL-CLASS,2008,Standard,1.0,carried
+MERCEDES-BENZ,M-CLASS,2002,not_found,,carried
+BMW,745LI,2005,not_found,,carried
+JEEP,COMMANDER,2008,Standard,1.0,carried
+HYUNDAI,GENESIS,2010,Standard,1.0,carried
+MERCEDES-BENZ,E-CLASS,2001,not_found,,carried
+KIA,RONDO,2010,Standard,1.0,carried
+NISSAN,ARMADA,2009,Standard,1.0,carried
+BMW,540I,2001,not_found,,carried
+VOLKSWAGEN,GTI,2003,not_found,,carried
+KIA,AMANTI,2008,Optional,,carried
+GMC,SAFARI,2005,No,0.0,carried
+PONTIAC,AZTEK,2002,No,0.0,carried
+VOLKSWAGEN,EOS,2010,Standard,1.0,carried
+DODGE,RAM,2004,No,0.0,carried
+ACURA,RL,2001,Standard,1.0,rescued
+SAAB,9-5,2001,not_found,,carried
+BMW,330I,2003,not_found,,carried
+VOLVO,XC90,2007,Standard,1.0,carried
+FORD,ESCORT,2000,No,0.0,carried
+INFINITI,I35,2003,Optional,,carried
+JAGUAR,X-TYPE,2003,Optional,,carried
+FORD,E-350,2004,not_found,,carried
+BMW,Z3,2001,not_found,,rescue_failed
+HONDA,S2000,2004,No,0.0,carried
+GMC,SAVANA,2007,Optional,,carried
+LAND ROVER,DISCOVERY,2003,No,0.0,carried
+HYUNDAI,SANTA FE,2002,No,0.0,carried
+LINCOLN,NAVIGATOR,2001,No,0.0,carried
+BENTLEY,CONTINENTAL,2007,Standard,1.0,carried
+BMW,128I,2008,not_found,,carried
+VOLVO,S80,2002,Optional,,carried
+LAND ROVER,RANGE ROVER,2008,Standard,1.0,carried
+SATURN,LS1,2002,not_found,,carried
+VOLVO,C70,2006,not_found,,carried
+TOYOTA,ECHO,2005,No,0.0,carried
+INFINITI,EX35,2009,Standard,1.0,carried
+CHRYSLER,PT CRUISER,2009,No,0.0,carried
+SATURN,SKY,2009,Standard,1.0,carried
+BMW,530I,2004,not_found,,carried
+LAND ROVER,RANGE ROVER,2010,Standard,1.0,carried
+HYUNDAI,ACCENT,2005,No,0.0,carried
+MERCEDES-BENZ,CLK-CLASS,2006,Standard,1.0,carried
+LINCOLN,LS,2002,Optional,,rescued
+VOLKSWAGEN,GOLF,2001,No,0.0,carried
+PLYMOUTH,GRAND VOYAGER,2000,No,0.0,carried
+VOLKSWAGEN,RABBIT,2006,not_found,,carried
+AUDI,S4,2008,Standard,1.0,rescued
+MERCEDES-BENZ,R-CLASS,2009,Standard,1.0,carried
+BMW,750XI,2010,not_found,,carried
+CHRYSLER,GRAND VOYAGER,2000,not_found,,carried
+BMW,550I,2006,not_found,,carried
+INFINITI,FX35,2007,not_found,,carried
+DODGE,RAM,2001,No,0.0,carried
+MERCEDES-BENZ,GL-CLASS,2009,Standard,1.0,carried
+BMW,535I,2010,not_found,,carried
+BMW,750LXI,2010,not_found,,carried
+LEXUS,IS,2005,not_found,,rescue_failed
+FORD,E-350,2006,Standard,1.0,carried
+JAGUAR,XJ,2004,Standard,1.0,rescued
+BMW,740I,2001,not_found,,carried
+DODGE,INTREPID,2003,No,0.0,carried
+ISUZU,TROOPER,2001,not_found,,carried
+FORD,E-150,2005,No,0.0,carried
+AUDI,A4,2003,Standard,1.0,rescued
+VOLVO,V70,2006,Optional,,carried
+DODGE,SPRINTER,2005,not_found,,carried
+BMW,325XI,2005,not_found,,carried
+BMW,530I,2001,not_found,,carried
+DODGE,DAKOTA,2006,No,0.0,carried
+TOYOTA,TACOMA,2007,Optional,,carried
+BUICK,TERRAZA,2005,Optional,,carried
+BMW,528XI,2008,not_found,,carried
+BMW,X5,2007,Standard,1.0,rescued
+AUDI,S4,2001,not_found,,rescue_failed
+SATURN,SL,2002,No,0.0,rescued
+JAGUAR,S-TYPE,2001,not_found,,carried
+BUICK,ALLURE,2006,not_found,,carried
+CHRYSLER,ASPEN,2008,Standard,1.0,carried
+VOLKSWAGEN,GTI,2010,Standard,1.0,carried
+MERCEDES-BENZ,M-CLASS,2006,not_found,,carried
+FORD,F-150,2002,No,0.0,carried
+CHEVROLET,MONTE CARLO,2007,No,0.0,carried
+NISSAN,ARMADA,2010,Standard,1.0,carried
+AUDI,Q7,2009,Standard,1.0,rescued
+INFINITI,QX56,2008,Standard,1.0,carried
+LAND ROVER,RANGE ROVER,2002,No,0.0,carried
+LEXUS,LS,2002,not_found,,rescue_failed
+HONDA,S2000,2002,No,0.0,carried
+LINCOLN,NAVIGATOR,2009,Standard,1.0,carried
+BMW,530I,2006,not_found,,carried
+BMW,740LI,2000,not_found,,carried
+CHEVROLET,S-10 PICKUP,2003,No,0.0,carried
+CHRYSLER,300,2001,not_found,,carried
+AUDI,A8,2007,Standard,1.0,rescued
+BMW,325CI,2005,not_found,,carried
+FORD,THUNDERBIRD,2002,No,0.0,carried
+TOYOTA,PRIUS,2003,Optional,,carried
+MERCEDES-BENZ,M-CLASS,2005,not_found,,carried
+MAZDA,TRIBUTE,2008,ambiguous,,carried
+MITSUBISHI,DIAMANTE,2003,No,0.0,carried
+MERCEDES-BENZ,S-CLASS,2008,Standard,1.0,carried
+INFINITI,Q45,2005,Standard,1.0,carried
+SATURN,SC1,2001,not_found,,carried
+MERCURY,MOUNTAINEER,2008,Standard,1.0,carried
+LEXUS,LS,2006,not_found,,rescue_failed
+LAND ROVER,RANGE ROVER,2004,Standard,1.0,carried
+CHEVROLET,ASTRO VAN,2004,No,0.0,carried
+CHRYSLER,300,2002,not_found,,carried
+SUZUKI,GRAND VITARA,2002,No,0.0,carried
+CHEVROLET,METRO,2001,not_found,,carried
+MITSUBISHI,OUTLANDER,2003,No,0.0,carried
+TOYOTA,TUNDRA,2006,Optional,,carried
+DODGE,RAM,2006,No,0.0,carried
+MAZDA,MILLENIA,2000,not_found,,carried
+BMW,330XI,2003,not_found,,carried
+FORD,E-450,2003,not_found,,carried
+AUDI,A3,2010,Standard,1.0,rescued
+LEXUS,LX,2005,not_found,,rescue_failed
+BMW,750LI,2006,not_found,,carried
+LEXUS,LX,2010,not_found,,rescue_failed
+CADILLAC,STS,2009,Standard,1.0,carried
+ACURA,CL,2002,Optional,,rescued
+CHRYSLER,VOYAGER,2003,No,0.0,carried
+BMW,330XI,2005,not_found,,carried
+LAMBORGHINI,MURCIELAGO,2010,not_found,,carried
+SAAB,9-3,2008,Standard,1.0,carried
+FORD,RANGER,2000,No,0.0,carried
+SUBARU,B9 TRIBECA,2008,not_found,,carried
+DODGE,DAKOTA,2001,No,0.0,carried
+FORD,E-250,2007,not_found,,carried
+PONTIAC,SOLSTICE,2008,Optional,,carried
+VOLKSWAGEN,GOLF,2000,No,0.0,carried
+CHEVROLET,SILVERADO,2005,No,0.0,carried
+MERCEDES-BENZ,GL-CLASS,2010,Standard,1.0,carried
+BMW,335I,2008,not_found,,carried
+BMW,M3,2004,Standard,1.0,rescued
+MERCEDES-BENZ,M-CLASS,2003,not_found,,carried
+INFINITI,QX56,2005,Standard,1.0,carried
+TOYOTA,TUNDRA,2007,Standard,1.0,carried
+CHEVROLET,SILVERADO,2008,Optional,,carried
+FORD,RANGER,2008,No,0.0,carried
+GMC,SIERRA,2006,No,0.0,carried
+SUBARU,IMPREZA,2000,not_found,,carried
+FORD,F-150,2007,Optional,,carried
+VOLKSWAGEN,RABBIT,2009,Standard,1.0,carried
+MERCEDES-BENZ,CL-CLASS,2005,Standard,1.0,carried
+MINI,COOPER,2002,Optional,,carried
+JAGUAR,XF,2010,Standard,1.0,rescued
+PONTIAC,G5,2008,Optional,,rescued
+INFINITI,Q45,2002,Standard,1.0,carried
+CHEVROLET,CORVETTE,2003,Standard,1.0,carried
+MITSUBISHI,MIRAGE,2001,not_found,,carried
+PORSCHE,911,2000,not_found,,carried
+FORD,E-250,2006,not_found,,carried
+BMW,525I,2002,not_found,,carried
+FORD,EXPEDITION MAX,2009,Standard,1.0,carried
+AUDI,S4,2006,Standard,1.0,rescued
+CADILLAC,DTS,2007,Optional,,carried
+VOLVO,C70,2008,Standard,1.0,carried
+CHEVROLET,COLORADO,2004,No,0.0,carried
+VOLKSWAGEN,JETTA WAGON,2003,Optional,,carried
+HYUNDAI,VERACRUZ,2010,Standard,1.0,carried
+SUBARU,LEGACY,2010,Standard,1.0,carried
+BMW,M5,2002,Standard,1.0,rescued
+AUDI,A6,2001,not_found,,rescue_failed
+FORD,E-250,2005,not_found,,carried
+KIA,SEDONA,2010,Standard,1.0,carried
+TOYOTA,TACOMA,2010,Standard,1.0,carried
+MINI,COOPER CONVERTIBLE,2010,Standard,1.0,carried
+VOLKSWAGEN,TOUAREG,2005,Standard,1.0,carried
+INFINITI,G20,2000,not_found,,carried
+SAAB,9-5,2002,Optional,,carried
+FORD,E-350,2008,Standard,1.0,carried
+HUMMER,H3T,2009,Standard,1.0,carried
+BMW,320I,2005,not_found,,carried
+AUDI,Q7,2010,Standard,1.0,rescued
+MINI,COOPER,2003,Optional,,carried
+INFINITI,QX4,2002,No,0.0,carried
+HYUNDAI,VERACRUZ,2007,Standard,1.0,carried
+OLDSMOBILE,SILHOUETTE,2002,No,0.0,carried
+SUZUKI,VITARA,2001,No,0.0,carried
+LEXUS,GS,2004,not_found,,rescue_failed
+BMW,335I,2010,not_found,,carried
+JAGUAR,XJ,2005,Standard,1.0,rescued
+LEXUS,LS,2005,not_found,,rescue_failed
+LINCOLN,NAVIGATOR,2002,No,0.0,carried
+BMW,328I,2000,not_found,,carried
+ISUZU,ASCENDER,2006,Standard,1.0,carried
+FORD,F-550,2008,not_found,,carried
+LAND ROVER,DISCOVERY,2001,not_found,,carried
+BMW,328CI,2000,not_found,,carried
+MASERATI,QUATTROPORTE,2005,not_found,,carried
+AUDI,A5,2009,Standard,1.0,rescued
+DODGE,DAKOTA,2005,No,0.0,carried
+FORD,E-150,2001,not_found,,carried
+CHEVROLET,SUBURBAN,2006,Standard,1.0,carried
+KIA,OPTIMA,2001,not_found,,carried
+BMW,330I,2002,not_found,,carried
+BMW,X3,2010,Standard,1.0,rescued
+FORD,RANGER,2004,No,0.0,carried
+TOYOTA,TACOMA,2001,No,0.0,carried
+CHEVROLET,METRO,2000,not_found,,carried
+MINI,COOPER CONVERTIBLE,2005,Optional,,carried
+PONTIAC,G8,2008,Standard,1.0,rescued
+TOYOTA,COROLLA MATRIX,2010,Standard,1.0,carried
+NISSAN,QUEST,2000,No,0.0,carried
+HYUNDAI,VERACRUZ,2009,Standard,1.0,carried
+SAAB,9-3,2002,No,0.0,carried
+VOLKSWAGEN,GOLF,2003,Optional,,carried
+MERCEDES-BENZ,G-CLASS,2003,not_found,,carried
+TOYOTA,SCION XA,2004,No,0.0,carried
+BMW,528I,2000,not_found,,carried
+JAGUAR,XJ8,2001,not_found,,carried
+FORD,RANGER,2002,No,0.0,carried
+VOLVO,XC70,2008,Standard,1.0,carried
+ISUZU,ASCENDER,2008,Standard,1.0,carried
+SAAB,9-5,2004,Standard,1.0,carried
+INFINITI,FX35,2006,not_found,,carried
+SAAB,9-7X,2009,Standard,1.0,carried
+LAND ROVER,LR3,2006,Standard,1.0,carried
+ISUZU,TROOPER,2000,not_found,,carried
+VOLKSWAGEN,EUROVAN,2003,Standard,1.0,carried
+PORSCHE,CAYENNE,2008,Standard,1.0,carried
+SATURN,VUE,2010,Standard,1.0,carried
+INFINITI,QX56,2006,Standard,1.0,carried
+MAZDA,MX-5,2009,not_found,,carried
+CADILLAC,CTS,2009,Standard,1.0,carried
+BMW,330CI,2004,not_found,,carried
+ISUZU,AXIOM,2004,No,0.0,carried
+MERCEDES-BENZ,CLS-CLASS,2006,Standard,1.0,carried
+BMW,760I,2006,not_found,,carried
+LINCOLN,LS,2004,Optional,,rescued
+CHEVROLET,UPLANDER,2009,not_found,,carried
+BMW,530I,2007,not_found,,carried
+MITSUBISHI FUSO,FM657,2004,not_found,,carried
+BMW,Z4,2005,Standard,1.0,rescued
+DODGE,RAM CHASSIS CAB,2010,not_found,,carried
+BMW,650I,2007,not_found,,carried
+BMW,325CIC,2005,not_found,,carried
+SUZUKI,RENO,2005,No,0.0,carried
+HYUNDAI,AZERA,2010,Standard,1.0,carried
+CADILLAC,XLR,2006,Standard,1.0,carried
+PONTIAC,FIREBIRD,2000,No,0.0,carried
+ACURA,INTEGRA,2000,not_found,,carried
+CHEVROLET,TRAILBLAZER,2009,Standard,1.0,carried
+BMW,M5,2006,Standard,1.0,rescued
+HONDA,S2000,2001,No,0.0,carried
+GMC,SIERRA,2005,No,0.0,carried
+LEXUS,LX,2007,not_found,,rescue_failed
+LEXUS,LS,2000,not_found,,rescue_failed
+BMW,530I,2003,not_found,,carried
+MAZDA,PROTEGE,2001,No,0.0,carried
+JAGUAR,XJ,2007,Standard,1.0,rescued
+CADILLAC,DTS,2009,Standard,1.0,carried
+TOYOTA,LAND CRUISER,2004,not_found,,carried
+LEXUS,GS,2002,not_found,,rescue_failed
+BMW,750I,2006,not_found,,carried
+AUDI,ALLROAD,2004,Standard,1.0,carried
+FORD,F-350,2010,No,0.0,carried
+VOLKSWAGEN,JETTA WAGON,2004,Optional,,carried
+SUZUKI,SX4,2010,Optional,,carried
+FORD,F-250,2003,not_found,,carried
+MERCEDES-BENZ,SLK-CLASS,2002,not_found,,carried
+SUZUKI,VITARA,2003,No,0.0,carried
+GMC,SAVANA,2006,Optional,,carried
+BMW,325CI,2006,not_found,,carried
+SATURN,SL,2000,No,0.0,rescued
+LINCOLN,NAVIGATOR,2007,Standard,1.0,carried
+VOLVO,V70,2003,Optional,,carried
+SUZUKI,ESTEEM,2000,not_found,,carried
+GMC,CANYON,2005,No,0.0,carried
+VOLVO,V70,2000,not_found,,carried
+DODGE,RAM,2008,Optional,,carried
+MITSUBISHI,MONTERO,2003,No,0.0,carried
+MITSUBISHI,DIAMANTE,2002,No,0.0,carried
+BMW,325IT,2003,not_found,,carried
+LINCOLN,LS,2005,Optional,,rescued
+MERCURY,MOUNTAINEER,2001,No,0.0,carried
+VOLVO,XC90,2010,Standard,1.0,carried
+JAGUAR,S-TYPE,2004,Standard,1.0,carried
+GMC,YUKON XL,2006,Standard,1.0,carried
+CHEVROLET,EXPRESS,2004,ambiguous,,carried
+JAGUAR,XJ,2002,No,0.0,rescued
+VOLKSWAGEN,CABRIO,2000,not_found,,carried
+HONDA,INSIGHT,2000,No,0.0,carried
+MAZDA,MPV,2006,No,0.0,carried
+OLDSMOBILE,BRAVADA,2004,No,0.0,carried
+CADILLAC,SEVILLE,2003,Standard,1.0,carried
+FORD,F-250,2008,No,0.0,carried
+CHEVROLET,TRACKER,2000,not_found,,carried
+AUDI,S4,2005,Standard,1.0,rescued
+SUZUKI,AERIO,2006,No,0.0,carried
+INFINITI,QX56,2004,not_found,,carried
+AUDI,A8,2006,Standard,1.0,rescued
+PONTIAC,BONNEVILLE,2003,Optional,,carried
+INFINITI,QX56,2010,Standard,1.0,carried
+NISSAN,FRONTIER,2003,No,0.0,carried
+SUZUKI,AERIO,2004,No,0.0,carried
+BUICK,PARK AVENUE,2004,Optional,,carried
+JAGUAR,S-TYPE,2005,Standard,1.0,carried
+CHEVROLET,CAMARO,2001,No,0.0,carried
+CHEVROLET,SILVERADO,2009,Optional,,carried
+TOYOTA,TACOMA,2008,Optional,,carried
+BMW,325XI,2002,not_found,,carried
+FORD,F-250,2010,No,0.0,carried
+AUDI,TT,2002,Standard,1.0,rescued
+PONTIAC,FIREBIRD,2002,No,0.0,carried
+TOYOTA,SEQUOIA,2007,Standard,1.0,carried
+CHRYSLER,CROSSFIRE,2005,Standard,1.0,carried
+NISSAN,FRONTIER,2009,Optional,,carried
+BMW,325CI,2002,not_found,,carried
+BMW,128I,2009,not_found,,carried
+PONTIAC,SOLSTICE,2006,No,0.0,carried
+DODGE,RAM,2000,No,0.0,carried
+MAZDA,MPV,2005,No,0.0,carried
+GMC,SIERRA,2002,No,0.0,carried
+MITSUBISHI,MIRAGE,2002,No,0.0,carried
+BMW,M3,2009,not_found,,rescue_failed
+HONDA,PRELUDE,2000,not_found,,carried
+VOLVO,S40,2009,Standard,1.0,carried
+TOYOTA,ECHO,2004,No,0.0,carried
+BMW,525XI,2007,not_found,,carried
+HYUNDAI,XG 350,2003,No,0.0,carried
+JEEP,COMMANDER,2009,Standard,1.0,carried
+DODGE,RAM,2002,No,0.0,carried
+AUDI,ALLROAD,2002,Standard,1.0,carried
+TOYOTA,TACOMA,2000,No,0.0,carried
+ACURA,RL,2003,Standard,1.0,rescued
+PORSCHE,911,2001,not_found,,carried
+VOLKSWAGEN,EOS,2009,Standard,1.0,carried
+FORD,E-350,2010,Standard,1.0,carried
+JAGUAR,VANDEN PLAS,2001,not_found,,carried
+CHEVROLET,CORVETTE,2007,Standard,1.0,carried
+AUDI,TT,2003,Standard,1.0,rescued
+VOLKSWAGEN,GTI,2008,Standard,1.0,carried
+HONDA,INSIGHT,2006,No,0.0,carried
+KIA,AMANTI,2009,Standard,1.0,carried
+CHRYSLER,ASPEN,2009,Standard,1.0,carried
+VOLKSWAGEN,TIGUAN,2010,Standard,1.0,carried
+ACURA,RL,2002,Standard,1.0,rescued
+CADILLAC,ESCALADE,2006,Standard,1.0,carried
+FORD,F-350,2001,not_found,,carried
+BMW,X6,2010,Standard,1.0,rescued
+DODGE,INTREPID,2000,No,0.0,carried
+LEXUS,GS,2003,not_found,,rescue_failed
+MAZDA,RX-8,2008,Optional,,carried
+SATURN,SL,2001,No,0.0,rescued
+BMW,X3,2009,Standard,1.0,rescued
+BUICK,LACROSSE,2009,Optional,,carried
+BMW,745I,2004,not_found,,carried
+JEEP,COMPASS,2008,Standard,1.0,carried
+SUZUKI,GRAND VITARA XL-7,2006,No,0.0,carried
+HYUNDAI,ELANTRA TOURING,2009,Standard,1.0,carried
+BMW,745LI,2004,not_found,,carried
+AUDI,A4,2000,not_found,,rescue_failed
+VOLKSWAGEN,CABRIO,2001,not_found,,carried
+CHEVROLET,S-10 PICKUP,2004,not_found,,carried
+AUDI,S4,2000,not_found,,rescue_failed
+SATURN,LW300,2003,not_found,,carried
+AUDI,A6,2006,Standard,1.0,rescued
+MAZDA,RX-8,2007,Optional,,carried
+GMC,SIERRA,2009,Optional,,carried
+SUZUKI,ESTEEM,2001,not_found,,carried
+CHRYSLER,300C,2009,not_found,,carried
+SUZUKI,XL7,2003,not_found,,carried
+CHEVROLET,COLORADO,2008,No,0.0,carried
+CHRYSLER,CONCORDE,2001,No,0.0,carried
+NISSAN,FRONTIER,2007,Optional,,carried
+VOLVO,S80,2010,Standard,1.0,carried
+CHEVROLET,AVALANCHE,2002,No,0.0,carried
+BMW,530XI,2007,not_found,,carried
+GMC,SAVANA,2009,ambiguous,,carried
+PORSCHE,911,2003,not_found,,carried
+TOYOTA,TUNDRA,2010,Standard,1.0,carried
+TOYOTA,TACOMA,2003,No,0.0,carried
+VOLKSWAGEN,JETTA WAGON,2001,No,0.0,carried
+INTERNATIONAL,LF627,2009,not_found,,carried
+FORD,F-350,2009,No,0.0,carried
+CHEVROLET,S-10 PICKUP,2001,No,0.0,carried
+FORD,F-250,2009,No,0.0,carried
+BMW,525XI,2006,not_found,,carried
+MERCURY,MOUNTAINEER,2000,No,0.0,carried
+FORD,F-350,2002,not_found,,carried
+SUZUKI,GRAND VITARA,2000,not_found,,carried
+TOYOTA,TUNDRA,2004,Optional,,carried
+DODGE,RAM,2003,No,0.0,carried
+PLYMOUTH,BREEZE,2000,No,0.0,carried
+FORD,F-350,2004,not_found,,carried
+FORD,FREESTYLE,2004,not_found,,carried
+GMC,SAFARI,2001,No,0.0,carried
+FORD,EXCURSION,2005,No,0.0,carried
+FORD,F-650,2007,not_found,,carried
+GMC,SIERRA,2010,ambiguous,,carried
+SUZUKI,RENO,2008,No,0.0,carried
+FORD,RANGER,2005,No,0.0,carried
+BMW,335XI,2008,not_found,,carried
+MASERATI,QUATTROPORTE,2008,not_found,,carried
+TOYOTA,MR2,2003,No,0.0,carried
+HONDA,HR-V,2004,not_found,,carried
+CHRYSLER,300,2003,not_found,,carried
+DAEWOO,LANOS,2002,No,0.0,carried
+VOLKSWAGEN,GOLF,2006,Optional,,carried
+FORD,RANGER,2001,No,0.0,carried
+DODGE,RAM,2005,No,0.0,carried
+FORD,RANGER,2009,No,0.0,carried
+CHEVROLET,AVALANCHE,2004,No,0.0,carried
+BMW,745LI,2002,not_found,,carried
+NISSAN,FRONTIER,2005,Optional,,carried
+MERCEDES-BENZ,SLK-CLASS,2006,Standard,1.0,carried
+FORD,RANGER,2006,No,0.0,carried
+CHEVROLET,SILVERADO,2010,ambiguous,,carried
+MERCEDES-BENZ,SL-CLASS,2007,Standard,1.0,carried
+FORD,F-150,2009,Standard,1.0,carried
+FORD,F-150,2000,No,0.0,carried
+FORD,F-250,2000,not_found,,carried
+FORD,F-250,2001,not_found,,carried
+GMC,SIERRA,2000,No,0.0,carried
+TOYOTA,TACOMA,2005,Optional,,carried
+NISSAN,TITAN,2008,Optional,,carried
+GMC,SONOMA,2003,No,0.0,carried
+NISSAN,FRONTIER,2004,Optional,,carried
+FORD,F-250,2004,not_found,,carried
+GMC,SONOMA,2001,No,0.0,carried
+PORSCHE,CAYMAN,2006,Standard,1.0,carried
+DODGE,DAKOTA,2009,No,0.0,carried
+CHEVROLET,GMT-400,2000,not_found,,carried
+CHEVROLET,AVALANCHE,2005,Optional,,carried
+NISSAN,FRONTIER,2010,Optional,,carried
+LINCOLN,MARK LT,2006,No,0.0,carried
+DODGE,DAKOTA,2003,No,0.0,carried
+FORD,F-150,2001,No,0.0,carried
+CADILLAC,ESCALADE,2009,Standard,1.0,carried
+CHEVROLET,SILVERADO,2001,No,0.0,carried
+FORD,F-250,2005,not_found,,carried
+TOYOTA,TUNDRA,2005,Optional,,carried
+NISSAN,TITAN,2005,Optional,,carried
+GMC,SIERRA,2003,No,0.0,carried
+TOYOTA,TUNDRA,2001,No,0.0,carried
+FORD,F-150,2008,No,0.0,carried
+CHEVROLET,EXPRESS,2009,ambiguous,,carried
+FORD,F-250,2002,not_found,,carried
+NISSAN,FRONTIER,2002,No,0.0,carried
+PORSCHE,CAYMAN,2010,Standard,1.0,carried
+INFINITI,M35,2005,not_found,,carried
+MAZDA,CX-7,2009,Standard,1.0,carried
+CHEVROLET,S-10 PICKUP,2002,No,0.0,carried
+CHEVROLET,COLORADO,2006,No,0.0,carried
+MAZDA,TRIBUTE,2010,Standard,1.0,carried
+DODGE,RAM,2009,ambiguous,,carried
+CHEVROLET,AVALANCHE,2010,Standard,1.0,carried
+CHEVROLET,AVALANCHE,2008,Standard,1.0,carried
+FORD,EXPLORER SPORT TRAC,2001,No,0.0,carried
+FORD,EXPLORER SPORT TRAC,2005,No,0.0,carried
+NISSAN,TITAN,2007,Optional,,carried
+BMW,330CIC,2006,not_found,,carried
+DODGE,DAKOTA,2002,No,0.0,carried
+CHEVROLET,AVALANCHE,2007,Standard,1.0,carried
+HONDA,RIDGELINE,2007,Standard,1.0,carried
+BMW,Z4,2007,Standard,1.0,rescued
+AUDI,A8,2004,not_found,,rescue_failed
+TOYOTA,TACOMA,2009,Standard,1.0,carried
+MITSUBISHI,RAIDER,2007,No,0.0,carried
+MERCEDES-BENZ,SLK-CLASS,2007,Standard,1.0,carried
+MERCEDES-BENZ,CLS-CLASS,2010,Standard,1.0,carried
+VOLVO,V40,2002,Optional,,carried
+JAGUAR,XK,2009,Standard,1.0,rescued
+HONDA,RIDGELINE,2006,Standard,1.0,carried
+NISSAN,FRONTIER,2001,No,0.0,carried
+DODGE,DAKOTA,2010,No,0.0,carried
+DODGE,RAM,2007,Optional,,carried
+FORD,E-250,2009,not_found,,carried
+TOYOTA,LAND CRUISER,2003,not_found,,carried
+CHEVROLET,COLORADO,2010,Standard,1.0,carried
+NISSAN,TITAN,2009,Optional,,carried
+BMW,328XI,2008,not_found,,carried
+TOYOTA,TUNDRA,2009,Standard,1.0,carried
+MERCEDES-BENZ,ML-CLASS,2010,Standard,1.0,carried
+BMW,325CI,2003,not_found,,carried
+CHEVROLET,COLORADO,2009,Standard,1.0,carried
+INFINITI,M35,2009,not_found,,carried
+ISUZU,I-290,2007,No,0.0,carried
+CHEVROLET,COLORADO,2007,No,0.0,carried
+NISSAN,FRONTIER,2006,Optional,,carried
+VOLVO,S80,2009,Standard,1.0,carried
+FORD,F-350,2003,not_found,,carried
+BMW,Z4,2010,Standard,1.0,rescued
+FORD,F-250,2007,not_found,,carried
+PLYMOUTH,VOYAGER,2000,No,0.0,carried
+NISSAN,TITAN,2010,Standard,1.0,carried
+MITSUBISHI,ECLIPSE SPYDER,2007,No,0.0,carried
+LEXUS,GX,2003,not_found,,rescue_failed
+MAZDA,B-SERIES,2000,No,0.0,carried
+GMC,CANYON,2004,No,0.0,carried
+BMW,X5,2009,Standard,1.0,rescued
+DODGE,DAKOTA,2004,No,0.0,carried
+GMC,CANYON,2006,No,0.0,carried
+NISSAN,FRONTIER,2000,No,0.0,carried
+TOYOTA,TUNDRA,2000,No,0.0,carried
+FORD,EXCURSION,2002,No,0.0,carried
+TOYOTA,TUNDRA,2002,No,0.0,carried
+HONDA,RIDGELINE,2008,Standard,1.0,carried
+BMW,535XI,2008,not_found,,carried
+PORSCHE,911,2009,Standard,1.0,carried
+LEXUS,GS,2009,not_found,,rescue_failed
+SAAB,9-5,2008,Standard,1.0,carried
+CHRYSLER,PT CRUISER,2010,No,0.0,carried
+TOYOTA,TUNDRA,2008,Standard,1.0,carried
+PONTIAC,AZTEK,2005,No,0.0,carried
+MERCEDES-BENZ,R-CLASS,2010,Standard,1.0,carried
+MAZDA,B-SERIES,2001,No,0.0,carried
+TOYOTA,TACOMA,2006,Optional,,carried
+FORD,EXPLORER SPORT TRAC,2008,Standard,1.0,carried
+NISSAN,TITAN,2006,Optional,,carried
+PORSCHE,911,2008,Standard,1.0,carried
+BMW,328IS,2003,not_found,,carried
+TOYOTA,TUNDRA,2003,No,0.0,carried
+RAM,2500,2002,not_found,,carried
+MAZDA,MX-5,2008,not_found,,carried
+NISSAN,TITAN,2004,Optional,,carried
+DODGE,DAKOTA,2007,No,0.0,carried
+MERCEDES-BENZ,R-CLASS,2007,Standard,1.0,carried
+JAGUAR,S-TYPE,2002,Optional,,carried
+MITSUBISHI,MONTERO,2001,No,0.0,carried
+FORD,F-150 HERITAGE,2004,No,0.0,carried
+SAAB,9-3,2010,Standard,1.0,carried
+FORD,E-250,2004,not_found,,carried
+LEXUS,SC,2003,not_found,,rescue_failed
+KIA,SPECTRA,2000,not_found,,carried
+FORD,E-350,2009,Standard,1.0,carried
+GMC,CANYON,2008,No,0.0,carried
+GMC,CANYON,2007,No,0.0,carried
+CHEVROLET,AVALANCHE,2003,No,0.0,carried
+INFINITI,M45,2006,not_found,,carried
+VOLKSWAGEN,GTI,2000,not_found,,carried
+LEXUS,SC,2004,not_found,,rescue_failed
+PORSCHE,911,2010,Standard,1.0,carried
+BMW,645CI,2004,not_found,,carried
+FORD,F-350,2000,not_found,,carried
+PORSCHE,BOXSTER,2004,Optional,,carried
+MINI,CLUBMAN,2010,Standard,1.0,carried
+AUDI,S4,2002,Standard,1.0,rescued
+SUBARU,BAJA,2005,No,0.0,carried
+ACURA,RDX,2009,Standard,1.0,carried
+HUMMER,H3,2010,Standard,1.0,rescued
+DODGE,AVENGER,2000,not_found,,carried
+LAND ROVER,RANGE ROVER,2007,Standard,1.0,carried
+MAZDA,RX-8,2009,Optional,,carried
+INFINITI,FX50,2009,not_found,,carried
+PORSCHE,911,2005,Standard,1.0,carried
+FORD,E-250,2001,not_found,,carried
+INFINITI,QX4,2000,No,0.0,carried
+FORD,E-350,2002,not_found,,carried
+MERCEDES-BENZ,SLK-CLASS,2010,Standard,1.0,carried
+VOLKSWAGEN,GOLF,2005,Optional,,carried
+BMW,750LI,2008,not_found,,carried
+DODGE,DAKOTA,2008,No,0.0,carried
+FORD,E-150,2010,Standard,1.0,carried
+MITSUBISHI,MONTERO,2002,No,0.0,carried
+FORD,RANGER,2010,Standard,1.0,carried
+VOLKSWAGEN,TOUAREG,2007,Standard,1.0,carried
+AUDI,S4,2010,Standard,1.0,rescued
+BMW,525IT,2003,not_found,,carried
+MAZDA,TRIBUTE,2009,Standard,1.0,carried
+CHEVROLET,EXPRESS,2003,No,0.0,carried
+MAZDA,MILLENIA,2001,No,0.0,carried
+GMC,SONOMA,2002,No,0.0,carried
+BMW,M6,2006,Standard,1.0,rescued
+FORD,EXPLORER SPORT TRAC,2002,No,0.0,carried
+CHEVROLET,CORVETTE,2009,Standard,1.0,carried
+TOYOTA,LAND CRUISER,2008,not_found,,carried
+PONTIAC,SOLSTICE,2009,Standard,1.0,carried
+NISSAN,FRONTIER,2008,Optional,,carried
+SATURN,LW2,2002,not_found,,carried
+SUZUKI,FORENZA,2004,No,0.0,carried
+LINCOLN,MARK LT,2008,No,0.0,carried
+TOYOTA,MR2,2002,No,0.0,carried
+AUDI,S5,2010,Standard,1.0,rescued
+PONTIAC,MONTANA/ SV6,2006,not_found,,carried
+HUMMER,H3,2004,not_found,,rescue_failed
+MINI,COOPER CONVERTIBLE,2007,Optional,,carried
+CHEVROLET,EXPRESS,2005,Optional,,carried
+CHRYSLER,CONCORDE,2003,No,0.0,carried
+LINCOLN,LS,2006,Optional,,rescued
+FORD,E-250,2002,not_found,,carried
+GMC,W5,2007,not_found,,rescue_failed
+MERCEDES-BENZ,SL-CLASS,2009,Standard,1.0,carried
+PORSCHE,CAYENNE,2004,Standard,1.0,carried
+FORD,E-450,2008,not_found,,carried
+MAZDA,B-SERIES,2003,No,0.0,carried
+FORD,F-350,2007,not_found,,carried
+FORD,E-250,2010,not_found,,carried
+MITSUBISHI,RAIDER,2008,No,0.0,carried
+CHRYSLER,NEON,2000,not_found,,carried
+BMW,540IA,2003,not_found,,carried
+VOLVO,S60,2008,Standard,1.0,carried
+FORD,E-350,2005,not_found,,carried
+HONDA,RIDGELINE,2010,Standard,1.0,carried
+AUDI,A8,2009,Standard,1.0,rescued
+LAND ROVER,DISCOVERY,2002,No,0.0,carried
+CHEVROLET,AVALANCHE,2006,Standard,1.0,carried
+VOLVO,XC70,2009,Standard,1.0,carried
+CHEVROLET,C5,2009,not_found,,rescue_failed
+INFINITI,G20,2001,not_found,,carried
+MERCURY,MONTEREY,2006,Optional,,carried
+ISUZU,ASCENDER,2003,not_found,,carried
+DODGE,VIPER,2008,No,0.0,carried
+JAGUAR,XJ8,2002,not_found,,carried
+DODGE,VIPER,2005,No,0.0,carried
+ISUZU,I-280,2006,No,0.0,carried
+MERCEDES-BENZ,S-CLASS,2005,Standard,1.0,carried
+HONDA,S2000,2007,Standard,1.0,carried
+FORD,EXPLORER SPORT TRAC,2004,No,0.0,carried
+CADILLAC,STS,2010,Standard,1.0,carried
+BMW,M3CIC,2005,not_found,,carried
+ACURA,RL,2009,Standard,1.0,rescued
+VOLKSWAGEN,GOLF,2002,No,0.0,carried
+CHEVROLET,CORVETTE,2006,Standard,1.0,carried
+SAAB,9-7X,2007,Standard,1.0,carried
+HONDA,RIDGELINE,2009,Standard,1.0,carried
+LAND ROVER,LR2,2009,Standard,1.0,carried
+BUICK,PARK AVENUE,2005,Optional,,carried
+DAEWOO,LANOS,2000,not_found,,carried
+MAZDA,B-SERIES,2008,No,0.0,carried
+VOLKSWAGEN,NEW GTI,2006,not_found,,carried
+SUZUKI,VITARA,2002,No,0.0,carried
+MAZDA,B-SERIES,2002,No,0.0,carried
+VOLVO,C30,2010,Standard,1.0,carried
+PORSCHE,CAYENNE,2010,Standard,1.0,carried
+GMC,CANYON,2009,Standard,1.0,carried
+NISSAN,PATHFINDER,2009,Standard,1.0,carried
+SAAB,9-5,2010,Standard,1.0,carried
+FORD,EXPLORER SPORT TRAC,2007,Standard,1.0,carried
+ISUZU,ASCENDER,2005,No,0.0,carried
+DODGE,VIPER,2003,No,0.0,carried
+SUBARU,LEGACY,2007,Optional,,carried
+VOLKSWAGEN,GTI,2005,not_found,,carried
+INFINITI,FX45,2008,not_found,,carried
+FORD,E-450,2010,not_found,,carried
+PORSCHE,911,2002,not_found,,carried
+LAND ROVER,RANGE ROVER,2009,Standard,1.0,carried
+FORD,E-150,2004,not_found,,carried
+MITSUBISHI FUSO,FE639,2001,not_found,,carried
+CHEVROLET,EXPRESS,2010,ambiguous,,carried
+TOYOTA,LAND CRUISER,2007,not_found,,carried
+JEEP,CHEROKEE,2006,not_found,,carried
+MAZDA,B-SERIES,2005,No,0.0,carried
+VOLKSWAGEN,CABRIO,2002,No,0.0,carried
+PORSCHE,BOXSTER,2001,not_found,,carried
+BMW,650I,2006,not_found,,carried
+MITSUBISHI,DIAMANTE,2001,not_found,,carried
+BMW,Z4,2008,Standard,1.0,rescued
+VOLVO,V70,2008,Standard,1.0,carried
+VOLVO,C70,2004,Optional,,carried
+DODGE,RAM CHASSIS CAB,2008,not_found,,carried
+BMW,Z3,2002,not_found,,rescue_failed
+CADILLAC,CATERA,2001,not_found,,carried
+GMC,SAVANA,2005,Optional,,carried
+MITSUBISHI,OUTLANDER,2006,No,0.0,carried
+BMW,335XI,2007,not_found,,carried
+BMW,545I,2004,not_found,,carried
+VOLKSWAGEN,R32,2008,not_found,,carried
+AUDI,ALLROAD,2005,Standard,1.0,carried
+BMW,330CI,2002,not_found,,carried
+MITSUBISHI,RAIDER,2006,not_found,,carried
+SUZUKI,EQUATOR,2009,Optional,,carried
+BMW,I8,2005,not_found,,rescue_failed
+BMW,Z4,2003,Standard,1.0,rescued
+VOLVO,S80,2006,Optional,,carried
+LEXUS,LX,2006,not_found,,rescue_failed
+CADILLAC,COMMERCIAL CHASSIS,2004,not_found,,carried
+AUDI,A8,2000,No,0.0,rescued
+CHEVROLET,GMT-400,2001,not_found,,carried
+GMC,SAVANA,2000,not_found,,carried
+MOTOR COACH INDUSTRIES,102DL3 INTERCITY/D4500,2002,not_found,,carried
+HONDA,INSIGHT,2003,No,0.0,carried
+FORD,F-350,2006,not_found,,carried
+CADILLAC,XLR,2007,Standard,1.0,carried
+BMW,128I,2010,not_found,,carried
+FORD,EXPLORER SPORT TRAC,2009,Standard,1.0,carried
+CADILLAC,ELDORADO,2002,Optional,,carried
+CADILLAC,PROFESSIONAL CHASSIS,2001,not_found,,carried
+MERCEDES-BENZ,CL-CLASS,2008,Standard,1.0,carried
+BMW,650I,2009,not_found,,carried
+MERCEDES-BENZ,CL-CLASS,2001,not_found,,carried
+BUICK,ALLURE,2005,not_found,,carried
+VOLVO,C30,2009,Standard,1.0,carried
+SATURN,LW200,2003,not_found,,carried
+OLDSMOBILE,BRAVADA,2001,No,0.0,carried
+LINCOLN,MARK LT,2007,Standard,1.0,carried
+MERCEDES-BENZ,CL-CLASS,2007,Standard,1.0,carried
+INFINITI,FX45,2004,not_found,,carried
+BMW,Z4,2006,Standard,1.0,rescued
+CADILLAC,XLR,2004,Standard,1.0,carried
+SUZUKI,XL7,2009,Standard,1.0,carried
+FORD,E-150,2006,No,0.0,carried
+GMC,CANYON,2010,Standard,1.0,carried
+MITSUBISHI,MONTERO,2004,ambiguous,,carried
+VOLVO,V70,2007,Standard,1.0,carried
+BMW,745LI,2003,not_found,,carried
+VOLKSWAGEN,GLI,2009,Standard,1.0,carried
+LAND ROVER,RANGE ROVER,2000,not_found,,carried
+DODGE,CHALLENGER,2008,not_found,,carried
+FORD,E-150,2000,not_found,,carried
+JAGUAR,S-TYPE,2008,Standard,1.0,carried
+JAGUAR,XK8,2000,not_found,,carried
+JAGUAR,X-TYPE,2006,Optional,,carried
+INFINITI,Q50,2009,not_found,,carried
+SUZUKI,RENO,2006,No,0.0,carried
+AUDI,TT,2005,Standard,1.0,rescued
+FREIGHTLINER,MT 55 CHASSIS,2007,not_found,,carried
+LAMBORGHINI,GALLARDO,2006,not_found,,carried
+LAND ROVER,RANGE ROVER SPORT,2009,Standard,1.0,carried
+UD,UD2600,2000,not_found,,carried
+MERCEDES-BENZ,CL-CLASS,2003,Standard,1.0,carried
+MERCURY,MOUNTAINEER,2010,Standard,1.0,carried
+MITSUBISHI,MONTERO,2000,not_found,,carried
+BMW,750I,2007,not_found,,carried
+SAAB,9-3,2001,not_found,,carried
+BMW,325CIC,2003,not_found,,carried
+BMW,650I,2008,not_found,,carried
+INFINITI,M35,2010,not_found,,carried
+CHEVROLET,EXPRESS,2007,ambiguous,,carried
+CHEVROLET,EXPRESS,2006,Optional,,carried
+BMW,330I,2005,not_found,,carried
+SATURN,LS,2000,No,0.0,rescued
+CADILLAC,PROFESSIONAL CHASSIS,2002,not_found,,carried
+DODGE,VIPER,2006,No,0.0,carried
+GMC,SAVANA,2010,ambiguous,,carried
+FORD,E-350,2007,Standard,1.0,carried
+MAZDA,B-SERIES,2004,No,0.0,carried
+ACURA,RL,2008,Standard,1.0,rescued
+FORD,E-350,2001,not_found,,carried
+INFINITI,Q45,2001,not_found,,carried
+INFINITI,FX45,2006,not_found,,carried
+PORSCHE,911,2004,Optional,,carried
+VOLVO,V50,2009,Standard,1.0,carried
+ACURA,RL,2007,Standard,1.0,rescued
+LAND ROVER,LR4,2010,Standard,1.0,carried
+VOLVO,C70,2007,Standard,1.0,carried
+FORD,THUNDERBIRD,2004,No,0.0,carried
+AUDI,A8,2005,Standard,1.0,rescued
+MERCEDES-BENZ,CLS-CLASS,2009,Standard,1.0,carried
+DAEWOO,LEGANZA,2001,No,0.0,carried
+BUICK,RAINIER,2006,Standard,1.0,carried
+BMW,M3,2006,Standard,1.0,rescued
+TOYOTA,4-RUNNER,2009,not_found,,carried
+NISSAN,350Z,2009,Optional,,carried
+VOLKSWAGEN,GTI,2006,not_found,,carried
+MAZDA,B-SERIES,2006,No,0.0,carried
+VOLVO,V50,2005,Optional,,carried
+MERCEDES-BENZ,CL-CLASS,2010,Standard,1.0,carried
+ACURA,ZDX,2010,Standard,1.0,carried
+FORD,EXPLORER SPORT TRAC,2010,Standard,1.0,carried
+AUDI,A8,2008,Standard,1.0,rescued
+INFINITI,M45,2004,Standard,1.0,carried
+BMW,550I,2010,not_found,,carried
+VOLKSWAGEN,PHAETON,2004,Standard,1.0,carried
+MAZDA,B-SERIES,2007,No,0.0,carried
+CHEVROLET,BLAZER,2005,No,0.0,carried
+TOYOTA,LAND CRUISER,2002,not_found,,carried
+SUZUKI,GRAND VITARA,2010,Standard,1.0,carried
+VOLVO,C70,2001,not_found,,carried
+TOYOTA,MR2,2004,No,0.0,carried
+SATURN,RELAY,2007,Standard,1.0,carried
+JAGUAR,X-TYPE,2008,Standard,1.0,carried
+VOLVO,S60,2000,not_found,,carried
+BMW,M3,2003,Standard,1.0,rescued
+LEXUS,LX,2008,not_found,,rescue_failed
+BMW,M5,2007,not_found,,rescue_failed
+CHEVROLET,SONIC,2005,not_found,,carried
+AUDI,A5,2008,Standard,1.0,rescued
+SATURN,OUTLOOK,2010,Standard,1.0,carried
+FREIGHTLINER,SPRINTER,2010,Standard,1.0,carried
+CHRYSLER,INTREPID,2001,not_found,,carried
+TOYOTA,LAND CRUISER,2001,not_found,,carried
+ISUZU,NPR,2007,not_found,,carried
+INFINITI,Q45,2003,Standard,1.0,carried
+NISSAN,GT-R,2009,Standard,1.0,carried
+SMART,FORTWO,2010,Standard,1.0,carried
+ISUZU,NQR,2002,not_found,,carried
+MERCEDES-BENZ,SL-CLASS,2005,Standard,1.0,carried
+MASERATI,GRANTURISMO,2009,not_found,,carried
+HONDA,PILOT,2002,not_found,,carried
+SATURN,SKY,2007,Optional,,carried
+JAGUAR,XJ,2008,Standard,1.0,rescued
+FORD,E-250,2003,not_found,,carried
+BMW,750LI,2010,not_found,,carried
+CHEVROLET,AVALANCHE,2001,not_found,,carried
+TOYOTA,MR2,2001,not_found,,carried
+DODGE,GRAND CARAVAN,2003,No,0.0,carried
+AUDI,TT,2000,not_found,,rescue_failed
+SUBARU,IMPREZA,2001,not_found,,carried
+LEXUS,SC,2005,not_found,,rescue_failed
+SATURN,LW1,2001,not_found,,carried
+INFINITI,QX56,2009,Standard,1.0,carried
+MERCEDES-BENZ,SLK-CLASS,2008,Standard,1.0,carried
+BMW,M5,2003,Standard,1.0,rescued
+VOLVO,S80,2003,Optional,,carried
+MERCEDES-BENZ,CL-CLASS,2006,Standard,1.0,carried
+PORSCHE,911,2007,Standard,1.0,carried
+MAZDA,RX-8,2010,Optional,,carried
+JAGUAR,XK8,2002,not_found,,carried
+LAND ROVER,LR3,2007,Standard,1.0,carried
+BMW,330XI,2002,not_found,,carried
+JAGUAR,XKR,2003,not_found,,carried
+DODGE,SPRINTER,2007,Standard,1.0,carried
+LINCOLN,MKS,2006,not_found,,carried
+BMW,530XIT,2006,not_found,,carried
+MERCEDES-BENZ,G-CLASS,2002,not_found,,carried
+DODGE,RAM CHASSIS CAB,2007,not_found,,carried
+AUDI,A8,2001,No,0.0,rescued
+SUBARU,OUTBACK,2003,No,0.0,carried
+BMW,550I,2007,not_found,,carried
+BENTLEY,CONTINENTAL,2005,Standard,1.0,carried
+ROLLS ROYCE,PHANTOM,2010,not_found,,carried
+TOYOTA,LAND CRUISER,2005,not_found,,carried
+CHRYSLER,CROSSFIRE,2007,Standard,1.0,carried
+INFINITI,Q45,2004,Standard,1.0,carried
+CADILLAC,COMMERCIAL CHASSIS,2008,not_found,,carried
+TOYOTA,SCION XA,2007,not_found,,carried
+CHEVROLET,CAMARO,2008,not_found,,carried
+VOLVO,V40,2000,not_found,,carried
+BMW,540I,2003,not_found,,carried
+SAAB,9-7X,2005,Standard,1.0,carried
+TOYOTA,FJ CRUISER,2009,Standard,1.0,carried
+MERCEDES-BENZ,SL-CLASS,2000,not_found,,carried
+DODGE,RAM CHASSIS CAB,2001,No,0.0,carried
+LEXUS,SC,2007,not_found,,rescue_failed
+SAAB,9-7X,2006,Standard,1.0,carried
+SAAB,9-2X,2006,No,0.0,carried
+HONDA,INSIGHT,2001,No,0.0,carried
+PORSCHE,BOXSTER,2005,Standard,1.0,carried
+MITSUBISHI,MONTERO,2006,Standard,1.0,carried
+FORD,E-250,2000,not_found,,carried
+JAGUAR,VANDEN PLAS,2004,not_found,,carried
+KIA,SOUL,2009,not_found,,carried
+NISSAN,GT-R,2010,Standard,1.0,carried
+JAGUAR,XJR,2003,not_found,,carried
+CHEVROLET,EXPRESS,2002,No,0.0,carried
+JAGUAR,S-TYPE,2007,Standard,1.0,carried
+BMW,M5,2001,not_found,,rescue_failed
+HONDA,PILOT,2001,not_found,,carried
+FORD,E-450,2000,not_found,,carried
+MERCEDES-BENZ,SLK-CLASS,2004,not_found,,carried
+GMC,C4,2007,not_found,,rescue_failed
+SATURN,SW2,2001,not_found,,carried
+TOYOTA,SCION XB,2007,not_found,,carried
+LAND ROVER,RANGE ROVER,2005,Standard,1.0,carried
+SAAB,9-2X,2005,No,0.0,carried
+FREIGHTLINER,MT 35 CHASSIS,2004,not_found,,carried
+BMW,M6,2007,not_found,,rescue_failed
+INFINITI,Q45,2010,not_found,,carried
+LEXUS,LX,2001,not_found,,rescue_failed
+LOTUS,ESPRIT,2003,not_found,,carried
+BENTLEY,CONTINENTAL,2006,Standard,1.0,carried
+FORD,F-550,2005,not_found,,carried
+VOLKSWAGEN,TOUAREG,2009,Standard,1.0,carried
+AUDI,A8,2003,Standard,1.0,rescued
+NISSAN,VERSA,2004,not_found,,carried
+MITSUBISHI,ECLIPSE SPYDER,2009,Optional,,carried
+SAAB,9-5,2006,Standard,1.0,carried
+FORD,E-450,2007,not_found,,carried
+JEEP,RENEGADE,2005,not_found,,carried
+SAAB,9-7X,2008,Standard,1.0,carried
+INFINITI,QX60,2007,not_found,,carried
+GMC,SONOMA,2004,No,0.0,carried
+JAGUAR,XJ,2006,Standard,1.0,rescued
+ROLLS ROYCE,PHANTOM,2008,not_found,,carried
+MERCEDES-BENZ,G-CLASS,2010,Standard,1.0,carried
+PORSCHE,BOXSTER,2002,Optional,,carried
+JAGUAR,XJ,2009,Standard,1.0,rescued
+DAEWOO,LANOS,2001,not_found,,carried
+LOTUS,ELISE,2006,not_found,,carried
+MERCEDES-BENZ,CL-CLASS,2000,not_found,,carried
+FORD,E-150,2008,No,0.0,carried
+TOYOTA,MR2,2000,not_found,,carried
+FORD,THUNDERBIRD,2003,No,0.0,carried
+CHEVROLET,EXPRESS,2001,not_found,,carried
+JAGUAR,XK8,2001,not_found,,carried
+CADILLAC,CATERA,2000,not_found,,carried
+MERCEDES-BENZ,G-CLASS,2008,Standard,1.0,carried
+AUDI,S5,2008,Standard,1.0,rescued
+"ECONOLINE TRAILER, INC","ECONOLINE TRAILER, INC",2004,not_found,,carried
+BMW,745I,2002,not_found,,carried
+LEXUS,SC,2006,not_found,,rescue_failed
+FORD,F-550,2004,not_found,,carried
+VOLVO,V40,2001,not_found,,carried
+MERCEDES-BENZ,METRIS,2010,not_found,,carried
+BMW,325XIT,2006,not_found,,carried
+SAAB,9-5,2007,Standard,1.0,carried
+MITSUBISHI,RAIDER,2009,No,0.0,carried
+VOLVO,V50,2010,Standard,1.0,carried
+DODGE,SPRINTER,2008,Standard,1.0,carried
+TOYOTA,PICK-UP,2006,not_found,,carried
+LEXUS,SC,2008,not_found,,rescue_failed
+FORD,E-150,2003,not_found,,carried
+DODGE,RAM WAGON,2001,No,0.0,carried
+LEXUS,LX,2004,not_found,,rescue_failed
+JAGUAR,XK,2008,Standard,1.0,rescued
+FORD,E-350,2003,not_found,,carried
+DAEWOO,LEGANZA,2000,not_found,,carried
+DODGE,SPRINTER,2006,not_found,,carried
+INFINITI,M45,2009,not_found,,carried
+PORSCHE,CAYMAN,2007,Standard,1.0,carried
+GMC,SAVANA,2004,ambiguous,,carried
+MITSUBISHI,ECLIPSE,2005,No,0.0,carried
+VOLVO,C70,2000,not_found,,carried
+BMW,X6,2009,not_found,,rescue_failed
+AUDI,S6,2007,not_found,,rescue_failed
+DODGE,RAM VAN,2003,No,0.0,carried
+BUICK,ALLURE,2009,not_found,,carried
+CHEVROLET,EXPRESS,2000,not_found,,carried
+FORD,E-150,2007,No,0.0,carried
+MAZDA,MX-5,2005,not_found,,carried
+GMC,SAVANA,2008,ambiguous,,carried
+VOLVO,C70,2009,Standard,1.0,carried
+TOYOTA,PRIUS V,2004,Optional,,carried
+FORD,THUNDERBIRD,2005,No,0.0,carried
+AUDI,ALLROAD,2003,Standard,1.0,carried
+AUDI,A3,2008,Standard,1.0,rescued
+DODGE,VIPER,2004,No,0.0,carried
+LEXUS,SC,2010,not_found,,rescue_failed
+JAGUAR,XJ,2003,No,0.0,rescued
+SATURN,LW2,2001,not_found,,carried
+SPRINTER (DODGE OR FREIGHTLINER),SPRINTER,2004,not_found,,carried
+FORD,TRANSIT,2000,not_found,,carried
+DODGE,RAM VAN,2000,No,0.0,carried
+MITSUBISHI,ECLIPSE,2010,Standard,1.0,carried
+GMC,SAVANA,2003,No,0.0,carried
+FORD,F-450,2000,not_found,,carried
+ISUZU,I-370,2008,No,0.0,carried
+LAND ROVER,RANGE ROVER SPORT,2010,Standard,1.0,carried
+FORD,E-350,2000,not_found,,carried
+CHEVROLET,EQUINOX,2002,not_found,,carried
+CHEVROLET,TRAVERSE,2007,not_found,,carried
+LEXUS,NX,2000,not_found,,rescue_failed
+BMW,325XIT,2003,not_found,,carried
+CHEVROLET,GMT-400,2003,not_found,,carried
+SUZUKI,EQUATOR,2010,Optional,,carried
+FORD,F-550,2000,not_found,,carried
+CHEVROLET,SSR,2005,No,0.0,carried
+CHEVROLET,CRUZE,2003,not_found,,carried
+SATURN,LW1,2000,not_found,,carried
+LOTUS,ELISE,2009,not_found,,carried
+SATURN,LW300,2004,not_found,,carried
+YAMAHA,YFM700 (RAPTOR 700),2006,not_found,,carried
+BENTLEY,CONTINENTAL,2010,not_found,,carried
+MITSUBISHI,ECLIPSE SPYDER,2005,No,0.0,carried
+DODGE,GRAND CARAVAN,2007,No,0.0,carried
+MERCURY,MONTEREY,2007,Optional,,carried
+WORKHORSE,P42,2005,not_found,,carried
+FORD,E-150,2009,Standard,1.0,carried
+INFINITI,FX45,2005,not_found,,carried
+DODGE,RAM WAGON,2002,No,0.0,carried
+MITSUBISHI FUSO,FH210,2004,not_found,,carried
+VOLKSWAGEN,TIGUAN,2006,not_found,,carried
+BMW,M6,2010,not_found,,rescue_failed
+BMW,325CIC,2006,not_found,,carried
+AUDI,ALLROAD,2001,not_found,,carried
+PORSCHE,911,2006,Standard,1.0,carried
+VOLKSWAGEN,JETTA SPORTWAGEN,2010,Standard,1.0,carried
+AUDI,S8,2008,Standard,1.0,rescued
+SUBARU,BAJA,2004,No,0.0,carried
+TOYOTA,COROLLA MATRIX,2001,No,0.0,carried
+GMC,SAVANA,2001,not_found,,carried
+FORD,F-550,2009,not_found,,carried
+VOLVO,V50,2008,Standard,1.0,carried
+INFINITI,FX45,2007,not_found,,carried
+CHEVROLET,BLAZER,2010,not_found,,carried
+LEXUS,LX,2009,not_found,,rescue_failed
+LOTUS,ELISE,2005,not_found,,carried
+MITSUBISHI FUSO,FE84D,2007,not_found,,carried
+JAGUAR,XJ8,2000,not_found,,carried
+TOYOTA,SEQUOIA,2009,Standard,1.0,carried
+VOLKSWAGEN,JETTA SPORTWAGEN,2009,Standard,1.0,carried
+SATURN,LS,2001,not_found,,rescue_failed
+VOLKSWAGEN,R32,2004,Standard,1.0,carried
+BMW,X5,2000,not_found,,rescue_failed
+MERCEDES-BENZ,SPRINTER,2010,not_found,,carried
+INTERNATIONAL,MA025,2007,not_found,,carried
+DODGE,RAM WAGON,2000,No,0.0,carried
+VOLKSWAGEN,EUROVAN,2001,not_found,,carried
+ISUZU,NPR/NPR-HD,2002,not_found,,carried
+ISUZU,NPR/NPR-HD,2003,not_found,,carried
+PORSCHE,BOXSTER,2007,Standard,1.0,carried
+NISSAN,ROGUE,2007,not_found,,carried
+VOLVO,C70,2002,Optional,,carried
+ISUZU,NPR,2006,not_found,,carried
+BUICK,REGAL,2007,not_found,,carried
+HONDA,INSIGHT,2005,No,0.0,carried
+GMC,C4,2006,not_found,,rescue_failed
+AUDI,Q5,2008,not_found,,rescue_failed
+AUDI,A3,2009,Standard,1.0,rescued
+JAGUAR,VANDEN PLAS,2003,not_found,,carried
+SATURN,VUE,2001,not_found,,carried
+DODGE,DART,2004,not_found,,carried
+CHEVROLET,HHR,2000,not_found,,carried

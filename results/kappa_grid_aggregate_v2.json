@@ -256,7 +256,7 @@
       "kappa_std": 0.0002715949425084636,
       "kappa_within_tol": true,
       "kappa_abs_err": 0.0003072198257592085,
-      "superseded_note": "G4 values updated 2026-07-11 per MAJOR #1 浅井査読: replaced tol=0.01 calibration (alpha_b=4.981640625, kappa_mean=0.9946979) with tol=0.001 recalibration (alpha_b=4.997208628125, kappa_mean=0.9996928). Source: pilot/results/kappa_g4_recalibration.json new_G4. Original file retired to pilot/results/_deprecated/kappa_grid_aggregate.json.",
+      "superseded_note": "G4 values updated 2026-07-11 following internal review: the tol=0.01 calibration (alpha_b=4.981640625, kappa_mean=0.9946979) was replaced by the tol=0.001 recalibration (alpha_b=4.997208628125, kappa_mean=0.9996928). Source: kappa_g4_recalibration.json, field new_G4. The original file was retired rather than deleted.",
       "per_seed": [
         {
           "cell": "G4",
@@ -423,7 +423,7 @@
     "git_commit": "dcb85df",
     "git_commit_note": "post-hoc addition: file generated at this commit before env_log included git_commit field",
     "g4_update_date": "2026-07-11",
-    "g4_update_reason": "G4 alpha_b/kappa replaced with tol=0.001 recalibration values (kappa_mean=0.9996928 >= 0.999) to resolve inconsistency with kappa_g4_recalibration.json. Original tol=0.01 values (alpha_b=4.981640625, kappa_mean=0.9946979) superseded. Reviewer: 浅井査読 MAJOR #1/#2/#3 / 2026-07-11",
+    "g4_update_reason": "G4 alpha_b/kappa replaced with the tol=0.001 recalibration values (kappa_mean=0.9996928 >= 0.999) to resolve an inconsistency with kappa_g4_recalibration.json. The original tol=0.01 values (alpha_b=4.981640625, kappa_mean=0.9946979) are superseded. Source: internal review, 2026-07-11.",
     "g4_reference_file": "pilot/results/kappa_g4_recalibration.json"
   }
 }

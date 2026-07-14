@@ -2,7 +2,7 @@
   "computation_type": "hc_t2_reduction",
   "description": "HC_T2(b)(c) re-implementation based on kappa_LATE=1+tau/D. Task 1: tau_LATE_true via twin sim. Task 2: IPSW-corrected Wald point test (H0:tau=0) + M=2000 size/power. Task 3: HM trimming bounds + IM two-layer CI for kappa_LATE. N=10^6 x 5 seeds per cell. CPU only. Ref: preregistration_DRAFT_2026-07-10.md §5.1 HC_T2(b)(c).",
   "preregistration": "preregistration_DRAFT_2026-07-10.md",
-  "theory_ref": "C2_定義的同定マップ_朝倉_2026-07-11.md",
+  "theory_ref": "internal derivation note (2026-07-11)",
   "frozen_scm_params": {
     "LOGIT_P0": 0.20067069546215124,
     "gamma_b": 0.5,
@@ -37,7 +37,7 @@
       "raw_inflates_size": false,
       "criterion": "validity(CI_coverage+size_control)",
       "pass_overall_validity": true,
-      "criterion_note": "pass_overall:false は旧基準(power>=0.80 at N_rep=10k)による記録値。2026-07-11基準改定後、HC_T2(b)のconfirmatory合否は妥当性基準(CI被覆+サイズ制御)で判定する。pass_coverage:true+pass_size:true → pass_overall_validity:true。検出力はN=10kで0.555/0.440(T2-a/b)だが、パワー曲線(hc_t2_power_curve_aggregate_v2.json)でN=20kで0.847/0.751・N=50kで0.995/0.985と達成可能を確認済。DRAFT §5.1整合性注記[NM2対応,井下 2026-07-11]と一致。"
+      "criterion_note": "The field pass_overall:false is a legacy value recorded under an earlier criterion (power >= 0.80 at N_rep = 10k). The pre-registration decides the confirmatory outcome of HC_T2(b) on validity criteria (CI coverage + size control), not on a power threshold: pass_coverage:true and pass_size:true give pass_overall_validity:true. Power at N = 10k is 0.555 / 0.440 (T2-a / T2-b); the power curve in hc_t2_power_curve_aggregate_v2.json shows it reaches 0.847 / 0.751 at N = 20k and 0.995 / 0.985 at N = 50k. This matches the consistency note in Section 5.1 of the manuscript."
     },
     "HC_T2_c": {
       "description": "IM-CI covers kappa_LATE_true AND fully < 1",

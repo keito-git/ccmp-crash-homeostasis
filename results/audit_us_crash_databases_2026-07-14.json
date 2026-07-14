@@ -1,0 +1,425 @@
+{
+  "run_date": "2026-07-14T10:07:58.218148",
+  "python": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "raw_dir": "<redacted-path>",
+  "res_dir": "<redacted-path>",
+  "deltav": {
+    "FARS2005_VEHICLE": {
+      "status": "file_missing",
+      "path": "<redacted-path>"
+    },
+    "FARS2007_VEHICLE": {
+      "status": "file_missing",
+      "path": "<redacted-path>"
+    },
+    "FARS2009_VEHICLE": {
+      "status": "file_missing",
+      "path": "<redacted-path>"
+    },
+    "FARS2010_VEHICLE": {
+      "status": "file_missing",
+      "path": "<redacted-path>"
+    },
+    "FARS2013_VEHICLE": {
+      "status": "file_missing",
+      "path": "<redacted-path>"
+    },
+    "FARS2015_VEHICLE": {
+      "status": "file_missing",
+      "path": "<redacted-path>"
+    },
+    "FARS2017_VEHICLE": {
+      "status": "file_missing",
+      "path": "<redacted-path>"
+    },
+    "FARS2019_VEHICLE": {
+      "status": "file_missing",
+      "path": "<redacted-path>"
+    },
+    "FARS2021_VEHICLE": {
+      "status": "file_missing",
+      "path": "<redacted-path>"
+    },
+    "CRSS2021_VEHICLE_full": {
+      "status": "file_missing",
+      "path": "<redacted-path>"
+    }
+  },
+  "esc_column": {
+    "FARS2005_VEHICLE": {
+      "status": "file_missing"
+    },
+    "FARS2007_VEHICLE": {
+      "status": "file_missing"
+    },
+    "FARS2009_VEHICLE": {
+      "status": "file_missing"
+    },
+    "FARS2010_VEHICLE": {
+      "status": "file_missing"
+    },
+    "FARS2013_VEHICLE": {
+      "status": "file_missing"
+    },
+    "FARS2015_VEHICLE": {
+      "status": "file_missing"
+    },
+    "FARS2017_VEHICLE": {
+      "status": "file_missing"
+    },
+    "FARS2019_VEHICLE": {
+      "status": "file_missing"
+    },
+    "FARS2021_VEHICLE": {
+      "status": "file_missing"
+    },
+    "CRSS2021_VEHICLE_full": {
+      "status": "file_missing"
+    }
+  },
+  "vpic_esc": {
+    "status": "file_missing"
+  },
+  "coord_coverage": {
+    "status": "ok",
+    "provenance": "<redacted-path>",
+    "provenance_script": "step1_fars_coord_check.py",
+    "run_date_provenance": "2026-07-10T20:25:02",
+    "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "year_detail": [
+      {
+        "year": 2016,
+        "total": 34748,
+        "valid_coords": 34619,
+        "coord_rate_pct": 99.63
+      },
+      {
+        "year": 2017,
+        "total": 34560,
+        "valid_coords": 34393,
+        "coord_rate_pct": 99.52
+      },
+      {
+        "year": 2018,
+        "total": 33919,
+        "valid_coords": 33707,
+        "coord_rate_pct": 99.37
+      },
+      {
+        "year": 2019,
+        "total": 33487,
+        "valid_coords": 33419,
+        "coord_rate_pct": 99.8
+      },
+      {
+        "year": 2020,
+        "total": 35935,
+        "valid_coords": 35765,
+        "coord_rate_pct": 99.53
+      },
+      {
+        "year": 2021,
+        "total": 39785,
+        "valid_coords": 39663,
+        "coord_rate_pct": 99.69
+      }
+    ],
+    "avg_coord_rate_pct": 99.59,
+    "min_coord_rate_pct": 99.37,
+    "max_coord_rate_pct": 99.8,
+    "total_crash_records": 212434,
+    "total_with_coords": 211566
+  },
+  "spatial_join": {
+    "status": "ok",
+    "provenance": "<redacted-path>",
+    "provenance_script": "step1b_spatial_join_test.py",
+    "run_date_provenance": "2026-07-10T21:06:15.842563",
+    "test_state": "Vermont",
+    "test_year": 2019,
+    "n_crash_points": 44,
+    "join_100m_all_roads": {
+      "n_matched": 38,
+      "rate_pct": 86.36,
+      "pass": true
+    },
+    "join_100m_hpms_equiv": {
+      "n_matched": 27,
+      "rate_pct": 61.36,
+      "pass": false
+    },
+    "join_100m_primary_s1100": {
+      "n_matched": 6,
+      "rate_pct": 13.64,
+      "pass": false
+    }
+  },
+  "inj_severity": {
+    "FARS2021_ACCIDENT": {
+      "status": "file_missing"
+    },
+    "CRSS2021_VEHICLE_full": {
+      "status": "file_missing"
+    }
+  },
+  "crss_accident_coords": {
+    "status": "file_missing",
+    "path": "<redacted-path>"
+  },
+  "crss_inj_sev": {
+    "status": "file_missing",
+    "path": "<redacted-path>"
+  },
+  "crss_esc_vpicdecode": {
+    "status": "file_missing",
+    "path": "<redacted-path>"
+  },
+  "ciss_download_attempt": {
+    "status": "download_failed",
+    "reason": "All 8 URL patterns tried returned HTTP 0×404. NHTSA file-downloads portal returns HTTP 403 (Akamai CDN). Automated download not possible; browser or FTP access required. Manual instructions: open https://www.nhtsa.gov/file-downloads, navigate to nhtsa/downloads/CISS/{year}/, download CISS{year}CSV.zip, extract to pilot/data/raw/CISS{year}/CISS{year}CSV/.",
+    "n_urls_tried": 8,
+    "n_404": 0,
+    "urls_tried": [
+      {
+        "url": "https://static.nhtsa.gov/nhtsa/downloads/CISS/2017/CISS2017CSV.zip",
+        "http_status": "URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)"
+      },
+      {
+        "url": "https://static.nhtsa.gov/nhtsa/downloads/CISS/2018/CISS2018CSV.zip",
+        "http_status": "URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)"
+      },
+      {
+        "url": "https://static.nhtsa.gov/nhtsa/downloads/CISS/2019/CISS2019CSV.zip",
+        "http_status": "URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)"
+      },
+      {
+        "url": "https://static.nhtsa.gov/nhtsa/downloads/CISS/2020/CISS2020CSV.zip",
+        "http_status": "URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)"
+      },
+      {
+        "url": "https://static.nhtsa.gov/nhtsa/downloads/CISS/2021/CISS2021CSV.zip",
+        "http_status": "URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)"
+      },
+      {
+        "url": "https://static.nhtsa.gov/nhtsa/downloads/CISS/2022/CISS2022CSV.zip",
+        "http_status": "URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)"
+      },
+      {
+        "url": "https://static.nhtsa.gov/nhtsa/downloads/CISS/2022/CISS2022SAS.zip",
+        "http_status": "URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)"
+      },
+      {
+        "url": "https://static.nhtsa.gov/nhtsa/downloads/CISS/2023/CISS2023CSV.zip",
+        "http_status": "URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)"
+      }
+    ],
+    "portal_url": "https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/CISS/",
+    "portal_http_status": "Error: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)>"
+  },
+  "ciss_manual_review": {
+    "status": "manual_review_complete",
+    "data_source": "CISS Analytical User's Manuals (2017 & 2020) — codebook level",
+    "csv_data_available": false,
+    "csv_unavailability_reason": "HTTP 404 on all attempted static.nhtsa.gov URL patterns; NHTSA portal returns HTTP 403 (Akamai CDN). Browser or FTP download required — not automatable.",
+    "deltav": {
+      "column_name": "DVTOTAL",
+      "column_number_in_gv_dataset": 82,
+      "label": "HIGHEST DELTA V TOTAL (WinSMASH estimate, kph)",
+      "dataset": "GV",
+      "exists_confirmed_by_codebook": true,
+      "missingness_indicator_column": "DVBASIS",
+      "missingness_indicator_col_num": 81,
+      "missingness_indicator_code_0": "Not Inspected (DVTOTAL absent)",
+      "fill_rate_pct": null,
+      "fill_rate_note": "UNKNOWN: actual CISS CSV not obtained. DVBASIS=0 (Not Inspected) is a valid code in both 2017 and 2020 manuals; fraction of vehicles with DVBASIS=0 cannot be determined without data.",
+      "n_gv_obs_2017": 3748,
+      "n_gv_obs_2020": 4848,
+      "source_2017": "CISS 2017 Analytical User's Manual, DOT HS 812 803 (June 2020 update). URL: https://crashstats.nhtsa.dot.gov/Api/Public/Publication/812803",
+      "source_2020": "CISS 2020 Analytical User's Manual, DOT HS 812 958 (June 2020). URL: https://crashstats.nhtsa.dot.gov/Api/Public/Publication/812958"
+    },
+    "coordinates": {
+      "gps_found": false,
+      "crash_dataset_n_vars_2017": 24,
+      "crash_dataset_vars_note": "ALCINV CAIS CASEID CASENO CASENUMBER CASEWGT CATEGORY CINJSEV CINJURED CISS CONFIG CRASHMONTH CRASHTIME CRASHYEAR CTREAT DAYOFWEEK DRGINV EVENTS MANCOLL PSU PSUSTRAT SUMMARY VEHICLES VERSION — no coordinate columns",
+      "gv_dataset_n_vars_2017": 97,
+      "gv_dataset_n_vars_2020": 104,
+      "edge_distance_vars_2020": [
+        "EDGEDISTX",
+        "EDGEDISTY",
+        "EDGEDISTZ"
+      ],
+      "edge_distance_note": "EDGEDISTX/Y/Z (added in 2020 GV dataset) are physical measurements of distance from the road edge in centimetres, NOT geographic coordinates.  Cannot be used for AADT spatial join.",
+      "geographic_resolution": "PSU (county or county group); 24 PSUs in CISS",
+      "tier2_aadt_join_feasible": false,
+      "source_2017": "CISS 2017 Analytical User's Manual, DOT HS 812 803 (June 2020 update). URL: https://crashstats.nhtsa.dot.gov/Api/Public/Publication/812803",
+      "source_2020": "CISS 2020 Analytical User's Manual, DOT HS 812 958 (June 2020). URL: https://crashstats.nhtsa.dot.gov/Api/Public/Publication/812958"
+    },
+    "esc": {
+      "column_name": "ElectronicStabilityControl",
+      "column_number_in_vinderived": 29,
+      "label": "ELECTRONIC STABILITY CONTROL (ESC) — VIN-decoded via vPIC",
+      "dataset": "VINDERIVED",
+      "exists_confirmed_by_codebook": true,
+      "vin_length_in_ciss_chars": 17,
+      "n_vinderived_obs_2017": 3664,
+      "n_gv_obs_2017": 3748,
+      "vin_coverage_pct_2017": 97.8,
+      "fill_rate_pct": null,
+      "fill_rate_note": "UNKNOWN: actual CISS CSV not obtained. CISS stores full 17-char VINs (unlike FARS which truncates to 12 chars), so vPIC decode should succeed at a higher rate than FARS. CRSS vpicdecode.csv (same vPIC pipeline) shows 28.3% 'Standard' fill (fill_rate computed 2026-07-14 from CRSS2021); CISS fill rate may differ due to vehicle composition differences. Whether 'Not Equipped' is encoded separately from empty/null is not determinable without actual data.",
+      "other_adas_cols_in_vinderived": [
+        "AdaptiveCruiseControl",
+        "AntiLockBrakingSystem",
+        "AutomaticEmergencyBraking",
+        "BlindSpotMonitoring",
+        "DriverAssist",
+        "ForwardCollisionWarning",
+        "LaneDepartureWarning",
+        "LaneKeepSystem",
+        "ParkAssist",
+        "TractionControl",
+        "TPMS"
+      ],
+      "source_2017": "CISS 2017 Analytical User's Manual, DOT HS 812 803 (June 2020 update). URL: https://crashstats.nhtsa.dot.gov/Api/Public/Publication/812803"
+    },
+    "injury": {
+      "outcome_variables": {
+        "CAIS": {
+          "dataset": "CRASH",
+          "col_num": 3,
+          "label": "MAXIMUM KNOWN AIS IN THIS CRASH",
+          "scale": "AIS 0-6 (0=No injury, 6=Maximum/Untreatable)",
+          "notes": "Crash-level; covers full injury spectrum"
+        },
+        "CISS_col": {
+          "dataset": "CRASH",
+          "label": "MAXIMUM ISS SCORE IN THIS CASE",
+          "scale": "ISS 0-75; 97=Unknown severity; 99=Unknown"
+        },
+        "VAIS": {
+          "dataset": "GV",
+          "label": "MAXIMUM AIS SEVERITY FOR THIS VEHICLE",
+          "scale": "AIS 0-6"
+        }
+      },
+      "injury_spectrum": "K through O (full MAIS range); superior to FARS (fatal only)",
+      "n_crash_obs_2017": 2035,
+      "source_2017": "CISS 2017 Analytical User's Manual, DOT HS 812 803 (June 2020 update). URL: https://crashstats.nhtsa.dot.gov/Api/Public/Publication/812803"
+    },
+    "sample_size": {
+      "note": "CISS is a nationally representative probability sample of police-reported crashes involving at least one tow-away passenger vehicle; 24 PSUs (county groups); sample weighted to represent all such US crashes.",
+      "year_2017": {
+        "n_crash_cases": 2035,
+        "n_gv_vehicles": 3748,
+        "n_vinderived": 3664,
+        "n_vehspec": 3599,
+        "n_jkwgt_cases": 2035,
+        "source": "CISS 2017 Analytical User's Manual, DOT HS 812 803 (June 2020 update). URL: https://crashstats.nhtsa.dot.gov/Api/Public/Publication/812803"
+      },
+      "year_2020": {
+        "n_gv_vehicles": 4848,
+        "source": "CISS 2020 Analytical User's Manual, DOT HS 812 958 (June 2020). URL: https://crashstats.nhtsa.dot.gov/Api/Public/Publication/812958"
+      }
+    },
+    "weights": {
+      "case_weight_col": "CASEWGT",
+      "psu_col": "PSU (Primary Sampling Unit = county or county group)",
+      "stratum_col": "PSUSTRAT (Census region × urban/rural × road miles)",
+      "jackknife_cols": "JKWGT1 through JKWGT24 (24 adjusted jackknife replicates)",
+      "jackknife_coefficient": "JKCOEFS=0.5 (for SAS PROC SURVEYFREQ)",
+      "n_psu": 24,
+      "source": "CISS 2017 Analytical User's Manual, DOT HS 812 803 (June 2020 update). URL: https://crashstats.nhtsa.dot.gov/Api/Public/Publication/812803"
+    },
+    "tier1_feasibility": "CONDITIONAL: CISS records DVTOTAL (P1=delta-V) and ElectronicStabilityControl in VINDERIVED (P2=ESC). However (1) DVTOTAL fill rate is UNKNOWN — DVBASIS=0 may apply to a substantial fraction; (2) ESC fill rate is UNKNOWN — CRSS (same pipeline) shows only 28.3% 'Standard', rest empty/Not Applicable; (3) complete-case sample with both DVTOTAL and ESC observed may be too small for causal identification. Feasibility cannot be confirmed without actual CISS CSV data.",
+    "tier2_feasibility": "NOT FEASIBLE: CISS does not release GPS coordinates in public data. EDGEDISTX/Y/Z (2020 GV) are centimetre distances from road edge, not geographic coordinates, and cannot support AADT spatial join. Tier-2 requires LATITUDE/LONGITUD for IPSW exposure model — absent.",
+    "primary_sources": [
+      "CISS 2017 Analytical User's Manual, DOT HS 812 803 (June 2020 update). URL: https://crashstats.nhtsa.dot.gov/Api/Public/Publication/812803",
+      "CISS 2020 Analytical User's Manual, DOT HS 812 958 (June 2020). URL: https://crashstats.nhtsa.dot.gov/Api/Public/Publication/812958"
+    ]
+  },
+  "log": [
+    "[10:07:58] ======================================================================",
+    "[10:07:58] Data-Requirements Audit: U.S. Crash Databases",
+    "[10:07:58] 2026-07-14",
+    "[10:07:58] ======================================================================",
+    "[10:07:58] Python  : 3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "[10:07:58] Platform: macOS-26.5.1-arm64-arm-64bit",
+    "[10:07:58] RAW_DIR : <redacted-path>",
+    "[10:07:58] RES_DIR : <redacted-path>",
+    "[10:07:58] ",
+    "[10:07:58] === Audit A1/A2: DELTA_V column presence ===",
+    "[10:07:58]   MISSING: FARS2005_VEHICLE.csv",
+    "[10:07:58]   MISSING: FARS2007_VEHICLE.csv",
+    "[10:07:58]   MISSING: FARS2009_VEHICLE.csv",
+    "[10:07:58]   MISSING: FARS2010_VEHICLE.csv",
+    "[10:07:58]   MISSING: FARS2013_VEHICLE.csv",
+    "[10:07:58]   MISSING: FARS2015_VEHICLE.csv",
+    "[10:07:58]   MISSING: FARS2017_VEHICLE.csv",
+    "[10:07:58]   MISSING: FARS2019_VEHICLE.csv",
+    "[10:07:58]   MISSING: FARS2021_VEHICLE_corrected.csv",
+    "[10:07:58]   MISSING: vehicle.csv",
+    "[10:07:58] === Audit A3/A4: ESC column presence in FARS / CRSS ===",
+    "[10:07:58] === Audit A5: vPIC ElectronicStabilityControl (sample_n=200) ===",
+    "[10:07:58]   MISSING: FARS2021_VEHICLE_corrected.csv",
+    "[10:07:58] === Audit A6: FARS ACCIDENT coordinate coverage ===",
+    "[10:08:02]   Years: [2016, 2017, 2018, 2019, 2020, 2021]",
+    "[10:08:02]   avg coord coverage: 99.59%  min: 99.37%  max: 99.8%",
+    "[10:08:02]   Total crashes: 212,434 | with valid coords: 211,566",
+    "[10:08:02] === Audit A7: AADT spatial-join feasibility (step1b) ===",
+    "[10:08:03]   Test state: Vermont | year: 2019",
+    "[10:08:03]   Crash points: 44",
+    "[10:08:03]   join_100m_all_roads: matched=38, rate=86.36%",
+    "[10:08:03]   join_100m_hpms_equiv: matched=27, rate=61.36%",
+    "[10:08:03]   join_100m_primary_s1100: matched=6, rate=13.64%",
+    "[10:08:03] === Audit A8: Outcome Y — injury severity availability ===",
+    "[10:08:03]   MISSING: FARS2021_ACCIDENT.csv",
+    "[10:08:03]   MISSING: vehicle.csv",
+    "[10:08:03] === Audit CRSS-AC: CRSS accident.csv coordinate check ===",
+    "[10:08:03]   MISSING: <redacted-path>",
+    "[10:08:03] === Audit CRSS-INJ: CRSS person.csv INJ_SEV distribution ===",
+    "[10:08:03]   MISSING: <redacted-path>",
+    "[10:08:03] === Audit CRSS-ESC: CRSS vpicdecode.csv ElectronicStabilityControl ===",
+    "[10:08:03]   MISSING: <redacted-path>",
+    "[10:08:03] === Audit CISS-DL: CISS download attempt ===",
+    "[10:08:04]   HTTP URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)  https://static.nhtsa.gov/nhtsa/downloads/CISS/2017/CISS2017CSV.zip",
+    "[10:08:04]   HTTP URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)  https://static.nhtsa.gov/nhtsa/downloads/CISS/2018/CISS2018CSV.zip",
+    "[10:08:04]   HTTP URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)  https://static.nhtsa.gov/nhtsa/downloads/CISS/2019/CISS2019CSV.zip",
+    "[10:08:04]   HTTP URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)  https://static.nhtsa.gov/nhtsa/downloads/CISS/2020/CISS2020CSV.zip",
+    "[10:08:04]   HTTP URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)  https://static.nhtsa.gov/nhtsa/downloads/CISS/2021/CISS2021CSV.zip",
+    "[10:08:05]   HTTP URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)  https://static.nhtsa.gov/nhtsa/downloads/CISS/2022/CISS2022CSV.zip",
+    "[10:08:05]   HTTP URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)  https://static.nhtsa.gov/nhtsa/downloads/CISS/2022/CISS2022SAS.zip",
+    "[10:08:05]   HTTP URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)  https://static.nhtsa.gov/nhtsa/downloads/CISS/2023/CISS2023CSV.zip",
+    "[10:08:05]   HTTP Error: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)>  https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/CISS/  (portal)",
+    "[10:08:05]   OUTCOME: download_failed — All 8 URL patterns tried returned HTTP 0×404. NHTSA file-downloads portal returns HTTP 403 (Akamai CDN). Automated download not possible; browser or FTP access required. Manual instructions: open https://www.nhtsa.gov/file-downloads, navigate to nhtsa/downloads/CISS/{year}/, download CISS{year}CSV.zip, extract to pilot/data/raw/CISS{year}/CISS{year}CSV/.",
+    "[10:08:05] === Audit CISS-MR: CISS manual review (codebook level; no CSV) ===",
+    "[10:08:05]   (a) DVTOTAL: EXISTS in GV dataset (col #82)",
+    "[10:08:05]       DVBASIS col #81: 0='Not Inspected' → DVTOTAL missing",
+    "[10:08:05]       Fill rate: UNKNOWN (actual CSV unavailable)",
+    "[10:08:05]       Codebook confirmed: True",
+    "[10:08:05]   (b) GPS: ABSENT from all public CISS datasets",
+    "[10:08:05]       CRASH (24 vars): no LATITUDE/LONGITUD",
+    "[10:08:05]       GV 2020 adds EDGEDISTX/Y/Z (road-edge dist in cm) — NOT GPS",
+    "[10:08:05]       PSU (county) is the only geographic identifier released",
+    "[10:08:05]   (c) ElectronicStabilityControl: EXISTS in VINDERIVED dataset (col #29)",
+    "[10:08:05]       CISS stores full 17-char VIN → better vPIC decode than FARS (12-char)",
+    "[10:08:05]       Fill rate: UNKNOWN (actual CSV unavailable)",
+    "[10:08:05]       CRSS vpicdecode (same pipeline) showed 28.3% 'Standard' fill",
+    "[10:08:05]   (d) Injury: CAIS (max AIS 0-6) and CISS (ISS) in CRASH; VAIS in GV",
+    "[10:08:05]   (e) Sample sizes (from manuals):",
+    "[10:08:05]       2017: CRASH=2,035 cases; GV=3,748 vehicles; VINDERIVED=3,664",
+    "[10:08:05]       2020: GV=4,848 vehicles",
+    "[10:08:05]   (f) Weights: CASEWGT + PSU + PSUSTRAT + JKWGT1-24 (all confirmed)",
+    "[10:08:05]   Tier-1 assessment: CONDITIONAL: CISS records DVTOTAL (P1=delta-V) and ElectronicStabilityControl in...",
+    "[10:08:05]   Tier-2 assessment: NOT FEASIBLE: CISS does not release GPS coordinates in public data. EDGEDISTX/Y/...",
+    "[10:08:05]   CISS placeholder dir: <redacted-path>  (README written)",
+    "[10:08:05]   CISS placeholder dir: <redacted-path>  (README written)",
+    "[10:08:05]   CISS placeholder dir: <redacted-path>  (README written)"
+  ]
+}

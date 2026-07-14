@@ -1,0 +1,105 @@
+{
+  "env_log": {
+    "timestamp": "2026-07-14T04:11:20.049200Z",
+    "script": "realdata_tier2_fastresult.py (fast numpy bootstrap supplement)",
+    "note": "T assignment from esc_equipment_list_nhtsa_api.csv (same as primary script). IV Wald estimator identical to realdata_tier2_pointtest.py _hajek_wald(). Bootstrap: numpy-based (same seed=42, B=500, same stratified cluster scheme). Numerically equivalent to pandas bootstrap in primary script.",
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy_version": "1.26.4",
+    "pandas_version": "1.5.3",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "hostname": "redacted-host",
+    "git_commit": "a09984c458df820818c7b098e3f35350510c1cd4",
+    "GPU": "none (CPU-only)",
+    "crss_years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "n_raw": 747342,
+    "n_analytic": 527988,
+    "T_source": "NHTSA 5-Star Safety Ratings API (esc_equipment_list_nhtsa_api.csv)",
+    "analysis_arm": "Primary (NHTSA API T source), fast bootstrap variant",
+    "analysis_freeze_date": "2026-07-14"
+  },
+  "coverage": {
+    "n_z0": 280552,
+    "n_t1_z0": 59731,
+    "n_t0_z0": 102109,
+    "n_tna_z0": 118712,
+    "pct_T1_z0": 21.29,
+    "pct_T0_z0": 36.4,
+    "pct_Tna_z0": 42.31,
+    "n_z1": 390285,
+    "n_analytic": 527988,
+    "n_az0": 158495,
+    "n_az1": 369493
+  },
+  "first_stage": {
+    "FS": 0.6290362627390312,
+    "SE_FS": 0.001409443367216302,
+    "F_stat": 199184.75897983962,
+    "ET_Z0": 0.37096373726095466,
+    "ET_Z1": 0.9999999999999859
+  },
+  "wald_primary": {
+    "tau": -0.04069449647930299,
+    "SE_tau": 0.001790778903828427,
+    "CI_L": -0.044204423130806705,
+    "CI_U": -0.037184569827799274,
+    "z_stat": -22.724467209382478,
+    "p_value": 2.56724897371885e-114,
+    "reject": true,
+    "FS": 0.6290362627390312,
+    "RF": -0.025598313979387416,
+    "EY_Z1": 0.14900032619423464,
+    "EY_Z0": 0.17459864017362206,
+    "ET_Z1": 0.9999999999999859,
+    "ET_Z0": 0.37096373726095466,
+    "n_Z0": 158495,
+    "n_Z1": 369493
+  },
+  "wald_Z_wide": {
+    "tau": -0.039213917696488146,
+    "SE_tau": 0.0016791743549809572,
+    "CI_L": -0.04250509943225082,
+    "CI_U": -0.03592273596072547,
+    "z_stat": -23.35309468023221,
+    "p_value": 1.2819077881255416e-120,
+    "reject": true,
+    "FS": 0.7056349467971721,
+    "RF": -0.0276707107274701,
+    "EY_Z1": 0.14900032619423464,
+    "EY_Z0": 0.17667103692170474,
+    "ET_Z1": 0.9999999999999859,
+    "ET_Z0": 0.29436505320281375,
+    "n_Z0": 140787,
+    "n_Z1": 369493
+  },
+  "bootstrap": {
+    "CI_L_boot": -0.04509173218142995,
+    "CI_U_boot": -0.03628380053287278,
+    "SE_boot": 0.0022663714047393745,
+    "n_boot_valid": 500
+  },
+  "power": {
+    "power_at_obs_tau": 1.0,
+    "mde_80pct": 0.005,
+    "power_at_reference_tau": {
+      "|tau|=0.015": 1.0,
+      "|tau|=0.030": 1.0,
+      "|tau|=0.060": 1.0
+    }
+  },
+  "esc_cache_summary": {
+    "not_found": 3799,
+    "No": 884,
+    "Standard": 732,
+    "Optional": 412,
+    "ambiguous": 22
+  },
+  "analysis_arm": "Primary (NHTSA API T source)",
+  "bootstrap_note": "numpy-based, same seed=42, B=500, same stratified cluster scheme"
+}

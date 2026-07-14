@@ -1,0 +1,171 @@
+{
+  "env_log": {
+    "timestamp": "2026-07-14T04:32:36.729367Z",
+    "script": "realdata_tier2_fastresult_v2.py",
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy_version": "1.26.4",
+    "pandas_version": "1.5.3",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "hostname": "redacted-host",
+    "git_commit": "a09984c458df820818c7b098e3f35350510c1cd4",
+    "GPU": "none (CPU-only)",
+    "crss_years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "n_raw": 663323,
+    "n_analytic": 488902,
+    "T_source": "esc_equipment_list_nhtsa_api_v2.csv (NHTSA 5-Star Safety Ratings API, v2 matching)",
+    "analysis_version": "v2",
+    "v2_changes": [
+      "Population restricted to FMVSS 126 scope via BODY_TYP filter (CRSS vehicle.csv)",
+      "GVWR-conditional inclusion for BODY_TYP 21 (Large Van) and 40 (Cab Chassis)",
+      "_match_crss_model_to_api min_len lowered from 3 to 2 (fixes 2-char model silencing)",
+      "ESC cache rebuilt for passenger-car pre-mandate vehicles using v2 matching",
+      "ESC API CSV saved as esc_equipment_list_nhtsa_api_v2.csv (v1 not overwritten)"
+    ],
+    "amendment_note": "Population restriction is a pre-specification amendment. Original pre-spec did not apply BODY_TYP filter. Rationale: FMVSS 126 (Z definition) applies only to GVWR<=10k vehicles. Motorcycles and large trucks are never-takers (dilute first stage). This is an implementation error correction, not a post-hoc result change."
+  },
+  "population_filter": {
+    "applied": true,
+    "FMVSS126_INCLUDE": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      22,
+      34,
+      39,
+      42,
+      45,
+      48,
+      49
+    ],
+    "GVWR_CONDITIONAL": [
+      21,
+      40
+    ],
+    "n_vehicles_pre_filter": 553099,
+    "n_vehicles_excluded": 71802,
+    "pct_excluded": 12.98
+  },
+  "esc_cache_v2_summary": {
+    "Standard": 852,
+    "No": 897,
+    "Optional": 428,
+    "ambiguous": 22,
+    "not_found": 703,
+    "total": 2902,
+    "not_found_top_makes": {
+      "BMW": 154,
+      "LEXUS": 80,
+      "FORD": 59,
+      "SATURN": 35,
+      "INFINITI": 32,
+      "MERCEDES-BENZ": 31,
+      "TOYOTA": 31,
+      "CHEVROLET": 27,
+      "CHRYSLER": 27,
+      "VOLKSWAGEN": 24,
+      "DODGE": 15,
+      "JAGUAR": 15,
+      "AUDI": 12,
+      "MAZDA": 11,
+      "CADILLAC": 11
+    }
+  },
+  "coverage_z0": {
+    "n_z0": 251322,
+    "n_Standard_T1": 61993,
+    "n_No_T0": 97071,
+    "n_Optional_Tna": 61516,
+    "n_NotFound_Tna": 30742,
+    "pct_Standard_uw": 24.67,
+    "pct_No_uw": 38.62,
+    "pct_Optional_uw": 24.48,
+    "pct_NotFound_uw": 12.23,
+    "pct_Standard_w": 24.85,
+    "pct_No_w": 38.64,
+    "pct_Optional_w": 24.44,
+    "pct_NotFound_w": 12.08,
+    "n_z1": 345440,
+    "n_analytic": 488902,
+    "n_az0": 155761,
+    "n_az1": 333141
+  },
+  "first_stage": {
+    "FS": 0.6072394956276743,
+    "SE_FS": 0.001437460190658132,
+    "F_stat": 178454.8557463597,
+    "ET_Z0": 0.3927605043722547,
+    "ET_Z1": 0.9999999999999291
+  },
+  "wald_primary": {
+    "tau": -0.03970681487069489,
+    "SE_tau": 0.0018968982364437376,
+    "CI_L": -0.043424735414124616,
+    "CI_U": -0.03598889432726517,
+    "z_stat": -20.932496065332604,
+    "p_value": 2.709312120925436e-97,
+    "reject": true,
+    "FS": 0.6072394956276743,
+    "RF": -0.024111546235062203,
+    "EY_Z1": 0.15169113349024105,
+    "EY_Z0": 0.17580267972530325,
+    "ET_Z1": 0.9999999999999291,
+    "ET_Z0": 0.3927605043722547,
+    "n_Z0": 155761,
+    "n_Z1": 333141
+  },
+  "wald_Z_wide": {
+    "tau": -0.038429975984841935,
+    "SE_tau": 0.001773348750000146,
+    "CI_L": -0.041905739534842223,
+    "CI_U": -0.03495421243484165,
+    "z_stat": -21.670850691291697,
+    "p_value": 3.8654854211396997e-104,
+    "reject": true,
+    "FS": 0.683268114873127,
+    "RF": -0.026257977245782493,
+    "EY_Z1": 0.15169113349024105,
+    "EY_Z0": 0.17794911073602354,
+    "ET_Z1": 0.9999999999999291,
+    "ET_Z0": 0.316731885126802,
+    "n_Z0": 137974,
+    "n_Z1": 333141
+  },
+  "bootstrap": {
+    "CI_L_boot": -0.044017119818445465,
+    "CI_U_boot": -0.03574256333369855,
+    "SE_boot": 0.002161237316333824,
+    "n_boot_valid": 500
+  },
+  "power": {
+    "power_at_obs_tau": 1.0,
+    "mde_80pct": 0.0053,
+    "power_at_reference_tau": {
+      "|tau|=0.015": 1.0,
+      "|tau|=0.030": 1.0,
+      "|tau|=0.060": 1.0
+    }
+  },
+  "analysis_note": "v2 adds BODY_TYP population filter (FMVSS 126 scope) and fixes 2-char model matching bug.  ESC cache rebuilt as v2 CSV."
+}

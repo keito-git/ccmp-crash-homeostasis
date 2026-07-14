@@ -41,7 +41,7 @@
       "T2-null": 0.001848
     },
     "note_M_reps": "M=1000 (vs. original 2000) is sufficient for power curve purposes. SE of rejection rate at p=0.80: sqrt(0.16/1000) ≈ 0.013. This is a reporting instrument, not a confirmatory criterion.",
-    "git_commit_correction_note": "corrected from non-existent hash 8da43de9831d4f53e40bd10fbb59c2cb33d3b961 to actual pilot git HEAD 7eb4bf4fc55e13c67e47f2a9b1750e9c16df572b at time of execution. The original hash referred to a different repository context and was unresolvable in pilot/.git. Reviewer: 浅井査読 MAJOR #1/#2/#3 / 2026-07-11"
+    "git_commit_correction_note": "Corrected from the non-existent hash 8da43de9831d4f53e40bd10fbb59c2cb33d3b961 to the actual git HEAD 7eb4bf4fc55e13c67e47f2a9b1750e9c16df572b at the time of execution. The original hash referred to a different repository context and was unresolvable. Source: internal review, 2026-07-11."
   },
   "per_cell_summary": {
     "T2-a": {
@@ -358,7 +358,7 @@
     "T2-b_N_rep_power_80_extrapolated": 20646.018448663646,
     "interpretation": "T2-a/b have |tau|≈0.06 (meaningful effect). Power scales with sqrt(N_rep) via IPSW Wald. At N_rep sufficient for 0.80, the test is feasible at realistic sample sizes. T2-c/d have |tau|≈0.015-0.018 (small effect) and require much larger N_rep."
   },
-  "draft_update_text": "§5.1 HC_T2(b)(iii) POWER CURVE UPDATE (2026-07-11 吉村 power curve run):\nT2-a (|tau|≈0.063): power(N_rep) by 1000 reps IPSW-Wald\n  T2-a: N=10k → 0.559  N=20k → 0.847  N=50k → 0.995  N=100k → 1.000\n  T2-b: N=10k → 0.445  N=20k → 0.751  N=50k → 0.985  N=100k → 1.000\n  T2-c: N=10k → 0.086  N=20k → 0.154  N=50k → 0.283  N=100k → 0.573\n  T2-d: N=10k → 0.060  N=20k → 0.108  N=50k → 0.192  N=100k → 0.352\n",
+  "draft_update_text": "§5.1 HC_T2(b)(iii) POWER CURVE UPDATE (2026-07-11 power curve run):\nT2-a (|tau|≈0.063): power(N_rep) by 1000 reps IPSW-Wald\n  T2-a: N=10k → 0.559  N=20k → 0.847  N=50k → 0.995  N=100k → 1.000\n  T2-b: N=10k → 0.445  N=20k → 0.751  N=50k → 0.985  N=100k → 1.000\n  T2-c: N=10k → 0.086  N=20k → 0.154  N=50k → 0.283  N=100k → 0.573\n  T2-d: N=10k → 0.060  N=20k → 0.108  N=50k → 0.192  N=100k → 0.352\n",
   "size_stability": {
     "10000": {
       "reject_rate_IPSW": 0.046,

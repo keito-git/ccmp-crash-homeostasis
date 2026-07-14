@@ -1,0 +1,245 @@
+{
+  "env_log": {
+    "timestamp": "2026-07-14T04:49:33.017442Z",
+    "script": "realdata_falsification_test.py",
+    "python_version": "3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy_version": "1.26.4",
+    "pandas_version": "1.5.3",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "hostname": "redacted-host",
+    "git_commit": "a09984c458df820818c7b098e3f35350510c1cd4",
+    "GPU": "none (CPU-only)",
+    "crss_years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "n_raw": 663323,
+    "n_analytic": 488902
+  },
+  "test_design": {
+    "placebo_definition": {
+      "variable1": "P_CRASH1",
+      "values1": [
+        5
+      ],
+      "label1": "5 = Stopped in Roadway",
+      "variable2": "MAN_COLL",
+      "values2": [
+        1
+      ],
+      "label2": "1 = Front-to-Rear",
+      "rationale": "Vehicle was stopped and rear-ended; ESC has zero possible effect",
+      "codebook_verified": true
+    },
+    "esc_active_definition": {
+      "variable": "ROLLOVER",
+      "values": [
+        1,
+        2,
+        9
+      ],
+      "labels": {
+        "1": "Rollover, Tripped by Object/Vehicle",
+        "2": "Rollover, Untripped",
+        "9": "Rollover, Unknown Type"
+      },
+      "rationale": "Rollover prevention is ESC primary mechanism (FMVSS 126 rationale)",
+      "codebook_verified": true
+    },
+    "narrow_z_definition": {
+      "Z_narrow_0": "MY == 2010",
+      "Z_narrow_1": "MY == 2012",
+      "vehicle_gen_gap_years": 2,
+      "rationale": "2-year vehicle generation gap minimizes structural design confounding"
+    },
+    "pre_specified_hypothesis": "Placebo \u03c4\u0302 will be significantly negative (p < 0.05), demonstrating exclusion restriction violation."
+  },
+  "full_sample": {
+    "wald": {
+      "tau": -0.03970681487069489,
+      "SE_tau": 0.0018968982364437376,
+      "CI_L": -0.043424735414124616,
+      "CI_U": -0.03598889432726517,
+      "z_stat": -20.932496065332604,
+      "p_value": 2.709312120925436e-97,
+      "reject": true,
+      "FS": 0.6072394956276743,
+      "RF": -0.024111546235062203,
+      "EY_Z1": 0.15169113349024105,
+      "EY_Z0": 0.17580267972530325,
+      "ET_Z1": 0.9999999999999291,
+      "ET_Z0": 0.3927605043722547,
+      "n_Z0": 155761,
+      "n_Z1": 333141
+    },
+    "n_analytic": 488902,
+    "n_Z0": 155761,
+    "n_Z1": 333141,
+    "v2_reference": {
+      "tau": -0.03971,
+      "RF": -0.02411,
+      "FS": 0.60724
+    }
+  },
+  "crash_type_groups": {
+    "placebo_stopped_rear_ended": {
+      "tau": -0.05851264708406954,
+      "SE_tau": 0.006784938791554574,
+      "CI_L": -0.0718111271155165,
+      "CI_U": -0.04521416705262257,
+      "z_stat": -8.623901980796358,
+      "p_value": 6.4710513054885705e-18,
+      "reject": true,
+      "FS": 0.5037604920147887,
+      "RF": -0.02947635988415856,
+      "EY_Z1": 0.16345598139438505,
+      "EY_Z0": 0.1929323412785436,
+      "ET_Z1": 0.9999999999999801,
+      "ET_Z0": 0.4962395079851914,
+      "n_Z0": 16699,
+      "n_Z1": 56433,
+      "n_subset": 73132,
+      "label": "placebo_stopped_rear_ended"
+    },
+    "esc_active_rollover": {
+      "tau": -0.0005573436694339784,
+      "SE_tau": 0.015650771840862016,
+      "CI_L": -0.03123285647752353,
+      "CI_U": 0.030118169138655573,
+      "z_stat": -0.0356112577131072,
+      "p_value": 0.971592331659519,
+      "reject": false,
+      "FS": 0.7677575400085855,
+      "RF": -0.0004279048045839895,
+      "EY_Z1": 0.5825905484064955,
+      "EY_Z0": 0.5830184532110795,
+      "ET_Z1": 0.999999999999999,
+      "ET_Z0": 0.23224245999141344,
+      "n_Z0": 6195,
+      "n_Z1": 6601,
+      "n_subset": 12796,
+      "label": "esc_active_rollover"
+    },
+    "rear_end_not_stopped": {
+      "tau": 0.00547442962433734,
+      "SE_tau": 0.0031505070761575376,
+      "CI_L": -0.0007005642449314335,
+      "CI_U": 0.011649423493606113,
+      "z_stat": 1.7376344480438797,
+      "p_value": 0.08227524592505552,
+      "reject": false,
+      "FS": 0.6103771846399733,
+      "RF": 0.003341466941612692,
+      "EY_Z1": 0.12032496636631901,
+      "EY_Z0": 0.11698349942470632,
+      "ET_Z1": 1.0000000000000175,
+      "ET_Z0": 0.38962281536004423,
+      "n_Z0": 38930,
+      "n_Z1": 75647,
+      "n_subset": 114577,
+      "label": "rear_end_not_stopped"
+    },
+    "non_collision_esc_plausible": {
+      "tau": -0.115816972429527,
+      "SE_tau": 0.004749282933745766,
+      "CI_L": -0.1251255669796687,
+      "CI_U": -0.1065083778793853,
+      "z_stat": -24.386201884624715,
+      "p_value": 2.3958609126721355e-131,
+      "reject": true,
+      "FS": 0.691631332749113,
+      "RF": -0.08010264699640104,
+      "EY_Z1": 0.15965576746204496,
+      "EY_Z0": 0.239758414458446,
+      "ET_Z1": 1.0000000000000107,
+      "ET_Z0": 0.3083686672508977,
+      "n_Z0": 28967,
+      "n_Z1": 48636,
+      "n_subset": 77603,
+      "label": "non_collision_esc_plausible"
+    }
+  },
+  "narrow_z": {
+    "full": {
+      "tau": -0.27755758829665583,
+      "SE_tau": 0.12141068457597609,
+      "CI_L": -0.515522530065569,
+      "CI_U": -0.03959264652774269,
+      "z_stat": -2.2861051254757276,
+      "p_value": 0.022248109216888152,
+      "reject": true,
+      "FS": 0.028272656748262626,
+      "RF": -0.007847290421786945,
+      "EY_Z1": 0.15161006579926095,
+      "EY_Z0": 0.1594573562210479,
+      "ET_Z1": 0.9999999999999876,
+      "ET_Z0": 0.9717273432517249,
+      "n_Z0": 17787,
+      "n_Z1": 31768
+    },
+    "placebo": {
+      "tau": -1.3174455066214328,
+      "SE_tau": 0.478590609036661,
+      "CI_L": -2.2554831003332882,
+      "CI_U": -0.3794079129095772,
+      "z_stat": -2.7527608811072883,
+      "p_value": 0.0059095041794513525,
+      "reject": true,
+      "FS": 0.02139436050601662,
+      "RF": -0.028185904115690635,
+      "EY_Z1": 0.1626246413899212,
+      "EY_Z0": 0.19081054550561183,
+      "ET_Z1": 1.0000000000000002,
+      "ET_Z0": 0.9786056394939836,
+      "n_Z0": 2468,
+      "n_Z1": 4931,
+      "n_subset": 7399,
+      "label": "narrow_placebo"
+    },
+    "rollover": {
+      "tau": -0.028033825108416267,
+      "SE_tau": 0.6315133844693892,
+      "CI_L": -1.265800058668419,
+      "CI_U": 1.2097324084515866,
+      "z_stat": -0.044391497944213605,
+      "p_value": 0.9645923386274277,
+      "reject": false,
+      "FS": 0.07051779199300534,
+      "RF": -0.001976883447763589,
+      "EY_Z1": 0.5923939276248968,
+      "EY_Z0": 0.5943708110726604,
+      "ET_Z1": 0.9999999999999996,
+      "ET_Z0": 0.9294822080069942,
+      "n_Z0": 338,
+      "n_Z1": 594,
+      "n_subset": 932,
+      "label": "narrow_rollover"
+    },
+    "n_narrow": 49555,
+    "n_Z0_narrow": 17787,
+    "n_Z1_narrow": 31768
+  },
+  "delta_zy_assessment": {
+    "delta_zy_lower_bound": 0.02947635988415856,
+    "rf_placebo": -0.02947635988415856,
+    "rf_full_reference": -0.024111546235062203,
+    "pct_of_rf_full": 122.24997765300934,
+    "threshold_20pct_bias": 0.005,
+    "threshold_sign_reversal": 0.021,
+    "above_20pct_bias_threshold": true,
+    "above_sign_reversal_threshold": true,
+    "severity_judgment": "CRITICAL: \u03b4_ZY lower bound exceeds sign-reversal threshold (0.021). Main result \u03c4\u0302 = \u22120.0397 likely has incorrect sign. True ESC effect after excluding vehicle-generation confounding is near zero or positive.",
+    "interpretation_note": "RF_placebo estimates the MINIMUM direct Z\u2192Y effect (\u03b4_ZY) attributable to vehicle-generation factors other than ESC. This is a lower bound because: (1) other crash types may have larger vehicle-generation effects, and (2) the placebo group excludes crash scenarios where vehicle structure provides asymmetric protection to newer vehicles (high-speed frontal, etc.). The full exclusion restriction violation likely EXCEEDS this estimate."
+  },
+  "exclusion_restriction_verdict": {
+    "tau_placebo": -0.05851264708406954,
+    "p_placebo": 6.4710513054885705e-18,
+    "significant_at_alpha05": true,
+    "direction_negative": true,
+    "main_result_contaminated": true
+  }
+}

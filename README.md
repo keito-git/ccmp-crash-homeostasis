@@ -91,28 +91,50 @@ a few minutes each on a modern laptop.
 |---|---|
 | `c2_bounds_verification.py` | First-principles check of the kappa_LATE = 1 + tau/D identification map |
 
+**Real-data analysis on CRSS (exploratory; Sec. 5.6)**
+
+These run on the NHTSA Crash Report Sampling System (CRSS) 2016-2021, with the
+treatment constructed from the NHTSA 5-Star Safety Ratings API. This section of
+the paper is exploratory and was not part of the pre-registered confirmatory
+family. Its headline finding is negative: the mandate-year instrument is
+invalid.
+
+| Script | Produces |
+|---|---|
+| `realdata_tier2_pointtest.py` | Tier-2 point test on CRSS; builds T from the NHTSA 5-Star Safety Ratings API |
+| `realdata_tier2_fastresult.py` | Same estimator, cached-API fast path (v1, no vehicle-type filter) |
+| `realdata_tier2_fastresult_v2.py` | v2: restricts the population to FMVSS 126 scope via `BODY_TYP`; supersedes v1 |
+| `realdata_falsification_test.py` | **Negative-control falsification of the instrument (Table 3).** Placebo stratum (stopped, struck front-to-rear) vs. rollover stratum |
+| `realdata_changeover_design.py` | Within-make-model changeover diagnostic. Reported as a diagnostic only: the first stage is unity, so this is difference-in-differences, not IV, and lies outside Theorem 3 |
+| `realdata_ds_sensitivity.py` | Sensitivity of the real-data estimates to the treatment-coding rule |
+
 **Public-data feasibility checks (`data_checks/`)**
 
 These download public data on first run and cache it under
-`code_release/data/raw/`. They document why the confirmatory analysis is
-semi-synthetic (the crash-severity variable Delta_v is not present in the
-public files).
+`code_release/data/raw/`. They document which assumptions of the identification
+map the U.S. crash files can and cannot support.
 
 | Script | Data source (public) | Purpose |
 |---|---|---|
 | `step1_fars_coord_check.py` | NHTSA FARS (accident files) | Coordinate coverage of crash records |
 | `step1b_spatial_join_test.py` | NHTSA FARS + FHWA HPMS / BTS NTAD | FARS-to-road-network spatial-join feasibility |
 | `step2_deltav_check.py` | NHTSA FARS / CRSS | Confirms Delta_v is absent from the public files |
+| `audit_us_crash_databases.py` | NHTSA FARS / CRSS / CISS / vPIC | Which variable each tier of the map needs, against what each file records |
 
 ## Data availability and integrity
 
-- **Public data only.** Real-data components use NHTSA FARS/CRSS and FHWA HPMS,
-  all openly available. Restricted crash-severity datasets (NASS-CDS/CISS) are
-  **not** used. The confirmatory results depend on no individual-level data.
-- **Semi-synthetic core.** The main results are computed on a frozen SCM; the
-  parameters correspond to the study pre-registration.
+- **Public data only.** Real-data components use the NHTSA CRSS, FARS, the NHTSA
+  5-Star Safety Ratings API, and FHWA HPMS, all openly available. Restricted
+  crash-severity datasets are **not** used. No individual-level data is required.
+  CRSS files are downloaded from NHTSA on first run and are not redistributed here.
+- **Semi-synthetic confirmatory core.** The pre-registered confirmatory results
+  are computed on a frozen SCM. The CRSS analysis in `realdata_*.py` is
+  exploratory and is labelled as such in the paper.
 - **No fabrication, no cherry-picking.** All seeds are reported; pre-specified
-  threshold failures are reported as-is in the accompanying result files.
+  threshold failures are reported as-is in the accompanying result files. The
+  real-data section reports a falsification of the paper's own preferred
+  instrument, and analyses that were run but not used to support any claim in the
+  paper (the changeover design, the narrow-Z contrast) are included here in full.
 
 ## License
 
